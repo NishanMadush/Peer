@@ -1,0 +1,6 @@
+{
+  "usernameAlreadyTaken": "## Username already taken",
+  "userNotFound": "## User not found.",
+  "roleAlreadyTaken": "## Role already taken",
+  "roleNotFound": "## Role not found"
+}

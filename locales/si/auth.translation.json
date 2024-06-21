@@ -1,0 +1,11 @@
+{
+  "loginWrongUserPass": "වැරදි ඊමේල් හෝ මුරපදය",
+  "loginInactiveUser": "ඔබ ක්‍රියාකාරී පරිශීලකයෙක් නොවේ. කරුණාකර පරිපාලක අමතන්න.",
+  "loginNotFound": "## User not found",
+  "passwordResetFailed": "## Password reset failed",
+  "emailVerificationFailed": "## Email verification failed",
+  "pleaseAuthenticate": "## Please authenticate",
+  "forbidden": "## Forbidden",
+  "loginWrongOldPass": "## Incorrect current details",
+  "passwordUpdateFailed": "## Password update failed"
+}

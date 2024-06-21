@@ -1,0 +1,252 @@
+{
+    "_id": "3abaa258-2ffb-473a-a285-1fceda88271a",
+    "colName": "user",
+    "created": "2023-02-06T18:46:14.216Z",
+    "sortNum": 60000,
+    "folders": [
+        {
+            "_id": "824b6d78-e102-442f-ae24-60c4862ac502",
+            "name": "role",
+            "containerId": "",
+            "created": "2023-03-02T05:17:13.654Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "0534a1d2-7a57-4066-9f7b-67203329aba8",
+            "name": "profile",
+            "containerId": "",
+            "created": "2023-03-10T04:58:22.346Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "de5e592f-dffa-46a7-a838-250dead44517",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "",
+            "name": "activity log",
+            "url": "{{host}}/api/users/activity-logs",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-02-07T06:23:15.890Z",
+            "modified": "2023-02-07T06:24:29.609Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3e7200a3-1941-494f-88da-b9494a2eb8bf",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "",
+            "name": "get users",
+            "url": "{{host}}/api/users?employment.organization.organizationId=63c02581f1f8755191590172",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-02-24T06:30:03.746Z",
+            "modified": "2023-06-25T08:50:33.172Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer {{access_token}}"
+                }
+            ],
+            "params": [
+                {
+                    "name": "employment.organization.organizationId",
+                    "value": "63c02581f1f8755191590172",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c5da5cb6-41e9-4218-ae09-6d6fd9ca111d",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "824b6d78-e102-442f-ae24-60c4862ac502",
+            "name": "create role",
+            "url": "{{host}}/api/users/auth/roles",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-02T05:17:27.031Z",
+            "modified": "2023-03-03T13:30:58.565Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"role\": \"wed5\",\n  \"permissions\": [\n    {\n      \"permission\": \"g1\",\n      \"type\": \"BackEnd\"\n    },\n    {\n      \"permission\": \"g1\",\n      \"type\": \"FrontEnd\"\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "50266511-b253-4b7d-bdbf-f0ca940095e7",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "824b6d78-e102-442f-ae24-60c4862ac502",
+            "name": "get roles",
+            "url": "{{host}}/api/users/auth/roles",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-02T05:37:37.698Z",
+            "modified": "2023-03-03T10:56:36.598Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer {{access_token}}"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "08b1bedf-4639-4fb1-9c32-dd633025a0e8",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "824b6d78-e102-442f-ae24-60c4862ac502",
+            "name": "get role",
+            "url": "{{host}}/api/users/auth/roles/admin",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-03-02T08:48:50.478Z",
+            "modified": "2023-04-10T13:21:15.362Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4e9ea4c1-5e5f-4b73-84c5-f42c5052fa60",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "824b6d78-e102-442f-ae24-60c4862ac502",
+            "name": "update role",
+            "url": "{{host}}/api/users/auth/roles/user",
+            "method": "PATCH",
+            "sortNum": 70000,
+            "created": "2023-03-02T08:52:26.719Z",
+            "modified": "2023-04-23T13:35:08.922Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"permissions\": [\n    {\n      \"permission\": \"getUsers\",\n      \"type\": \"BackEnd\"\n    },\n    {\n      \"permission\": \"x1\",\n      \"type\": \"BackEnd\"\n    },\n    {\n      \"permission\": \"ROOT\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"HOME\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"USER_MANAGEMENT\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"DASHBOARD\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"PROFILE\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"SETTINGS\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"FAQ\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"HELP\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"COUNTRY_MANAGEMENT\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"LANGUAGE_MANAGEMENT\",\n      \"type\": \"FrontEnd\"\n    },\n    {\n      \"permission\": \"REPORT\",\n      \"type\": \"FrontEnd\"\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7e325e2d-b958-4471-bce3-16cae300cdbe",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "824b6d78-e102-442f-ae24-60c4862ac502",
+            "name": "delete role",
+            "url": "{{host}}/api/users/auth/roles/6401d2103f1440fdfc9c5422",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2023-03-02T09:09:48.513Z",
+            "modified": "2023-03-03T10:58:48.544Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "377dacc4-dc8d-4f41-bf11-1c8a2508cf30",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "",
+            "name": "create user",
+            "url": "{{host}}/api/users",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-03-05T17:41:17.146Z",
+            "modified": "2023-03-08T19:14:46.971Z",
+            "headers": [
+                {
+                    "name": "peer-language",
+                    "value": "si-LK"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"vajirar.ls8@gmail.com\",\n  \"email\": \"vajirar.ls8@gmail.com\",\n  \"firstName\": \"vajira\",\n  \"lastName\": \"rathnayake\",\n  \"phoneNumber\": \"\",\n  \"role\": \"admin\",\n  \"status\": \"Incomplete\",\n  \"languageId\": \"6408117eaafbd8fc9c58132d\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "522fdf3a-1b62-44ae-8183-9b2d38e614d3",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "",
+            "name": "update user",
+            "url": "{{host}}/api/users/6408117eaafbd8fc9c58132d",
+            "method": "PATCH",
+            "sortNum": 100000,
+            "created": "2023-03-07T07:20:31.076Z",
+            "modified": "2023-03-08T17:25:01.925Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"vajira\",\n  \"lastName\": \"rathnayake\",\n  \"email\": \"vajirar.ls3@gmail.com\",\n  \"role\": \"admin\",\n  \"isEmailVerified\": false,\n  \"languageId\": \"6408117eaafbd8fc9c58132d\",\n  \"phoneNumber\": \"0704567890\",\n  \"status\": \"Incomplete\",\n  \"profile\": {\n    \"gender\": \"Male\",\n    \"address\": {\n      \"category\": \"Resident\",\n      \"line1\": \"No.74\",\n      \"street\": \"Athurugiriya road\",\n      \"city\": \"Homagama\",\n      \"postalCode\": \"1200\",\n      \"countryId\": \"6408117eaafbd8fc9c58132d\",\n      \"location\": {\n        \"lat\": -1,\n        \"lng\": -1\n      }\n    },\n    \"profilePicture\": \"picFileName\",\n    \"salutation\": \"Mr\"\n  },\n  \"employment\": {\n    \"organization\": {\n      \"organizationId\": \"6408117eaafbd8fc9c58132d\",\n      \"organizationName\": \"ss pvt ltd\"\n    },\n    \"department\": \"operations\",\n    \"designation\": \"admin\",\n    \"email\": \"abc@ss.lk\",\n    \"phoneNumber\": \"0112-456-234\",\n    \"branch\": {\n      \"branchId\": \"6408117eaafbd8fc9c58132d\",\n      \"branchName\": \"colombo\",\n      \"branchAddress\": {\n        \"category\": \"Resident\",\n        \"line1\": \"No.74\",\n        \"street\": \"Athurugiriya road\",\n        \"city\": \"Homagama\",\n        \"postalCode\": \"1200\",\n        \"countryId\": \"6408117eaafbd8fc9c58132d\",\n        \"location\": {\n          \"lat\": -1,\n          \"lng\": -1\n        }\n      }\n    }\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4a7e788f-f09e-4e60-a498-c042871dbfda",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "",
+            "name": "delete user",
+            "url": "{{host}}/api/users/6404e4d2fabfc916d7957f4e",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2023-03-08T07:26:22.080Z",
+            "modified": "2023-03-08T07:26:55.550Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4869cd12-0c5e-4f7a-8f0d-f6172babb887",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "",
+            "name": "get user",
+            "url": "{{host}}/api/users/6408117eaafbd8fc9c58132d",
+            "method": "GET",
+            "sortNum": 55000,
+            "created": "2023-03-08T07:33:51.557Z",
+            "modified": "2023-03-08T07:34:09.594Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e9765134-8a2e-4ce9-964d-5ceb6801ed07",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "0534a1d2-7a57-4066-9f7b-67203329aba8",
+            "name": "get profile",
+            "url": "{{host}}/api/users/63e5fca40fdad441b4dabfeb/profile",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-03-10T04:58:28.647Z",
+            "modified": "2023-03-10T05:03:15.056Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer {{access_token}}"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f41f7386-344f-4c99-8830-8d7ec7073532",
+            "colId": "3abaa258-2ffb-473a-a285-1fceda88271a",
+            "containerId": "",
+            "name": "notify user",
+            "url": "{{host}}/api/users/6408117eaafbd8fc9c58132d/notify",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2023-04-27T09:18:21.968Z",
+            "modified": "2023-04-27T09:18:43.737Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

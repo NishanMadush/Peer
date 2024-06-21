@@ -1,0 +1,211 @@
+{
+    "_id": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+    "colName": "auth",
+    "created": "2023-01-01T23:59:47.140Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "315aa45b-941f-4975-9007-e0643a80e14a",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "register",
+            "url": "{{host}}/api/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-01-01T23:59:55.118Z",
+            "modified": "2023-04-26T03:48:21.997Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"vajirar.ls7@gmail.com\",\n  \"email\": \"vajirar.ls7@gmail.com\",\n  \"password\": \"123456ab\",\n  \"firstName\": \"vajira\",\n  \"lastName\": \"rathnayake\",\n  \"phoneNumber\": \"0704567890\",\n  \"languageId\": \"6408117eaafbd8fc9c58132d\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c8d13d09-9087-4f17-a64a-b30396d8ffe0",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "login",
+            "url": "{{host}}/api/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-01-02T00:46:37.005Z",
+            "modified": "2023-03-08T07:40:11.657Z",
+            "headers": [
+                {
+                    "name": "Accept-Language",
+                    "value": "si-LK"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"demo@example.com\",\n  \"password\":\"guWEK<r/-47-XG3\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "06d4cc46-ad47-4086-886d-ff3f22244a5f",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "logout",
+            "url": "{{host}}/api/auth/logout",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-01-02T00:54:25.053Z",
+            "modified": "2023-02-15T18:42:14.709Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2IyMjhmOWU0NTJjZjZiZDI1ZjUyZTciLCJpYXQiOjE2NzY0ODExNzEsImV4cCI6MTY3OTA3MzE3MSwidHlwZSI6InJlZnJlc2gifQ.sNU_0B6PhE2LiSHnTXBi5uG-8xRcYl8y4Wp3ZlqGTOM\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5e82388f-4e6c-47ad-8957-19152d32b85b",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "refresh tokens",
+            "url": "{{host}}/api/auth/refresh-tokens",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-01-02T01:06:46.069Z",
+            "modified": "2023-01-13T20:43:04.851Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2IyMjhmOWU0NTJjZjZiZDI1ZjUyZTciLCJpYXQiOjE2NzI2MjE3NzQsImV4cCI6MTY3NTIxMzc3NCwidHlwZSI6InJlZnJlc2gifQ.vbPimqbvHl0JKtM1IpofX8pu_vgtdx6NLtuYnozq_pw\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9126037c-2134-4dbb-a282-928314d69a7b",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "forgot password",
+            "url": "{{host}}/api/auth/forgot-password",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-01-02T03:04:27.255Z",
+            "modified": "2023-02-09T17:54:17.524Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"vajiras@ss.lk\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "38dd4c2e-f28e-4dfe-9976-89a87adb486e",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "reset password",
+            "url": "{{host}}/api/auth/reset-password?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2IyMjhmOWU0NTJjZjZiZDI1ZjUyZTciLCJpYXQiOjE2NzY4NzkyMjEsImV4cCI6MTY3Njk2MzIyMSwidHlwZSI6ImFjY2VzcyJ9.K_RmJ_fntq_SqoyJY_xXTe6w6MD5Yb4Af3m07t3t7KA",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-01-02T03:16:54.305Z",
+            "modified": "2023-02-20T07:49:50.875Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2IyMjhmOWU0NTJjZjZiZDI1ZjUyZTciLCJpYXQiOjE2NzY4NzkyMjEsImV4cCI6MTY3Njk2MzIyMSwidHlwZSI6ImFjY2VzcyJ9.K_RmJ_fntq_SqoyJY_xXTe6w6MD5Yb4Af3m07t3t7KA",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\":\"zaq1ZAQ!\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5e3cddf1-d235-4430-b4da-4a7a01f9340c",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "send verification email",
+            "url": "{{host}}/api/auth/send-verification-email",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-01-11T19:27:33.740Z",
+            "modified": "2023-03-05T18:56:18.295Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer {{access_token}}"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\":{\n    \"id\":\"6404e4d2fabfc916d7957f4e\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ad0ce979-fa05-41b2-ad91-11f5fff40aa4",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "verify email",
+            "url": "{{host}}/api/auth/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2IyMjhmOWU0NTJjZjZiZDI1ZjUyZTciLCJpYXQiOjE2NzI2MjkyMjQsImV4cCI6MTY3MjYyOTgyNCwidHlwZSI6InJlc2V0UGFzc3dvcmQifQ.kqSjL4wZeYlnc2u4kG0B_gmtMvtvuXFfhM5ZdbePotU",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-01-11T19:28:12.080Z",
+            "modified": "2023-01-13T20:43:47.638Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2IyMjhmOWU0NTJjZjZiZDI1ZjUyZTciLCJpYXQiOjE2NzI2MjkyMjQsImV4cCI6MTY3MjYyOTgyNCwidHlwZSI6InJlc2V0UGFzc3dvcmQifQ.kqSjL4wZeYlnc2u4kG0B_gmtMvtvuXFfhM5ZdbePotU",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "8135e7b7-122d-425b-a9ef-c5614ee51ebd",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "user information",
+            "url": "{{host}}/api/auth/user-info",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-01-31T00:10:52.189Z",
+            "modified": "2023-01-31T00:12:05.591Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "83527478-cee1-44fa-b3bc-3f649b3c252f",
+            "colId": "f0ba427f-c2c0-4f95-abb7-9510785fa2a3",
+            "containerId": "",
+            "name": "update password",
+            "url": "{{host}}/api/auth/update-password",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-02-20T08:59:13.273Z",
+            "modified": "2023-02-20T09:10:43.390Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"vajiras@ss.lk\",\n  \"oldPassword\":\"zaq1ZAQ!1\",\n  \"password\":\"zaq1ZAQ!\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

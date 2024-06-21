@@ -1,0 +1,12 @@
+{
+  "loginWrongUserPass": "Incorrect email or password",
+  "loginInactiveUser": "You are not an active user. Please contact the administrator.",
+  "loginAttempts": "You tried {attempts, plural, =0 {no attempts.} =1 {one attempt.} other {# attempts.}}",
+  "loginNotFound": "User not found",
+  "passwordResetFailed": "Password reset failed",
+  "emailVerificationFailed": "Email verification failed",
+  "pleaseAuthenticate": "Please authenticate",
+  "forbidden": "Forbidden",
+  "loginWrongOldPass": "Incorrect current details",
+  "passwordUpdateFailed": "Password update failed"
+}

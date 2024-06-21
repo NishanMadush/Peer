@@ -1,0 +1,69 @@
+{
+  "version": "2023-03-19",
+  "date": "2023-03-15T12:43:05.211Z",
+  "modules": [
+    {
+      "instruction": "Module no is full text",
+      "moduleNo": "1.12",
+      "condition": "Nationally Adapted PEER Curricula1",
+      "indicators": [
+        {
+          "instruction": "Fill all the details",
+          "indicatorNo": "1.11",
+          "question": "PEER curricula reviewed, adapted, and revised according to national context or institutional needs",
+          "description": "The regional PEER standard curricula will be used to adapt the training materials at the national level considering the unique country context and address the training needs of emergency responders from professional response organizations, volunteers, and hospitals. Specific contextualization may include local examples and case studies, national response systems, hazards, roles and responsibilities of response agencies, response coordination, and national policies and guidelines. Adaptation may also occur at the institutional level. National partners from training and academic institutes, including development partners like Red Cross / Red Crescent National Societies, local humanitarian organizations, NGOs, and UN Agencies. Adaptation may be required to address specific institutional programs of partners that target a particular audience, including its official mandate and missions. A PEER course can be adapted and used as a whole training package or partially using only specific modules/lessons to address the training needs of individual institutions. In some instances, partners may decide to retain the name of the training or use other names as they see appropriate to promote more substantial ownership of the curricula.",
+          "weight": 0.4,
+          "scale": 0,
+          "indicatorScore": 0,
+          "subQuestions": [
+            {
+              "subQuestion": "Date of last update (Month/Year)",
+              "subAnswer": "",
+              "_id": "6419cba8054b9226b71a21bb"
+            }
+          ],
+          "comments": [],
+          "_id": "6419cba8054b9226b71a21ba"
+        }
+      ],
+      "moduleScore": 0,
+      "moduleClassification": "",
+      "comments": [],
+      "_id": "6419cba8054b9226b71a21b9"
+    },
+    {
+      "instruction": "Module no is full text",
+      "moduleNo": "1.12",
+      "condition": "Nationally Adapted PEER Curricula1",
+      "indicators": [
+        {
+          "instruction": "Fill all the details",
+          "indicatorNo": "1.11",
+          "question": "PEER curricula reviewed, adapted, and revised according to national context or institutional needs",
+          "description": "The regional PEER standard curricula will be used to adapt the training materials at the national level considering the unique country context and address the training needs of emergency responders from professional response organizations, volunteers, and hospitals. Specific contextualization may include local examples and case studies, national response systems, hazards, roles and responsibilities of response agencies, response coordination, and national policies and guidelines. Adaptation may also occur at the institutional level. National partners from training and academic institutes, including development partners like Red Cross / Red Crescent National Societies, local humanitarian organizations, NGOs, and UN Agencies. Adaptation may be required to address specific institutional programs of partners that target a particular audience, including its official mandate and missions. A PEER course can be adapted and used as a whole training package or partially using only specific modules/lessons to address the training needs of individual institutions. In some instances, partners may decide to retain the name of the training or use other names as they see appropriate to promote more substantial ownership of the curricula.",
+          "weight": 0.4,
+          "scale": 0,
+          "indicatorScore": 0,
+          "subQuestions": [
+            {
+              "subQuestion": "Date of last update (Month/Year)",
+              "subAnswer": "",
+              "_id": "6419cba8054b9226b71a21be"
+            }
+          ],
+          "comments": [],
+          "_id": "6419cba8054b9226b71a21bd"
+        }
+      ],
+      "moduleScore": 0,
+      "moduleClassification": "",
+      "comments": [],
+      "_id": "6419cba8054b9226b71a21bc"
+    }
+  ],
+  "score": 0,
+  "classification": "",
+  "comments": [],
+  "title": "2023-version2",
+  "id": "64173c5c1223d45167654699"
+}
