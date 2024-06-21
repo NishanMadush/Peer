@@ -1,0 +1,19 @@
+{
+  "institutionalization": {
+    "reportCountry": {
+      "title": "ملک",
+      "filter": "ملک",
+      "nodata": "کوئی ملک نہیں۔"
+    },
+    "reportOrganization": {
+      "title": "تنظیم",
+      "filter": "تنظیم",
+      "nodata": "کوئی تنظیمیں نہیں۔"
+    },
+    "reportAssessment": {
+      "title": "تشخیص کے",
+      "filter": "تشخیص کے",
+      "nodata": "کوئی تشخیص نہیں۔"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+// Language routes
+export const LANGUAGE_MANAGEMENT_PERMISSION = 'LANGUAGE_MANAGEMENT'

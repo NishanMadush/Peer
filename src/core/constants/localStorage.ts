@@ -1,0 +1,5 @@
+export const LOCAL_STORAGE_USER_PERMISSION = 'permissions'
+export const LOCAL_STORAGE_USER_TOKENS = 'tokenkey'
+export const LOCAL_STORAGE_USER_INFO = 'userInfo'
+export const LOCAL_STORAGE_USER_LANGUAGE = 'userLanguage'
+export const LOCAL_STORAGE_ACCESS_TOKEN = 'authkey'

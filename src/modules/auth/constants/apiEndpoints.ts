@@ -1,0 +1,9 @@
+export const AUTH_ENDPOINT = `auth`
+export const AUTH_USER_INFO_ENDPOINT = `${AUTH_ENDPOINT}/user-info`
+export const AUTH_USER_LOGIN_ENDPOINT = `${AUTH_ENDPOINT}/login`
+export const AUTH_USER_FORGOT_PASSWORD_ENDPOINT = `${AUTH_ENDPOINT}/forgot-password`
+export const AUTH_USER_CREATE_PASSWORD_ENDPOINT = `${AUTH_ENDPOINT}/create-password`
+export const AUTH_USER_RESET_PASSWORD_ENDPOINT = `${AUTH_ENDPOINT}/reset-password`
+export const AUTH_USER_LOGOUT_ENDPOINT = `${AUTH_ENDPOINT}/logout`
+export const AUTH_USER_REGISTER_ENDPOINT = `${AUTH_ENDPOINT}/register`
+export const AUTH_USER_UPDATE_PASSWORD_ENDPOINT = `${AUTH_ENDPOINT}/update-password`

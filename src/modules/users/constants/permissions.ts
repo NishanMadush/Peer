@@ -1,0 +1,2 @@
+// User routes
+export const USER_MANAGEMENT_PERMISSION = 'USER_MANAGEMENT'

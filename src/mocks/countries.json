@@ -1,0 +1,18 @@
+[
+  {
+    "code": "LK",
+    "name": "Sri Lanka2",
+    "order": 2,
+    "isAppCountry": true,
+    "status": "Active",
+    "id": "63d4118866bf9d796d24fbc2"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "order": 2,
+    "isAppCountry": true,
+    "status": "Deleted",
+    "id": "63d411e166bf9d796d24fbcc"
+  }
+]

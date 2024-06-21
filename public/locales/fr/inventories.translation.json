@@ -1,0 +1,404 @@
+{
+  "itemManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس صارف کو حذف کرنا چاہتے ہیں؟"
+    },
+    "topic": {
+      "newItem": {
+        "label": "نئی چیز"
+      },
+      "metaItem": {
+        "label": "میٹا آئٹم"
+      }
+    },
+    "form": {
+      "itemCode": {
+        "label": "آئٹم کوڈ"
+      },
+      "itemName": {
+        "label": "شے کا نام"
+      },
+      "unit": {
+        "label": "یونٹ"
+      },
+      "unitPrice": {
+        "label": "اکائی قیمت"
+      },
+      "dateOfExpiry": {
+        "label": "ختم ہونے کی تاریخ"
+      },
+      "description": {
+        "label": "تفصیل"
+      },
+      "parentGroup": {
+        "label": "پیرنٹ گروپ"
+      },
+      "disabled": {
+        "label": "معذور"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "آئٹم شامل کریں۔ "
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "آئٹم میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{سوال}} شامل کر دیا گیا ہے!",
+      "deleteSuccess": "سوال (سوال) کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{سوال}} کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "actions": "اعمال",
+        "item": "آئٹم",
+        "unit": "یونٹ",
+        "unitPrice": "اکائی قیمت",
+        "dateOfExpiry": "خاتمے کی تاریخ",
+        "description": "تفصیل",
+        "status": "حالت",
+        "storeContent": "اسٹور مواد"
+      }
+    },
+    "toolbar": {
+      "title": "اشیاء "
+    },
+    "menu": {
+      "organizations": {
+        "label": "سوال "
+      },
+      "departments": {
+        "label": "شعبه جات"
+      },
+      "designations": {
+        "label": "عہدہ"
+      }
+    }
+  },
+
+  "groupManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس صارف کو حذف کرنا چاہتے ہیں؟"
+    },
+    "topic": {
+      "newQuestion": {
+        "label": "نیا سوال"
+      },
+      "metaQuestion": {
+        "label": "میٹا سوال"
+      }
+    },
+    "form": {
+      "groupCode": {
+        "label": "گروپ کوڈ"
+      },
+      "groupName": {
+        "label": "گروہ کا نام"
+      },
+      "description": {
+        "label": "تفصیل"
+      },
+      "parentGroup": {
+        "label": "پیرنٹ گروپ"
+      },
+      "disabled": {
+        "label": "معذور"
+      },
+      "Item1": {
+        "label": "آئٹم 1"
+      },
+      "Item2": {
+        "label": "آئٹم 2"
+      },
+      "Item3": {
+        "label": "آئٹم 3"
+      },
+      "Item4": {
+        "label": "آئٹم 4"
+      },
+      "Item5": {
+        "label": "آئٹم 5"
+      },
+      "Item6": {
+        "label": "آئٹم 6"
+      },
+      "Item7": {
+        "label": "آئٹم 7"
+      },
+      "Item8": {
+        "label": "آئٹم 8"
+      },
+      "Item9": {
+        "label": "آئٹم 9"
+      },
+      "Item10": {
+        "label": "آئٹم 10"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "گروپ شامل کریں۔"
+      },
+      "addItem": {
+        "action": "آئٹم شامل کریں۔",
+        "title": "شامل کریں۔ "
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "گروپ میں ترمیم کریں۔"
+      },
+      "editItem": {
+        "action": "آئٹم میں ترمیم کریں۔",
+        "title": "ترمیم"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{سوال}} شامل کر دیا گیا ہے!",
+      "deleteSuccess": "سوال (سوال) کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{سوال}} کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "actions": "اعمال",
+        "group": "گروپ",
+        "unit": "یونٹ",
+        "unitPrice": "اکائی قیمت",
+        "description": "تفصیل",
+        "status": "حالت",
+        "parentGroup": "پیرنٹ گروپ"
+      }
+    },
+    "toolbar": {
+      "title": "آئٹم گروپس"
+    },
+    "menu": {
+      "organizations": {
+        "label": "سوال "
+      },
+      "departments": {
+        "label": "شعبه جات"
+      },
+      "designations": {
+        "label": "عہدہ"
+      }
+    }
+  },
+
+  "templateManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس صارف کو حذف کرنا چاہتے ہیں؟"
+    },
+    "topic": {
+      "newItem": {
+        "label": "نئی چیز"
+      },
+      "metaItem": {
+        "label": "میٹا آئٹم"
+      }
+    },
+    "form": {
+      "itemCode": {
+        "label": "آئٹم کوڈ"
+      },
+      "templateCode": {
+        "label": "ٹیمپلیٹ کوڈ"
+      },
+      "itemName": {
+        "label": "شے کا نام"
+      },
+      "templateName": {
+        "label": "ٹیمپلیٹ کا نام"
+      },
+      "unit": {
+        "label": "یونٹ"
+      },
+      "unitPrice": {
+        "label": "اکائی قیمت"
+      },
+      "dateOfExpiry": {
+        "label": "ختم ہونے کی تاریخ"
+      },
+      "description": {
+        "label": "تفصیل"
+      },
+      "parentGroup": {
+        "label": "پیرنٹ گروپ"
+      },
+      "disabled": {
+        "label": "معذور"
+      }
+    },
+    "form1": {
+      "Group1": {
+        "label": "گروپ 1"
+      },
+      "Group2": {
+        "label": "گروپ 2"
+      },
+      "Group3": {
+        "label": "گروپ 3"
+      },
+      "Group4": {
+        "label": "گروپ 4"
+      },
+      "Group5": {
+        "label": "گروپ 5"
+      },
+      "Group6": {
+        "label": "گروپ 6"
+      },
+      "Group7": {
+        "label": "گروپ 7"
+      },
+      "Group8": {
+        "label": "گروپ 8"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "گروپ شامل کریں۔ "
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "گروپ میں ترمیم کریں۔"
+      },
+      "addItem": {
+        "action": "شامل کریں۔",
+        "title": "آئٹم شامل کریں۔ "
+      },
+      "editItem": {
+        "action": "ترمیم",
+        "title": "آئٹم میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{سوال}} شامل کر دیا گیا ہے!",
+      "deleteSuccess": "سوال (سوال) کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{سوال}} کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "actions": "اعمال",
+        "template": "سانچے",
+        "unit": "یونٹ",
+        "unitPrice": "اکائی قیمت",
+        "dateOfExpiry": "خاتمے کی تاریخ",
+        "description": "تفصیل",
+        "status": "حالت",
+        "parentGroup": "پیرنٹ گروپ"
+      }
+    },
+    "toolbar": {
+      "title": "ٹیمپلیٹس "
+    },
+    "menu": {
+      "organizations": {
+        "label": "سوال "
+      },
+      "departments": {
+        "label": "شعبه جات"
+      },
+      "designations": {
+        "label": "عہدہ"
+      }
+    }
+  },
+
+  "invoiceManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس صارف کو حذف کرنا چاہتے ہیں؟"
+    },
+    "topic": {
+      "newItem": {
+        "label": "نئی چیز"
+      },
+      "metaItem": {
+        "label": "میٹا آئٹم"
+      }
+    },
+    "form": {
+      "Group1": {
+        "label": "گروپ 1"
+      },
+      "Group2": {
+        "label": "گروپ 2"
+      },
+      "Group3": {
+        "label": "گروپ 3"
+      },
+      "Group4": {
+        "label": "گروپ 4"
+      },
+      "Group5": {
+        "label": "گروپ 5"
+      },
+      "Group6": {
+        "label": "گروپ 6"
+      },
+      "Group7": {
+        "label": "گروپ 7"
+      },
+      "Group8": {
+        "label": "گروپ 8"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "ٹیمپلیٹ شامل کریں۔ "
+      },
+      "addItem": {
+        "action": "شامل کریں۔",
+        "title": "ٹیمپلیٹ شامل کریں۔ "
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "آئٹم میں ترمیم کریں۔"
+      },
+      "editItem": {
+        "action": "ترمیم",
+        "title": "آئٹم میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{question}} شامل کر دیا گیا ہے!",
+      "deleteSuccess": "سوال (سوال) کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{question}} کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "actions": "اعمال",
+        "group": "گروپ",
+        "unit": "یونٹ",
+        "unitPrice": "اکائی قیمت",
+        "quantity": "مقدار",
+        "dateOfExpiry": "خاتمے کی تاریخ",
+        "description": "تفصیل",
+        "status": "حالت",
+        "totalPrice": "کل قیمت",
+        "item": "آئٹم",
+        "itemCount": "آئٹم شمار"
+      }
+    },
+    "toolbar": {
+      "title": "رسیدیں "
+    },
+    "menu": {
+      "organizations": {
+        "label": "سوال "
+      },
+      "departments": {
+        "label": "شعبه جات"
+      },
+      "designations": {
+        "label": "عہدہ"
+      }
+    }
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "formManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس فارم کو حذف کرنا چاہتے ہیں؟"
+    },
+    "nodata": {
+      "modules": "ابھی تک کوئی ادارہ جاتی فارم ماڈیول نہیں ہے۔"
+    },
+    "toolbar": {
+      "title": "ادارہ سازی"
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "فارم شامل کریں۔"
+      },
+      "update": {
+        "action": "اپ ڈیٹ",
+        "title": "اپڈیٹ فارم"
+      },
+      "delete": {
+        "action":"حذف کریں۔",
+        "title":"فارم کو حذف کریں۔"
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "فارم میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "فارم شامل کیا گیا ہے!",
+      "deleteSuccess": "تشخیص حذف کر دیے گئے ہیں!",
+      "updateSuccess": "فارم کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "formTable": {
+      "headers": {
+        "formName": "فارم",
+        "number": "نہیں.",
+        "description": "ماڈیول | اشارے",
+        "date": "تاریخ",
+        "weight": "وزن",
+        "actions": "اعمال",
+        "status": "حالت"
+      },
+      "actions": {
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔",
+        "details": "تفصیلات",
+        "publish": "شائع کریں۔",
+        "addIndicator": "اشارے شامل کریں۔",
+        "addSubQuestion": "ذیلی سوال شامل کریں۔"
+      }
+    },
+    "formDialog":{
+      "form": {
+        "version": {
+          "label":"ورژن",
+          "required": "درکار ہے۔"
+        },
+        "title": {
+          "label":"عنوان",
+          "required": "درکار ہے۔"
+        },
+        "date": {
+          "label":"تاریخ",
+          "required": "درکار ہے۔"
+        },
+        "status": {
+          "label":"حالت",
+          "required": "درکار ہے۔"
+        }
+      },
+      "actions": {
+        "add": "شامل کریں۔",
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔"
+      }
+    },
+    "formModuleDialog": {
+      "confirmations": {
+        "delete": "کیا آپ واقعی اس ماڈیول کو حذف کرنا چاہتے ہیں؟"
+      },
+      "form": {
+        "instruction": {
+          "label":"ہدایت"
+        },
+        "moduleNo": {
+          "label":"ماڈیول نمبر",
+          "required": "درکار ہے۔"
+        },
+        "condition": {
+          "label":"حالت",
+          "required": "درکار ہے۔"
+        }
+      },
+      "actions": {
+        "add": "شامل کریں۔",
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔",
+        "addIndicator": "اشارے شامل کریں۔"
+      },
+      "dialogTitle": {
+        "add": "ماڈیول شامل کریں۔",
+        "edit": "ماڈیول میں ترمیم کریں۔"
+      },
+      "notifications": {
+        "addSuccess": "ماڈیول شامل کر دیا گیا ہے!",
+        "deleteSuccess": "ماڈیول کو حذف کر دیا گیا ہے!",
+        "updateSuccess": "ماڈیول کو اپ ڈیٹ کر دیا گیا ہے!"
+      },
+      "pagination": {
+        "labelRowsPerPage": "ماڈیولز فی صفحہ:"
+      }
+    },
+    "formModuleIndicator":{
+      "confirmations": {
+        "delete": "کیا آپ واقعی اس اشارے کو حذف کرنا چاہتے ہیں؟"
+      },
+      "form":{
+        "instruction": {
+          "label":"ہدایت"
+        },
+        "indicatorNo": {
+          "label":"اشارے نمبر",
+          "required": "درکار ہے۔"
+        },
+        "question": {
+          "label":"سوال",
+          "required": "درکار ہے۔"
+        },
+        "description": {
+          "label":"تفصیل",
+          "required": "درکار ہے۔"
+        }
+      },
+      "actions": {
+        "add": "شامل کریں۔",
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔"
+      },
+      "dialogTitle": {
+        "add": "اشارے شامل کریں۔",
+        "edit": "اشارے میں ترمیم کریں۔"
+      },
+      "notifications": {
+        "addSuccess": "اشارے شامل کر دیا گیا ہے!",
+        "deleteSuccess": "اشارے کو حذف کر دیا گیا ہے!",
+        "updateSuccess": "اشارے کو اپ ڈیٹ کر دیا گیا ہے!"
+      },
+      "pagination": {
+        "labelRowsPerPage": "ماڈیولز فی صفحہ:"
+      }
+    },
+    "formModuleSubQuestion":{
+      "confirmations": {
+        "delete": "کیا آپ واقعی اس ذیلی سوال کو حذف کرنا چاہتے ہیں؟"
+      },
+      "form":{
+        "subQuestion": {
+          "label":"ذیلی سوال"
+        }
+      },
+      "actions": {
+        "add": "شامل کریں۔",
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔",
+        "addIndicator": "اشارے شامل کریں۔"
+      },
+      "dialogTitle": {
+        "add": "ذیلی سوال شامل کریں۔",
+        "edit": "ذیلی سوال میں ترمیم کریں۔"
+      },
+      "notifications": {
+        "addSuccess": "ذیلی سوال شامل کر دیا گیا ہے!",
+        "deleteSuccess": "ذیلی سوال (سوالات) کو حذف کر دیا گیا ہے!",
+        "updateSuccess": "ذیلی سوال کو اپ ڈیٹ کر دیا گیا ہے!"
+      },
+      "pagination": {
+        "labelRowsPerPage": "ماڈیولز فی صفحہ:"
+      }
+    }
+  },
+  "countryReviewManagement":{
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس ملک کے جائزے کو حذف کرنا چاہتے ہیں؟"
+    },
+    "nodata": {
+      "assessment": "ادارہ جاتی تشخیص نہیں۔"
+    },
+    "toolbar": {
+      "title": "ادارہ سازی"
+    },
+    "notifications": {
+      "addSuccess": "ملک کا جائزہ شامل کیا گیا ہے!",
+      "deleteSuccess": "ملکی جائزے حذف کر دیے گئے ہیں!",
+      "updateSuccess": "کنٹری ریویو کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "countryReviewTable": {
+      "headers": {
+        "title": "عنوان",
+        "year": "سال",
+        "start": "شروع کریں۔",
+        "timeZone": "ٹائم زون",
+        "dates": "تاریخوں",
+        "score": "سکور",
+        "weight": "وزن",
+        "actions": "اعمال",
+        "status": "حالت"
+      },
+      "actions": {
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔",
+        "details": "تفصیلات",
+        "publish": "شائع کریں۔"
+      }
+    },
+    "countryReviewDialog": {
+      "form": {
+        "tab": {
+          "basic": "بنیادی",
+          "trainingComponents": "تربیتی اجزاء"
+        },
+        "countryId": {
+          "label":"ملک",
+          "required": "درکار ہے۔"
+        },
+        "title": {
+          "label":"عنوان",
+          "required": "درکار ہے۔"
+        },
+        "year": {
+          "label":"سال",
+          "required": "درکار ہے۔"
+        },
+        "start": {
+          "label":"شروع کریں۔",
+          "required": "درکار ہے۔"
+        },
+        "end": {
+          "label":"ختم",
+          "required": "درکار ہے۔"
+        },
+        "timeZone": {
+          "label":"ٹائم زون",
+          "required": "درکار ہے۔"
+        },
+        "status": {
+          "label":"حالت",
+          "required": "درکار ہے۔"
+        },
+        "score": {
+          "label":"سکور",
+          "required": "درکار ہے۔"
+        },
+        "classification": {
+          "label":"درجہ بندی",
+          "required": "درکار ہے۔"
+        },
+        "code": {
+          "label":"کوڈ",
+          "required": "درکار ہے۔"
+        },
+        "name": {
+          "label":"نام",
+          "required": "درکار ہے۔"
+        }
+        
+      },
+      "modal": {
+        "add": {
+          "action": "شامل کریں۔",
+          "title": "ملک کا جائزہ شامل کریں۔"
+        },
+        "update": {
+          "action": "اپ ڈیٹ",
+          "title": "ملک کا جائزہ اپ ڈیٹ کریں۔"
+        },
+        "delete": {
+          "action":"حذف کریں۔",
+          "title":"ملک کا جائزہ حذف کریں۔"
+        },
+        "edit": {
+          "action": "ترمیم",
+          "title": "ملک کے جائزے میں ترمیم کریں۔"
+        }
+      },
+      "actions": {
+        "add": "شامل کریں۔",
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔",
+        "addIndicator": "اشارے شامل کریں۔"
+      },
+      "pagination": {
+        "labelRowsPerPage": "ماڈیولز فی صفحہ:"
+      },
+      "TimeZoneEnum": {
+        "Thailand": "بنکاک",
+        "SriLanka": "کولمبو",
+        "Bangladesh": "ڈھاکہ",
+        "Vietnam": "ہو چی منہ",
+        "Indonesia": "جکارتہ",
+        "Pakistan": "کراچی",
+        "Nepal": "کھٹمنڈو",
+        "Malaysia": "کوالالمپور",
+        "Maldives": "مالدیپ",
+        "Philippines": "منیلا",
+        "India": "ممبئی",
+        "Cambodia": "نوم پنہ",
+        "China1": "شنگھائی",
+        "Bhutan": "تھمپو",
+        "China2": "ارومکی",
+        "Mongolia": "اولانبتار",
+        "Laos": "وینٹین",
+        "Myanmar": "ینگون"
+      }
+    }
+
+  },
+  "organizationAssessmentManagement":{
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس تشخیص کو حذف کرنا چاہتے ہیں؟",
+      "saveAnswer": "مبارک ہو..!!! آپ نے تمام سوالات بھرے ہیں۔ کیا آپ تشخیص مکمل کرنا چاہتے ہیں؟"
+    },
+    "nodata": {
+      "assessment": "ادارہ جاتی تشخیص نہیں۔"
+    },
+    "toolbar": {
+      "title": "ادارہ سازی"
+    },
+    "notifications": {
+      "addSuccess": "تشخیص شامل کر دیا گیا ہے!",
+      "deleteSuccess": "تشخیص حذف کر دیے گئے ہیں!",
+      "updateSuccess": "تشخیص کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "print": {
+      "graph": {
+        "title": "ادارہ جاتی ماڈیولز",
+        "moduleScore": "ماڈیول سکور",
+        "table": {
+          "moduleNo": "ماڈیول نمبر",
+          "moduleName": "ماڈیول کا نام",
+          "score": "سکور"
+        }
+      }
+    },
+    "assessmentTable": {
+      "headers": {
+        "title": "عنوان",
+        "year": "سال",
+        "start": "شروع کریں۔",
+        "timeZone": "ٹائم زون",
+        "date": "تاریخ",
+        "weight": "وزن",
+        "actions": "اعمال",
+        "status": "حالت",
+        "description": ""
+      },
+      "actions": {
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔",
+        "details": "تفصیلات",
+        "publish": "شائع کریں۔"
+      },
+      "pagination": {
+        "labelRowsPerPage": "ماڈیولز فی صفحہ:"
+      }
+    },
+    "assessmentHistoryTable": {
+      "headers": {
+        "title": "عنوان",
+        "actions": "اعمال",
+        "score": "سکور",
+        "status": "حالت"
+      },
+      "actions": {
+        "edit": "ترمیم",
+        "delete": "حذف کریں۔",
+        "graph": "گراف",
+        "print": "پرنٹ کریں",
+        "details": "تفصیلات",
+        "publish": "شائع کریں۔"
+      },
+      "pagination": {
+        "labelRowsPerPage": "فی صفحہ جائزے:"
+      }
+    }
+
+  },
+  "organizationCourseManagement":{
+    "toolbar": {
+      "title": "ادارہ سازی"
+    }
+  },
+  "organizationHistoryManagement":{
+    "toolbar": {
+      "title": "ادارہ سازی"
+    }
+  }
+}

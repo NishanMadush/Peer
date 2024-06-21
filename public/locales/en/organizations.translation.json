@@ -1,0 +1,329 @@
+{
+  "organizationManagement": {
+      "confirmations": {
+        "delete": "Are you sure you want to delete this organization?"
+      },
+      "topic": {
+        "headOffice": {
+          "label": "Head Office"
+        },
+        "branch": {
+          "label": "Branch"
+        },
+        "profile": {
+          "label": "Profile"
+        }
+      },
+      "form": {
+        "tab1": {
+          "organizations": "Organizations"
+        },
+        "tab2": {
+          "departments": "Departments",
+          "buttonTitle": "Add a Department"
+        },
+        "tab3": {
+          "designations": "Designations",
+          "buttonTitle": "Add a Designation"
+        },
+        "disabled": {
+          "label": "Disabled"
+        },
+        "email": {
+          "label": "Email Address"
+        },
+        "isHeadOffice": {
+          "label": "Is Head Office?"
+        },
+        "isVirtual": {
+          "label": "Is Virtual?"
+        },
+        "name": {
+          "label": "Organization Name",
+          "required": "Required"
+        },
+        "countryId": {
+          "label": "  Country"
+          },
+        "registeredNo": {
+          "label": "Registered Number",
+          "required": "Required"
+        },
+        "description": {
+          "label": "Description",
+          "required": "Required"
+        },
+        "isLegalEntity": {
+          "label": "  Is Legal Entity?"
+        },
+        "headOffice": {
+          "label": "  Head Office"
+        },
+        "departments": {
+          "label": "  Department"
+        },
+        "designations": {
+          "label": "  Designation"
+        },
+        "vision": {
+        "label": "  vision",
+        "required": "Required"
+        },
+        "mission": {
+          "label": "Mission ",
+          "required": "Required"
+          },
+        "category": {
+            "label": "Category",
+            "required": "Required"
+            },
+        "website": {
+          "label": "website"
+        },
+        "address": {
+          "label": "Address"
+        },
+        "countryName": {
+          "label": "Country Name"
+        },
+        "organizationType": {
+          "label": "Organization Type"
+        },
+        "geographicArea": {
+          "label": "Geographic Area"
+        },
+        "departmentName": {
+          "label": "Department Name"
+        },
+        "designation": {
+          "label": "Designation"
+        },
+        "phoneNumber": {
+          "label": "Contact Number"
+        },
+        "ListOfBranch": {
+          "label": "List Of Branches"
+        },
+        "addressLine": {
+          "label": "Address Line"
+        },
+        "street": {
+          "label": "Street Name"
+        },
+        "city": {
+          "label": "City"
+        },
+        "postalCode": {
+          "label": "Postal Code"
+        },
+        "gpsCode": {
+          "label": "GPS Code"
+        },
+        "country": {
+          "label": "Country"
+        }
+      },
+      "modal": {
+        "add": {
+          "action": "Add",
+          "title": "Add Organization"
+        },
+        "update": {
+          "action": "Update",
+          "title": "Update Organization"
+        },
+        "delete": {
+          "action":"Delete",
+          "title":"Delete Branch"
+        },
+        "edit": {
+          "action": "Edit",
+          "title": "Edit Organization"
+        }
+      },
+      "notifications": {
+        "addSuccess": "Organization has been added! Please create a branch for your organization",
+        "deleteSuccess": "Organization(s) have been deleted!",
+        "updateSuccess": "Organization has been updated!"
+      },
+      "table": {
+        "headers": {
+          "actions": "Actions",
+          "gender": "Gender",
+          "organizationType": "Organization Type",
+          "status": "Status",
+          "organization": "Organization"
+        }
+      },
+      "toolbar": {
+        "title": "Organizations"
+      },
+      "menu": {
+        "organizations": {
+          "label": "Organizations"
+        },
+        "departments": {
+          "label": "Departments"
+        },
+        "designations": {
+          "label": "Designations"
+        },
+        "locations": {
+          "label": "Locations"
+        },
+        "branch": {
+          "label": "List Of Branches"
+        },        
+        "branches": {
+          "label": "Branches"
+        }
+      },
+      "branch": {
+        "add": {
+          "title": "List of Branchier",
+          "title2": "Edit the Branchier"
+        },
+        "branchType": {
+          "label": "Branch Type"
+        },
+        "branchName": {
+          "label": "Branch Name"
+        },
+        "contactPerson": {
+          "label": "Contact Person"
+        },
+        "countryName": {
+          "label": "Country Name"
+        },
+        "addressLine": {
+          "label": "Address Line"
+        },
+        "phoneNumber": {
+          "label": "Contact Number"
+        },
+        "employees": {
+          "label": "Employees"
+        },
+        "street": {
+          "label": "Street"
+        },
+        "city": {
+          "label": "City"
+        },
+        "postalCode": {
+          "label": "Postal Code"
+        },
+        "email": {
+          "label": "Email"
+        },
+        "website": {
+          "label": "Website"
+        }
+      },
+      "branchLists": {
+        "faq": {
+          "label":"click for the list of branches",
+          "title":"List of Branches",
+          "title2":"Add New Branch",
+          "title3":"Edit Branch",
+          "contactPerson":"Contact Person",
+          "addressLine":"Address Line",
+          "countryName":"Country Name",
+          "street":"Street",
+          "city":" City",
+          "postalCode":"Postal Code",
+          "email":" Email",
+          "website":" Website",
+          "type":"Type",
+          "noAnswerLink":"get back to the Organizations  >>>>"
+        }, 
+        "branch": {
+          "type":"local branches",
+          "contactPerson":"Sugars",
+          "countryName":"Myanmar",
+          "addressLine":"18/2",
+          "street":"Street 1",
+          "city":"colombo",
+          "postalCode":"12213443",
+          "email":"nayaagah@gmail.com",
+          "website":"heyfwedfsdu.com"
+        }
+      }
+    },
+    "branchManagement": {
+      "confirmations": {
+        "delete": "Are you sure you want to delete this branch?"
+      },
+      "form": {
+        "title": {
+          "address": "Address"
+        },      
+        "disabled": {
+          "label": "Disabled"
+        },
+        
+        "branchName": {
+          "label": "Branch Name"
+        },
+        "contactPerson": {
+          "label": "Contact Person"
+        },
+        "email": {
+          "label": "Email"
+        },
+        "countryId": {
+          "label": "Country"
+        },
+        "phoneNumber": {
+          "label": "Phone Number"
+        },
+        "line1": {
+          "label": "Address Line"
+        },
+        "street": {
+          "label": "Street Name"
+        },
+        "city": {
+          "label": "City"
+        },
+        "postalCode": {
+          "label": "Postal Code"
+        },
+        "gpsCode": {
+          "label": "GPS Code"
+        },
+        "country": {
+          "label": "Country"
+        }
+      },
+      "modal": {
+        "add": {
+          "action": "Add",
+          "title": "Add Branch"
+        },
+        "edit": {
+          "action": "Edit",
+          "title": "Edit Branch"
+        }
+      },
+      "notifications": {
+        "addSuccess": "Branch has been added!",
+        "deleteSuccess": "Branch(s) have been deleted!",
+        "updateSuccess": "Branch has been updated!"
+      },
+      "table": {
+        "headers": {
+          "branchName": "Branch Name",
+          "contactPerson": "Contact Person",
+          "address": "Address",
+          "actions": "Actions",
+          "isVirtual": " Is virtual?",
+          "status": "Status",
+          "city": "City"
+        }
+      },
+      "toolbar": {
+        "title": "Branches"
+      }
+    }
+}

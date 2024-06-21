@@ -1,0 +1,187 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDdlZWVhMDVmYWZlYzBmNjNkMTgiLCJpYXQiOjE2OTYzMDkxMzYsImV4cCI6MTY5NjM5MzEzNiwidHlwZSI6ImFjY2VzcyJ9.JkuoQ_pSY8bBqMwIiMCgKE5OKccnfdJ8R1wJgfwzOIQ
+
+# GET {{host}}/api/report/institutionalization/statistics/assessments HTTP/1.1
+
+###
+
+# Update Profile: information
+PATCH  {{host}}/api/users/6498d96beac150f65e3ea806/profile HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+   "firstName":"vajira1",
+   "lastName":"rathnayake",
+   "email":"org1.user@ss.lk",
+   "role":"ADPC-Administrator",
+   "isEmailVerified":false,
+   "phoneNumber":"9818099990",
+   "status":"Active",
+   "languageId":"63e1dfd266bf9d796d24fbeb",
+   "profile":{
+      "gender":"Male",
+      "address":{
+         "category":"Office",
+         "line1":"Asset 345",
+         "street":"Hospitality District Aerocity",
+         "city":"New Dilhi",
+         "postalCode":"110037",
+         "countryId":"6493cd96157ac82107d47614",
+         "location":{
+            "lat":-1,
+            "lng":-1
+         }
+      },
+      "profilePicture":"",
+      "salutation":"Mr"
+   },
+   "employment":{
+      "organization":{
+         "organizationName":""
+      },
+      "department":"IT Infrastructure",
+      "designation":"Systems Administrator",
+      "email":"vajira865@gmail.com",
+      "phoneNumber":"9818099990",
+      "branch":{
+         "branchId":"649d2d841d4214878ab235ae",
+         "branchName":""
+      }
+   },
+   "countryProfileSettings":{
+      "countryName":"India",
+      "nodalAgency":{
+         "agency":"1",
+         "agencyFocalPoint":"2"
+      },
+      "leadInstitutions":{
+         "cadre":"3",
+         "cadreFocalPoint":"4",
+         "mfr":"5",
+         "mfrFocalPoint":"6",
+         "cssr":"7",
+         "cssrFocalPoint":"8",
+         "hope":"9",
+         "hopeFocalPoint":"10"
+      },
+      "programYears":"11",
+      "geographicCoverage":"12",
+      "trainedResponders":{
+         "cadre":10,
+         "mfr":20,
+         "cssr":30,
+         "hope":40
+      },
+      "trainedInstructors":{
+         "cadreQualified":50,
+         "mfrQualified":60,
+         "cssrQualified":70,
+         "hopeQualified":80
+      }
+   },
+   "id":"6498d96beac150f65e3ea806"
+}
+###
+
+
+### Create user
+POST  {{host}}/api/users HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+peer-language: si-LK
+
+{
+  "username": "saman@gamil.com",
+  "email": "saman@gamil.com",
+  "firstName": "saman",
+  "lastName": "diddeniya",
+  "phoneNumber": "",
+  "role": "Organization-User",
+  "status": "Incomplete",
+  "languageId": "6408117eaafbd8fc9c58132d"
+}
+
+### Update user
+PATCH  {{host}}/api/users/6408117eaafbd8fc9c58132d HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "firstName": "vajira",
+  "lastName": "rathnayake",
+  "email": "vajirar.ls3@gmail.com",
+  "role": "admin",
+  "isEmailVerified": false,
+  "languageId": "6408117eaafbd8fc9c58132d",
+  "phoneNumber": "0704567890",
+  "status": "Incomplete",
+  "profile": {
+    "gender": "Male",
+    "address": {
+      "category": "Resident",
+      "line1": "No.74",
+      "street": "Athurugiriya road",
+      "city": "Homagama",
+      "postalCode": "1200",
+      "countryId": "6408117eaafbd8fc9c58132d",
+      "location": {
+        "lat": -1,
+        "lng": -1
+      }
+    },
+    "profilePicture": "picFileName",
+    "salutation": "Mr"
+  },
+  "employment": {
+    "organization": {
+      "organizationId": "6408117eaafbd8fc9c58132d",
+      "organizationName": "ss pvt ltd"
+    },
+    "department": "operations",
+    "designation": "admin",
+    "email": "abc@ss.lk",
+    "phoneNumber": "0112-456-234",
+    "branch": {
+      "branchId": "6408117eaafbd8fc9c58132d",
+      "branchName": "colombo",
+      "branchAddress": {
+        "category": "Resident",
+        "line1": "No.74",
+        "street": "Athurugiriya road",
+        "city": "Homagama",
+        "postalCode": "1200",
+        "countryId": "6408117eaafbd8fc9c58132d",
+        "location": {
+          "lat": -1,
+          "lng": -1
+        }
+      }
+    }
+  }
+}
+
+
+### Get users
+GET  {{host}}/api/users HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Get user
+GET  {{host}}/api/users/6408117eaafbd8fc9c58132d HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Delete user
+DELETE  {{host}}/api/users/6404e4d2fabfc916d7957f4e HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Get profile
+GET  {{host}}/api/users/63e5fca40fdad441b4dabfeb/profile HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Notify user
+POST  {{host}}/api/users/6408117eaafbd8fc9c58132d/notify HTTP/1.1
+Authorization: Bearer {{access_token}}
+

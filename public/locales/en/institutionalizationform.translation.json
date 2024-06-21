@@ -1,0 +1,437 @@
+{
+  "assessmentAnswerForm":{
+    "radioButtons": {
+      "title1": {
+        "label": "Achievements are negligible or minor"
+      },
+      "title2": {
+        "label": "Achievements are incomplete"
+      },
+      "title3": {
+        "label": "Achievements are moderate"
+      },
+      "title4": {
+        "label": "Substantial achievement"
+      },
+      "title5": {
+        "label": "Comprehensive achievement"
+      }
+    },
+    "modules": {
+      "indicators": {
+        "comment": "Comments",
+        "description": "Description"
+      },
+      "subQuestion": {
+        "answer": "Answer"
+      }
+    }
+  },
+
+
+
+
+ "64c3a985530f7019010e4f58": {
+    "version": "2023-03-12",
+    "modules": [
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "1",
+        "condition": "Nationally Adapted PEER Curricula",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "1.1",
+            "question": "PEER curricula reviewed, adapted, and revised according to national context or institutional needs",
+            "description": "The regional PEER standard curricula will be used to adapt the training materials at the national level considering the unique country context and address the training needs of emergency responders from professional response organizations, volunteers, and hospitals. Specific contextualization may include local examples and case studies, national response systems, hazards, roles and responsibilities of response agencies, response coordination, and national policies and guidelines. Adaptation may also occur at the institutional level. National partners from training and academic institutes, including development partners like Red Cross / Red Crescent National Societies, local humanitarian organizations, NGOs, and UN Agencies. Adaptation may be required to address specific institutional programs of partners that target a particular audience, including its official mandate and missions. A PEER course can be adapted and used as a whole training package or partially using only specific modules/lessons to address the training needs of individual institutions. In some instances, partners may decide to retain the name of the training or use other names as they see appropriate to promote more substantial ownership of the curricula.",
+            "weight": 0.4,
+            "subQuestions": [
+              {
+                "subQuestion": "Date of last update (Month/Year)"       
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "1.2",
+            "question": "Nationally adapted and standard PEER curricula endorsed by the national steering committee/ nodal agencies/ implementing institution",
+            "description": "As part of fostering substantial ownership of the PEER curricula by nodal agencies and implementing institutions, partners need to own the process and consider the adapted curricula as their own and not as an externally driven product. Ownership entails acknowledging the adapted PEER curricula as national standard curricula. The nodal agency can promote its use with other stakeholders outside the PEER program and be used in similar capacity development programs in the future, including support from other donors.",
+            "weight": 0.2
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "1.3",
+            "question": "Locally translated PEER curricula",
+            "description": "PEER acknowledged that the use of the English language in PEER countries is secondary. The uniqueness of each country involves local traditions and the use of local dialects that influences how capacity development programs are implemented. This indicator also reflects distinct local needs. The nationally adapted PEER curricula need to be translated in the national language or even to sub-national (regional) and local dialects to facilitate learning in the different parts of the country. At the sub-national and local level, specific adaptation may address the needs of the particular geographic area, local culture, religious beliefs, emergency systems, and local stakeholders.",
+            "weight": 0.2,
+            "subQuestions": [
+              {
+                "subQuestion": "Specify what language:"
+              },
+              {
+                "subQuestion": "Specify PEER training translated?"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "1.4",
+            "question": "System to regularly review and update national or institutional standard curricula",
+            "description": "The practice of emergency management is an evolving science, especially with the increasing need for evidence-based procedures used in emergency response. Such emergency tactics, processes, systems are supported by research and universally accepted by professional associations and communities of practice as standards and norms. Therefore training of emergency responders must keep up with the evolving science of practice to ensure that quality and standards are maintained in managing emergencies and reduce unnecessary loss of lives and disabilities of disaster-affected communities. Under the leadership of nodal agencies and support from national technical agencies, a system needs to be in place to regularly review, update and revise national standard curricula. A national working group needs to be in place to lead the review process or a committee if it’s an institutional level review, ideally after every 2-3 years. Quick updates and minor revisions might also occur immediately after a training activity as part of continuous improvement of the training materials. It also includes if there are important updates that require immediate changes, such as lifesaving procedures like first aid, essential life support, and CPR, including triage and INSRAG procedures and alike. Developing after-training reports should be a standard practice to document lessons from individual activities and recommendations on how the overall training activity can be improved next time.",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "2",
+        "condition": "National PEER Standards Established and Endorsed",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "2.1",
+            "question": "National Training System Standards (Preparation, methodology, instructors, participants, monitoring, evaluation) documented and endorsed",
+            "description": "One of the most vital aspects of PEER is its observance of a stringent set of training principles to ensure the delivery of standardized and quality training activity. These training principles have transformed how training is conducted in the countries and have created strong advocates from the emergency response community, especially PEER alumni. Such training standards have even gone beyond PEER training applied to other training programs implemented by partners. However, having such rigid training standards also has some downside in which not all implementing institutions can comply. This led to the creation of parallel training of the same theme to separate PEER standards and what the partners consider the practical application of the standards. To address this issue and promote having standard training by the country and institutions, PEER training standards need to be adapted according to the capacities and current training system set up of implementing institutions. Therefore, PEER advocates for establishing minimum training standards that nodal agencies will endorse and promote, and implementing institutions can adapt. Furthermore, such measures should be established and documented to encourage implementing partners to apply to ensure quality and standardize implementation of training activities in the country.",
+            "weight": 0.35,
+            "subQuestions": [
+              {
+                "subQuestion": "Please specify details:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "2.2",
+            "question": "National Response Standards and Guidelines documented and endorsed (triage, response plan, assessment, volunteers, USAR, etc.)",
+            "description": "One of the enabling conditions to promote standardization in the practice of emergency management is having in place national guidelines that will direct operational response elements to a communal direction and goal during emergencies. When PEER started in the early part of 2000, such national guidelines are in varying degrees of development. The practice of disaster risk management is at the early stages of its evolution at the national level. The absence of national operational guidelines was evident in PEER curricula that mainly reflected in its training materials universally accepted norms usually used in western countries. As part of enhancing more robust integration of national operational standards in the adapted PEER curricula, upgrading such standards in line with minimum global norms is critical for training activities to be institutionalized at the national level. This will enable emergency responders to get trained on national operational standards through the PEER courses. Standardization also promotes interoperability of national and local response, including from international disaster response teams, during large-scale disasters.",
+            "weight": 0.35,
+            "subQuestions": [
+              {
+                "subQuestion": "Please specify details and its relation to specific PEER training:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "2.3",
+            "question": "Simulation exercise to validate, test and practice operational standards",
+            "description": "A simulation exercise is one of the practical tools in Disaster Risk Management to maintain a minimum level of readiness in emergency response in the absence of a real-life incident. Exercises are also used to test and validate new plans, procedures, and SOPs to ensure their practical application during an actual response.Simulation exercise planning requires different developmental processes; therefore, preparing for an exercise does not happen overnight depending on the type of exercise  to be used, preparation, planning meetings, human resources, exercise documents present in varying degrees. The country needs to integrate exercises as part of its emergency preparedness culture regularly conducted. An adequately documented exercise plan, available expertise to design, conduct and evaluate exercise through an After Action Review are fundamental elements that need to be in place in simulation exercises. As part of PEER institutionalization, the program encourages national partners to test and validate new or revised operational standards and not just remain a government record but rather a living document that is evolving and ensures its applicability in real-life scenarios.",
+            "weight": 0.15,
+            "subQuestions": [
+              {
+                "subQuestion": "Please specify details of last exercise: (type/standard/guidelines tested/plan for next exercise)"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "2.4",
+            "question": "System to regularly review and update standards and guidelines",
+            "description": "A system and plan need to be in place to review and update existing standards and guidelines regularly. Such review exercises should be included in the annual planning process of nodal agencies and implementing institutions to determine if specific standards and guidelines need to be updated to reflect new developments in emergency response practice and science.",
+            "weight": 0.15,
+            "subQuestions": [
+              {
+                "subQuestion": "Please specify details of the last update: (name of guideline or standard/date of update/)",
+                "subAnswer": "",
+                "_id": "647ac4ecf4adbc5220b38872"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "3",
+        "condition": "PEER integrated into DRR strategies",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "3.1",
+            "question": "Linkages for PEER in existing national policies, strategy, frameworks, and plans identified",
+            "description": "PEER countries have a wealth of DRM policies, strategies, and national plans, including in the health sector. This is exemplified because of many years of work by the DRM community. As part of the integration, nodal agencies and implementing institutions need to identify specific areas from the national policy documents where PEER can be anchored. This will facilitate the inclusion of PEER courses in institutional work programs of national partners and contribute to achieving targets from the said national policy documents. Furthermore, some countries have national frameworks related to emergency response (e.g. USAR, Prehospital Care, Incident Management System, Emergency Medical Service, volunteer management, etc.). Therefore, PEER can be integrated into the capacity development program for volunteers, professional responders, and hospital personnel. Regional agreements like the SAARC Agreement on Rapid Response to Natural Disasters under Article V Standard Operating Procedures on preparedness provide string linkages on the country’s commitment. The provision stipulates the development of individual or joint plans to facilitate regional cooperation on response. PEER countries can consider future programming as part of the country’s commitment as a signatory in the agreement. The agreement is one of the objectives in the SAARC Comprehensive Framework on Disaster Management that provide a platform for regional cooperation on disaster mitigation, preparedness, response, and recovery.",
+            "weight": 0.5,
+            "subQuestions": [
+              {
+                "subQuestion": "Please provide details related to the PEER training being assessed: (name of the policy document and specific section)",
+                "subAnswer": "",
+                "_id": "647ac4ecf4adbc5220b38875"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "3.2",
+            "question": "PEER Courses integrated as part of priority capacity building interventions in DRR strategies and action plans",
+            "description": "National Action Plans and priority activities to implement national policy documents are developed at the national level. It indicates specific activities and identifies lead and supporting agencies. In addition, the document guides responsible agencies to include in their annual programming specifically on capacity development to operationalize national policy documents and plans. This will facilitate institutions to secure funding from national sources and seek support from development partners and donors when required.",
+            "weight": 0.5,
+            "subQuestions": [
+              {
+                "subQuestion": "Please provide details: (name of strategy/action plan"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "4",
+        "condition": "Identified funding sources for rollout/integration in annual budgets",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "4.1",
+            "question": "PEER courses are identified in the annual budget of nodal agencies / implementing institutions",
+            "description": "Nodal agencies and implementing institutions go through an annual programming process to identify priority activities for the upcoming fiscal year, including appropriating the corresponding budget from its annual allocation from the government financial system. As part of the integration of PEER in yearly work programs and budgets of national partners, appropriate resources to support the implementation of adapted PEER training curricula should be included. In doing so, partners can assimilate PEER training, whether the entire course or partially using selected modules, as an integral part of institutional programs.",
+            "weight": 0.7,
+            "subQuestions": [
+              {
+                "subQuestion": "Please specify what institution/s have allocated budget, what PEER training component, and in what fiscal year:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "4.2",
+            "question": "Partners secured support from other donors and development partners to support the rollot out of nationally adapted PEER Courses",
+            "description": "Several similar programs like PEER exist in the countries that deal with capacity development on emergency response as part of supporting emergency preparedness of institutions, local NGOs, and vulnerable communities. These programs are supported by donor agencies implemented through various stakeholders ranging from Red Cross / Red Crescent National Societies, local NGOs, training, and academic institutions, including the private sector. Having national standard training curricula, partners can strongly advocate for its use to leverage resources outside PEER. In doing so, the country and the beneficiaries of training activities can promote the national standard curricula regardless of who is leading or funding the program.A possible strategy that implementing institutions can explore is to engage the private sector through its corporate social responsibility program that mainly involves community outreach. The private sector's best interest is to support preparedness activities to reduce disaster impact in their business. It can be in the form of well-trained personnel on lifesaving skills, safety in the workplace, and other preparedness activities to support SMEs in protecting the business supply chain or the surrounding communities where most employees reside. A partnership can be explored with private  hospitals on preparedness and enhance disaster resilience like what public hospitals are benefiting from HOPE. Private hospitals can reduce disruptions and continue operating even after a significant disaster impact and increase national treatment capacity for emergency patients considering that more than 50% of hospitals in the countries are privately run.",
+            "weight": 0.3,
+            "subQuestions": [
+              {
+                "subQuestion": "Please specify the PEER training supported / name of donor/name of the program:"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "5",
+        "condition": "Integration into institutional policies/programs",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "5.1",
+            "question": "PEER courses are identified in annual work plans/training plans/programing of nodal agencies/ implementing institutions",
+            "description": "This indicator is related to indicator 4.1 on having resource allocation by national partners in their annual budgets. The official endorsement of a national standard curriculum by nodal agencies and national technical agencies will pave the way for implementing institutions to integrate and adapt the standard curricula institutionally and use the training to address partners' mandates and needs. In this way, implementing institutions can include PEER training as part of its annual work programing and implement the training as a regular activity of the institute.",
+            "weight": 0.5,
+            "subQuestions": [
+              {
+                "subQuestion": "Name of institution, related PEER training component  and in what fiscal year:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "5.2",
+            "question": "Adapted PEER courses (complete or selected modules) integrated into training or academic curricula of implementing institutions",
+            "description": "Training and academic institutions have ongoing programs directly or indirectly related to the PEER Courses. Whether it’s for basic training of new personnel, educational or degree programs, continuing medical education, refresher training, or part of a broader government or institutional  program on developing technical capacities of emergency responders. The PEER program does not intend to replace existing training programs but for PEER courses to add value and enhance it. This can be used as the national standard training materials entirely as a whole course and adapt according to institutional requirements or partially using only selected modules or lessons. As part of advocating more substantial ownership of implementing institutions, partners are not required to maintain the original PEER course name, especially when integrating it into existing training programs. This is to keep the identity of institutional programs that already exist. Having acknowledgment of the use of the PEER training materials is adequate to meet the program's requirements. If implementing institutions decide to take on board fully the national standard course adopted from PEER, partners are welcome to modify its course name as they see it appropriate.",
+            "weight": 0.5,
+            "subQuestions": [
+              {
+                "subQuestion": "Name of institution or academic institution/name of program/use of PEER training is partial or complete."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "6",
+        "condition": "Minimum required PEER instructors/equipment sustained",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "6.1",
+            "question": "Adequate number of local PEER instructors trained and connected with respective implementing institutions",
+            "description": "One of the critical elements for implementing institutions to integrate PEER training in their respective programs is to develop their team of qualified instructors to deliver the course that adheres to the minimum training standards endorsed by the nodal agency and technical institutions. The adequate number is defined as having the appropriate number of instructors based on existing institutional programs' demands, targets, and deliverables. The instructor team comprises 6-8 instructors in each type of training where skills-based training like CADRE, MFR, and CSSR requires more instructors than a more theoretical and academic-based training like HOPE. Different training management and technical skills should also be considered in establishing instructors’ teams wherein course monitor, course coordinator, primary instructors, and assistant instructors are assigned in the instructor group.",
+            "weight": 0.3,
+            "subQuestions": [
+              {
+                "subQuestion": "The number of institutions that maintain a minimum no. of instructors on a specific PEER training component:"
+              },
+              {
+                "subQuestion": "Name of institutions:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "6.2",
+            "question": "Database of instructors and engagement plan by implementing institutions",
+            "description": "For more than two decades of PEER implementation, the program has trained instructors through various instructors’ development training  in the countries and master trainers to support new program countries as regional instructors. These instructors need to be organized and include in a shared database by the government and accessed by implementing institutions. The information from the database will support countries to develop a plan to continuously engage qualified instructors as an essential human resource in the country. It includes maximizing its full potential by providing an opportunity to be part of the instructor team and allocate instructors to support new institutions as they develop their programs. Implementing institutions will also be able to use the database as a monitoring tool to track the level of engagement of national instructors and plan if refresher training is required, including provide updates through communication outreach.The PEER Program has developed a regional database to be hand over for nodal agencies to manage and maintain by the 3rd quarter of 2021. The countries will be able to use the said database for this purpose.",
+            "weight": 0.15
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "6.3",
+            "question": "Plan for regular refresher training for existing instructors",
+            "description": "Trained human resources, if not utilized systematically, will reduce its effectiveness in delivering training. New instructors require experiential learning and are part of the instructor team to develop their capacity further. Learning by doing is an effective way to ensure that minimum capacity and readiness are maintained. Therefore, partner institutions should include in their plan to provide refresher training and a system to continuously share information and update instructors to keep them up-to-date even without an active training engagement.",
+            "weight": 0.2
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "6.4",
+            "question": "Established instructors' development training program",
+            "description": "Aside from delivering PEER training, implementing solutions should consider developing its capacity to train future instructors. This will address the quick turnover of trained instructors as most government staff changes positions and post even in the same organization. In this way, implementing institutions will maintain a constant number of minimum instructors required to deliver training activities. Instructor development training is an essential component of any capacity development and training program, which can be included in the annual work programming of institutions.",
+            "weight": 0.2
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "6.5",
+            "question": "Minimum required equipment available with each institution as part of training roll-out",
+            "description": "The PEER Program initially invested in providing a standard set of training equipment for each course to initiate the training in the program countries. The training equipment was kept under the care of major national training institutes to roll out the training. As an initial investment of the program, the country needs to adapt the standard list and analyze how training institutes will sustain such equipment considering its availability in the country for future procurement and after-sales service maintenance and repair.A standard training equipment set should be part of the national training standards endorsed by the country's nodal agency and technical institutions. Furthermore, implementing institutions should consider the normal wear and tear of the said equipment and include its future procurement in annual programming and budget planning.",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "7",
+        "condition": "Accreditation and Certification of PEER courses",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "7.1",
+            "question": "National Accreditation and Certification of training from academic institutes, professional associations, or government accreditation institutes",
+            "description": "Accreditation and certification are both quality management processes but have two different uses. Generally, certification is given to individuals, and accreditation applies to organizations or institutions.As an integral part of PEER institutionalization driven to maintain quality and excellence of education and learning, institutions and programs accredited by official accrediting bodies and professional associations demonstrate that an institution operates according to established qualifications or standards. It also emphasizes quality assurance and a commitment to continuous quality enhancement. Furthermore, having such accreditation adds value to the graduates in recognizing that the accredited institution maintains standards required for its graduates to gain admission to other reputable higher learning institutions or achieve credentials for professional practice.On the other hand, individuals require certification that can be part of ongoing requirements, such as continuing medical education or retesting, maintaining the certification, renewing professional licenses, or securing education credits for post-graduate degree programs. Certification represents a written assurance by the institution that educational or learning activity confers to the specified requirements and standards by the accrediting body.Therefore, accreditation authorized the institution to issue certification and use the name of the accrediting body in its certificates. An example of this is a training institution accredited by a university. The training conducted by the institution will be able to provide certification using the name of the university and award specific education units that the graduates can use to pursue higher education studies. Similarly, suppose a professional medical association provides accreditation to a training institution in conducting HOPE. In that case, that accredited institution will give certification to graduates and use the logo of the professional association. Award continuing medical education units that the graduate will be able to use in renewing profesis0onal l9censes to practice medicine as a profession. Each country needs to explore its national accreditation and certification system and targets to get accredited to provide certification for its graduates of PEER courses.",
+            "weight": 0.7,
+            "subQuestions": [
+              {
+                "subQuestion": "Course/s provided accreditation and name of the accrediting body:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "7.2",
+            "question": "International Accreditation (ISO, INSARAG, IAEM)",
+            "description": "Accreditation from international accrediting bodies provides another level of standards for institutions implementing training activities on emergency management and response.  The standards set are universally accepted globally related to the quality of training, minimum standards for international disaster response teams, and emergency management. Depending on the levels set by accrediting bodies like the International Standard Organization (ISO), International Search and Rescue Advisory Group (INSARAG), and International Association of Emergency Management (IAEM), training institutions will be able to demonstrate and issue a certification that the training activities met the standards set by the accrediting body and certify graduates which in turn can be used to pursue higher studies and professional career advancement.Regional cooperation bodies through their respective disaster management centers and programs of the South Asia Association for Regional Cooperation (SAARC) and Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) are possible areas of cooperation that can provide accreditation which can be further explored.",
+            "weight": 0.3,
+            "subQuestions": [
+              {
+                "subQuestion": "Course/s provided accreditation and name of the accrediting body:"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "8",
+        "condition": "Engagement plan for PEER graduates established and endorsed",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "8.1",
+            "question": "Database of PEER graduates / trained responders available and used to mobilize human resources for response",
+            "description": "The PEER regional database is currently under development as mentioned in Indicator 6.2 Instructors’ database and its planned turnover to the nodal agencies. Ince available, the countries will integrate existing databases of trained responders and other human resources on DRM. The information from the database will enable nodal agencies to mobilize trained responders as part of their response management plans. Arrangements can also be developed to engage them during the pre-disaster phase, whether training others or community mobilization as part of advocacy on safety and preparedness. The database also acts as a monitoring tool to check the availability and readiness of responders for immediate deployment during response.",
+            "weight": 0.3
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "8.2",
+            "question": "Activation and mobilization procedures of trained responders documented and endorsed",
+            "description": "Plans should be in place to activate, mobilize, coordinate, and recall trained responders as part of stand-down procedures in the national response system, including arrangements for responder well-being and safety. The plan needs to be documented, shared, trained, and practice to ensure its practical use and application in disaster situations.",
+            "weight": 0.5
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "8.3",
+            "question": "Conducts regular simulation exercises with trained responders",
+            "description": "To maintain a minimum level of readiness, an exercise program to engage responders needs to be in place as a regular program of the nodal agency and implementing institutions. The exercise program will assess and validate key response mission capabilities and determine where the trained responders are mobilized. Critical response areas may include early warning, activation, mobilization, field coordination, incident management, crisis communications, search and rescue, medical support, mass fatality management, etc.The exercise program should include debriefing and After Action Review (AAR) to identify key lessons that require improvements. Key actions should be recognized as part of the Corrective Action Plan (CAP) and responsible agencies that will lead in acting on the recommendations. Documentation is essential in the exercise program that requires institutions to have exercise plans and AAR to reference future exercises and emergency planning meetings.",
+            "weight": 0.2,
+            "subQuestions": [
+              {
+                "subQuestion": "Please specify details of last exercise: (type /emergency functions tested / plan for next exercise)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": "Module no is full text",
+        "moduleNo": "9",
+        "condition": "Established PEER community of practice for learning and sharing",
+        "indicators": [
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "9.1",
+            "question": "Communication platform (WhatsApp group/ webpage/working group/etc.)  for PEER alumni to share and learn from each other",
+            "description": "PEER has trained emergency responders and qualified instructors for more than two decades. For the nodal agency and implementing institutions leading training activities to engage and connect with trained human resources continuously. In the absence of actual activities like training, exercises, conferences, etc., partners can still communicate through various communication platforms by sharing technical updates, newsletters, advocacy materials, and resource materials. It can be through social media, messaging platforms, or online discussion on partners' websites. Such communication platforms will also serve as a feedback mechanism that will provide valuable information to improve capacity development programs of partners and address specific training needs of human resources for response. Such preparedness activities can be included in partners' annual programming and budgets.Another platform that can be considered is the formation of an alumni association or group. Such groups have been established in other PEER countries like the Philippines and Indonesia. Alumni and instructors are part of a group that continuously discusses essential issues and shares views and experiences. The group officers act as an intermediary and represent the group in any discussions with the nodal agency.",
+            "weight": 0.3,
+            "subQuestions": [
+              {
+                "subQuestion": "Please provide details:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "9.2",
+            "question": "Best practices and lessons learned from PEER shared at National / Regional / Global DRR Platforms and conferences",
+            "description": "One of the weakest areas in the field of emergency management and response is documentation. Having an operations-orientated mentality, the focus of field personnel is more on response actions and less on documentation. Yet, there is a wealth of experiences, best practices, and lessons learned in countries worth sharing and learning from. Not only within the country but across countries that go beyond the South Asia region.There are numerous platforms wherein these learnings and best practices can be shared through conferences, conventions, panel discussions, and symposiums from national, regional, and global DRR platforms.",
+            "weight": 0.3,
+            "subQuestions": [
+              {
+                "subQuestion": "Please provide details:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "9.3",
+            "question": "Mechanism to collect information and document best practices to share PEER related information with stakeholders and beneficiaries",
+            "description": "Having excellent information to write about is one thing but a system to continuously be on the lookout for relevant news and events is another thing. The appropriate documentation system emphasized the importance of having a mechanism to systematically collect information through various platforms and feedback mechanisms mentioned in Indicator 9.1 on Communication Platform. Nodal agencies and implementing institutions should include learning management and sharing systems integral to its functions in their programs.",
+            "weight": 0.2,
+            "subQuestions": [
+              {
+                "subQuestion": "Please provide details:"
+              }
+            ]
+          },
+          {
+            "instruction": "Fill all the details",
+            "indicatorNo": "9.4",
+            "question": "Participation and learning opportunities for PEER instructors and graduates to recognize their national and regional contribution locally",
+            "description": "The PEER Program recognizes the importance of the contributions of alumni and instructors in the field of emergency management and capacity development in emergency response. This is the primary reason why the program encourages partners to document these contributions and share them with a broader audience outside the country's border. Such information act as an inspiration to others, be it an individual or an organization worth emulating. As part of strengthening the community of practice of PEER, partners are encouraged to provide an opportunity for trained responders and instructors to advance their learning and share their contribution in international learning exchange platforms to provide motivation. Global events like conferences, symposia, and meetings, including training events. Such events can be under the PEER program or other related DRR programs by other organizations and academic institutions.",
+            "weight": 0.2,
+            "subQuestions": [
+              {
+                "subQuestion": "Please provide details:"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "651e7637b9621ab119df5a2a": {
+    "version": "ورژن 1",
+    "modules": [
+        {
+          "instruction": "پروفیسر گامگے نے ایک انسٹی ٹیوٹ کے قیام کے بارے میں تبادلہ خیال کرنے کے لیے داخلی اور بین الاقوامی تجارت اور خوراک کے وزیر مسٹر وکرماراتھنے سے ملاقات کی درخواست کی۔ میٹنگ میں وزارت کے حکام، پیشہ ور افراد اور ماہرین تعلیم شامل تھے، اور ایک عبوری اقدام کے طور پر ضمانت کے ذریعے محدود کمپنی بنانے کی تجویز پیش کی گئی۔ اس سے پروجیکٹ کو کابینہ کی منظوری حاصل ہونے تک آگے بڑھنے کا موقع ملے گا، جس وقت حکومت انسٹی ٹیوٹ کو اپنے قبضے میں لے سکتی ہے اور اسے موراتووا یونیورسٹی سے منسلک کر سکتی ہے۔",
+          "moduleNo": "1",
+          "condition": "سری لنکا انسٹی ٹیوٹ آف انفارمیشن ٹیکنالوجی 1999 میں BOC مرچنٹ ٹاور، کولمبو میں ایک غیر منافع بخش کمپنی کے طور پر قائم کیا گیا تھا جس میں اسی سال یونیورسٹیز ایکٹ میں ترمیم کے بعد بیچلر آف سائنس کی ڈگریاں دینے کی اہلیت کی ضمانت دی گئی تھی، اس طرح اسے وزیر اعلیٰ تعلیم کی طرف سے تسلیم کیا گیا۔ .",
+          "indicators": [
+            {
+              "instruction": "میٹروپولیٹن کیمپس Kollupitiya میں بینک آف سیلون مرچنٹ ٹاور کے اندر واقع ہے۔ میٹروپولیٹن کیمپس صرف فیکلٹی آف بزنس اور فیکلٹی آف کمپیوٹنگ سے انڈرگریجویٹ ڈگریاں پیش کرتا ہے۔",
+              "indicatorNo": "1.1",
+              "question": "طلباء",
+              "description": "اپنے پہلے 2 سال کا مطالعہ مکمل کرنے کے بعد، طلباء کو مزید خصوصی تعلیم کے لیے ملابی کیمپس میں منتقل کیا جاتا ہے۔",
+              "weight":0.3,
+              "subQuestions": [
+                {
+                  "subQuestion": "طلباء",
+                  "subAnswer": ""
+                },
+                {
+                  "subQuestion": "اپنے پہلے 2 سال کا مطالعہ مکمل کرنے کے بعد، طلباء کو مزید خصوصی تعلیم کے لیے ملابی کیمپس میں منتقل کیا جاتا ہے۔",
+                  "subAnswer": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

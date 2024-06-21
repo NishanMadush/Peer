@@ -1,0 +1,486 @@
+{
+  "admin": {
+    "drawer": {
+      "menu": {
+        "calendar": "Calendar",
+        "dashboard": "Dashboard",
+        "help": "Help",
+        "home": "Home",
+        "projects": "Projects",
+        "report": "Report",
+        "settings": "Settings",
+        "logout": "Logout",
+        "userManagement": "Users",
+        "countryManagement": "Country",
+        "languageManagement": "Languages",
+        "institutionalizationGroup": "Assessment",
+        "institutionalizationFormTemplate": "Form",
+        "institutionalizationOrganizationAssessment": "Organization",
+        "institutionalizationCountryReview": "Country",
+        "reportCountry": "Country",
+        "reportCountryInDetail": "Module Country",
+        "reportOrganization": "Organization",
+        "reportAssessment": "Assessment",
+        "masterData": "Master Data"
+      }
+    },
+    "header": {
+      "notifications": {
+        "empty": {
+          "title": "Your notification list is empty"
+        },
+        "seeAll": "See all notifications"
+      }
+    },
+    "home": {
+      "achievement": {
+        "action": "View Profile",
+        "description": "You have completed {{progress}}% of your profile. Your current progress is great.",
+        "title": "Congratulations {{name}}"
+      },
+      "followers": {
+        "units": {
+          "likes": "2023-Jan",
+          "love": "Love",
+          "smiles": "Smiles"
+        }
+      },
+      "meeting": {
+        "title": "Reviews"
+      },
+      "targets": {
+        "income": "CSSR",
+        "followers": "CADRE",
+        "title": "Latest attempt",
+        "views": "MFR"
+      },
+      "views": {
+        "action": "View Dashboard",
+        "unit": "Course Specific institutionalization Score"
+      },
+      "welcome": {
+        "message": "This is how you have been doing so far with the PEER program. Let's make the progress by baby steps!",
+        "subTitle": "Welcome back!",
+        "title": "Hi {{name}},"
+      }
+    },
+    "pagination": {
+      "labelRowsPerPage": "Rows per page:"
+    }
+  },
+  "auth": {
+    "forgotPassword": {
+      "form": {
+        "action": "Send Confirmation",
+        "back": "Back to login",
+        "email": {
+          "label": "E-mail Address"
+        }
+      },
+      "notifications": {
+        "success": "Email has been sent!"
+      },
+      "subTitle": "To get a validation code, enter the e-mail address associated to your account.",
+      "title": "Get validation code"
+    },
+    "resetPassword": {
+      "form": {
+        "action": "Reset Password",
+        "back": "Back to login",
+        "code": {
+          "label": "Code"
+        },
+        "confirmPassword": {
+          "label": "Confirm Password"
+        },
+        "newPassword": {
+          "label": "New Password"
+        }
+      },
+      "notifications": {
+        "success": "Your password has been changed!"
+      },
+      "subTitle": "Enter the code you received by mail and choose a new password.",
+      "title": "Change your password"
+    },
+    "createPassword": {
+      "form": {
+        "action": "Create Password",
+        "back": "Back to login"
+      },
+      "notifications": {
+        "success": "Your password has been Created!"
+      },
+      "subTitle": "Enter the code you received by mail and create the password.",
+      "title": "Create your password"
+    },
+    "login": {
+      "forgotPasswordLink": "Forgot password?",
+      "form": {
+        "email": {
+          "label": "E-mail Address"
+        },
+        "password": {
+          "label": "Password"
+        }
+      },
+      "newAccountLink": "Don't have an account? Sign Up!",
+      "submit": "Sign in",
+      "title": "Sign in"
+    },
+    "register": {
+      "back": "Back to login",
+      "form": {
+        "email": {
+          "label": "E-mail Address"
+        },
+        "firstName": {
+          "label": "First Name"
+        },
+        "gender": {
+          "label": "Gender",
+          "options": {
+            "f": "F",
+            "m": "M",
+            "n": "NC"
+          }
+        },
+        "lastName": {
+          "label": "Last Name"
+        }
+      },
+      "notifications": {
+        "success": "Your account has been created successfully!"
+      },
+      "submit": "Register",
+      "title": "Register"
+    }
+  },
+  "calendar": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this event?"
+    },
+    "form": {
+      "color": {
+        "label": "Color"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "end": {
+        "label": "End Date"
+      },
+      "start": {
+        "label": "Start Date"
+      },
+      "title": {
+        "label": "Title"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Event"
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Event"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{event}} has been added!",
+      "deleteSuccess": "Event has been deleted!",
+      "updateSuccess": "{{event}} has been updated!"
+    },
+    "title": "Calendar"
+  },
+  "common": {
+    "backHome": "Back to Home",
+    "cancel": "Cancel",
+    "next": "Next",
+    "confirm": "Confirm",
+    "confirmation": "Confirmation",
+    "delete": "Delete",
+    "edit": "Edit",
+    "branch": "branch",
+    "user": "Users",
+    "search": "Search",
+    "country": {
+      "filter": "Filter By Country",
+      "allCountries": "All Countries"
+    },
+    "errors": {
+      "forbidden": {
+        "subTitle": "You don't have access to view this page"
+      },
+      "notFound": {
+        "subTitle": "Sorry, we couldn’t find the page you’re looking for. Perhaps you’ve mistyped the URL? Be sure to check your spelling.",
+        "title": "Oops!"
+      },
+      "unexpected": {
+        "subTitle": "Something went wrong! If the problem persists, contact us!",
+        "title": "Oops!"
+      },
+      "underConstructions": {
+        "subTitle": "We are actively working on this page.",
+        "title": "Under constructions!"
+      }
+    },
+    "reset": "Reset",
+    "retry": "Try Again",
+    "selected": "Selected",
+    "snackbar": {
+      "error": "Error",
+      "success": "Success",
+      "info": "Information"
+    },
+    "today": "Today",
+    "update": "Update",
+    "validations": {
+      "email": "Invalid email address",
+      "max": "Must be {{size}} characters or less",
+      "min": "Must be {{size}} characters or more",
+      "passwordMatch": "Password does not match",
+      "required": "Required"
+    },
+    "yes": "Yes",
+    "no": "No"
+  },
+  "dashboard": {
+    "activity": {
+      "title": "Assessment history"
+    },
+    "budget": {
+      "legend": {
+        "unit": "Module score"
+      },
+      "title": "Latest institutionalization"
+    },
+    "orderProgress": {
+      "title": "MFR"
+    },
+    "overview": {
+      "orders": "CSSR",
+      "sales": "MFR",
+      "users": "HOPE",
+      "visits": "CADRE"
+    },
+    "progress": {
+      "title": "Latest progress"
+    },
+    "salesByAge": {
+      "title": "Sales by Age"
+    },
+    "salesByCategory": {
+      "legend": {
+        "books": "Books",
+        "movies": "Movies & TV",
+        "software": "Software"
+      },
+      "title": "Sales by Category"
+    },
+    "salesHistory": {
+      "title": "Latest outcome",
+      "unit": "Overview"
+    },
+    "salesProgress": {
+      "title": "Sales"
+    },
+    "teams": {
+      "columns": {
+        "progress": "Avg score",
+        "team": "Organization",
+        "value": " "
+      },
+      "title": "Latest organization overview"
+    },
+    "users": {
+      "title": "Latest country overview"
+    },
+    "visitProgress": {
+      "title": "CADRE"
+    },
+    "title": "Dashboard"
+  },
+  "help": {
+    "menu": {
+      "contact": "Contact",
+      "faq": "FAQ",
+      "guide": "Guide",
+      "support": "Support"
+    },
+    "title": "Help Center"
+  },
+  "landing": {
+    "cta": {
+      "main": "Sign in",
+      "mainAuth": "Continue as {{name}}",
+      "secondary": "Source code"
+    },
+    "features": {
+      "more": "More on Github",
+      "title": "Main Features"
+    },
+    "title": "Institutionalization Assessment Tool"
+  },
+  "notifications": {
+    "newComment": "<bold>{{user}}</bold> has written a new comment on your profile",
+    "unreadMessages": "You have <bold>{{quantity}}</bold> unread messages"
+  },
+  "profile": {
+    "activity": {
+      "empty": "Logs of your activity will show up here!",
+      "logs": {
+        "eventAdded": "<bold>You</bold> added a new event: <bold>{{resource}}</bold>",
+        "eventUpdated": "<bold>You</bold> updated event: <bold>{{resource}}</bold>",
+        "userAdded": "<bold>You</bold> added a new user: <bold>{{resource}}</bold>",
+        "userDeleted": "<bold>You</bold> deleted user: <bold>{{resource}}</bold>",
+        "userUpdated": "<bold>You</bold> updated user: <bold>{{resource}}</bold>"
+      }
+    },
+    "completion": {
+      "title": "Profile information status"
+    },
+    "info": {
+      "form": {
+        "email": {
+          "label": "Email Address"
+        },
+        "firstName": {
+          "label": "First Name"
+        },
+        "gender": {
+          "label": "Gender",
+          "options": {
+            "f": "Female",
+            "m": "Male",
+            "n": "NC"
+          }
+        },
+        "lastName": {
+          "label": "Last Name"
+        }
+      },
+      "title": "Update profile"
+    },
+    "menu": {
+      "activity": "Activity",
+      "info": "Information",
+      "password": "Password"
+    },
+    "notifications": {
+      "informationUpdated": "Information updated!",
+      "passwordChanged": "Password changed!"
+    },
+    "password": {
+      "form": {
+        "current": {
+          "label": "Current Password"
+        },
+        "confirm": {
+          "label": "Confirm Password"
+        },
+        "new": {
+          "label": "New Password"
+        }
+      },
+      "title": "Change your password"
+    }
+  },
+  "settings": {
+    "drawer": {
+      "direction": {
+        "label": "Direction",
+        "options": {
+          "ltr": "LTR",
+          "rtl": "RTL"
+        }
+      },
+      "language": {
+        "label": "Language",
+        "options": {
+          "en": "English",
+          "fr": "اردو",
+          "si": "සිංහල"
+        }
+      },
+      "mode": {
+        "label": "Mode",
+        "options": {
+          "dark": "Dark",
+          "light": "Light"
+        }
+      },
+      "sidebar": {
+        "label": "Sidebar",
+        "options": {
+          "collapsed": "Collapsed",
+          "full": "Full"
+        }
+      },
+      "title": "Settings"
+    }
+  },
+  "userManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this user?"
+    },
+    "form": {
+      "disabled": {
+        "label": "Disabled"
+      },
+      "email": {
+        "label": "Email Address"
+      },
+      "firstName": {
+        "label": "First Name"
+      },
+      "gender": {
+        "label": "Gender",
+        "options": {
+          "f": "Female",
+          "m": "Male",
+          "n": "NC"
+        }
+      },
+      "lastName": {
+        "label": "Last Name"
+      },
+      "role": {
+        "label": "Role"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add User"
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit User"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{user}} has been added!",
+      "deleteSuccess": "User(s) have been deleted!",
+      "updateSuccess": "{{user}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "actions": "Actions",
+        "gender": "Gender",
+        "role": "Role",
+        "status": "Status",
+        "user": "User"
+      }
+    },
+    "toolbar": {
+      "title": "Users"
+    }
+  },
+  "formik":{
+    "validation":{
+      "failed": "Please revise your input fields."
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+    "_id": "cd67a9c8-5fa8-45c8-82d8-d5f2288c245e",
+    "colName": "organization",
+    "created": "2023-01-12T14:37:24.302Z",
+    "sortNum": 40000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "29913a91-bedf-4baa-b5b9-74b11a41dd2f",
+            "colId": "cd67a9c8-5fa8-45c8-82d8-d5f2288c245e",
+            "containerId": "",
+            "name": "create organization",
+            "url": "{{host}}/api/organizations",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-01-12T14:37:36.822Z",
+            "modified": "2023-05-02T04:24:43.907Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"SS pvt ltd\",\n  \"description\": \"SoftSolvo\",\n  \"category\": \"Engineering\",\n  \"countryId\": \"63c000dc204c652d5bee5f24\",\n  \"registeredNo\": \"1234\",\n  \"isLegalEntity\": true,\n  \"vision\": \"Long goal\",\n  \"mission\": \"Short goal\",\n  \"organizationType\": \"Government\",\n  \"geographicArea\": \"National\",\n  \"status\": \"Active\",\n  \"departments\": [\n    \"d1\",\n    \"d2\"\n  ],\n  \"designations\": [\n    \"admin\",\n    \"user\"\n  ],\n  \"headOffice\": {\n    \"branchName\": \"Main branch\",\n    \"isHeadOffice\": true,\n    \"isVirtual\": false,\n    \"contactPerson\": \"Mr. Sugath\",\n    \"email\": \"sugath@ss.lk\",\n    \"phoneNumber\": \"0112-123456\",\n    \"address\": {\n      \"category\": \"Office\",\n      \"line1\": \"12/34\",\n      \"street\": \"Nwam mawatha\",\n      \"city\": \"Colombo\",\n      \"postalCode\": \"12345\",\n      \"countryId\": \"63c000dc204c652d5bee5f24\",\n      \"location\": {\n        \"lat\": -1,\n        \"lng\": -1\n      }\n    },\n    \"website\": \"www.ss.lk\",\n    \"employees\": []\n  },\n  \"branches\": []\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a60009b0-d829-438b-b488-0c10eee64edd",
+            "colId": "cd67a9c8-5fa8-45c8-82d8-d5f2288c245e",
+            "containerId": "",
+            "name": "get organizations",
+            "url": "{{host}}/api/organizations?countryId=63c000dc204c652d5bee5f24",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-01-12T14:37:48.439Z",
+            "modified": "2023-06-25T08:33:43.604Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "countryId",
+                    "value": "63c000dc204c652d5bee5f24",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "65a2047c-4792-4e59-a34c-6f759bbfdafc",
+            "colId": "cd67a9c8-5fa8-45c8-82d8-d5f2288c245e",
+            "containerId": "",
+            "name": "get organization",
+            "url": "{{host}}/api/organizations/63c02581f1f8755191590172",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-01-12T14:38:07.328Z",
+            "modified": "2023-01-13T20:40:51.858Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b2901be0-8a5a-4caa-9fb7-360878be8426",
+            "colId": "cd67a9c8-5fa8-45c8-82d8-d5f2288c245e",
+            "containerId": "",
+            "name": "update organization",
+            "url": "{{host}}/api/organizations/63c02581f1f8755191590172",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-01-12T14:38:28.003Z",
+            "modified": "2023-01-13T20:40:59.474Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"SS pvt ltd\",\n  \"description\": \"SoftSolvo\",\n  \"category\": \"Engineering\",\n  \"countryId\": \"63c000dc204c652d5bee5f24\",\n  \"registeredNo\": \"1234\",\n  \"isLegalEntity\": true,\n  \"vision\": \"Long goal\",\n  \"mission\": \"Short goal\",\n  \"organizationType\": \"Government\",\n  \"geographicArea\": \"National\",\n  \"status\": \"Active\",\n  \"departments\": [\n    \"d1\",\n    \"d2\"\n  ],\n  \"designations\": [\n    \"admin\",\n    \"user\"\n  ],\n  \"headOffice\": {\n    \"branchName\": \"Main branch\",\n    \"isHeadOffice\": true,\n    \"isVirtual\": false,\n    \"contactPerson\": \"Mr. Sugath\",\n    \"email\": \"sugath@ss.lk\",\n    \"phoneNumber\": \"0112-123456\",\n    \"address\": {\n      \"location\": {\n        \"lat\": -1,\n        \"lng\": -1\n      },\n      \"category\": \"Office\",\n      \"line1\": \"12/34\",\n      \"street\": \"Nwam mawatha\",\n      \"city\": \"Colombo\",\n      \"postalCode\": \"12345\",\n      \"countryId\": \"63c000dc204c652d5bee5f24\"\n    },\n    \"website\": \"www.ss.lk\",\n    \"employees\": [\"63b228f9e452cf6bd25f52e7\"],\n    \"_id\": \"63c021642614393c9634cffa\"\n  },\n  \"branches\": [{\n    \"branchName\": \"Galle branch\",\n    \"isHeadOffice\": false,\n    \"isVirtual\": false,\n    \"contactPerson\": \"Mr. Dasanayake\",\n    \"email\": \"das@ss.lk\",\n    \"phoneNumber\": \"0711-123456\",\n    \"address\": {\n      \"location\": {\n        \"lat\": -1,\n        \"lng\": -1\n      },\n      \"category\": \"Office\",\n      \"line1\": \"71\",\n      \"street\": \"Beach street\",\n      \"city\": \"Galle\",\n      \"postalCode\": \"12200\",\n      \"countryId\": \"63c000dc204c652d5bee5f24\"\n    },\n    \"website\": \"www.ss.lk\",\n    \"employees\": []\n  }]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "332a4abc-64a3-4432-b09e-731fd5dfe3bc",
+            "colId": "cd67a9c8-5fa8-45c8-82d8-d5f2288c245e",
+            "containerId": "",
+            "name": "delete organization",
+            "url": "{{host}}/api/organizations/63c021642614393c9634cff9",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-01-12T14:38:55.296Z",
+            "modified": "2023-01-13T20:41:08.287Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

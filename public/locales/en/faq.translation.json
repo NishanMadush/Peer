@@ -1,0 +1,82 @@
+{
+  "title": "Frequently Asked Questions",
+  "noAnswerLink": "Can't find it here? Check out our Help Center.",
+  "questions": {
+      "question1": {
+        "title1": "How to create a user?",
+        "description1": "",
+        "answer1": "The super-administrator can add an user to register the system by using the dialog form. It will pop up when click on (no.01). Basic details of user should be provided in the first tab. The users must have a new email address in this scenario. If any organizational user or administrator user registered is using an email address, it cannot be used again to create a new user. When click on (no. 08), can navigate to the second tab to provide information. When click on (no. 09), can navigate to the third tab to provide employment details. When click on (no. 10) in the third tab, can complete the registration of the user.",
+      "resource1": {
+        "link1": {
+          "text1": "More information",
+          "location1": "/faq/image1.pdf"
+        }
+      }
+      },
+      "question2": {
+        "title2": "How to add a country?",
+        "description2": "",
+        "answer2": "The administrator can add countries to the system from attached dialog form. It will pop up when click on (no.01) in attached one. After completing all the fields with the relevant details, the country can be added when click on (no. 06).",
+        "resource2": {
+          "link2": {
+            "text2": "More information",
+            "location2": "/faq/image2.pdf"
+          }
+        }
+      },
+      "question3": {
+        "title3": "How to add a language?",
+        "description3": "",
+        "answer3": "The administrator can add new languages into the tool when click on (no.01). After completing all the fields with the relevant details, new language can be added when click on (no. 06)",
+      "resource3": {
+        "link3": {
+          "text3": "More information",
+          "location3": "/faq/image4.pdf"
+        }
+      }
+      },
+      "question4": {
+        "title4": "How to add an organization?",
+        "description4": "",
+        "answer4": "The administrator can add an organization to register the system by using this form. It will pop up when click on (no.01). Main details of organization should be provided in the first tab (Figure 12). When click on (no. 07), can navigate to the second tab to provide details of departments in the organization. When click on (no. 08) in the second tab, can add any number of departments related to the organization. If an unnecessary department is added, it can be removed, when click on (no. 09). When click on (no. 10), can navigate to the third tab to provide details of designations. When click on (no. 11) in the second tab, can add any number of designations related to the organization. If an unnecessary designation is added, it can be removed, when click on (no. 12). When click on (no. 13) in the third tab, can complete the registration of the organization.",
+        "resource4": {
+          "link4": {
+            "text4": "More information",
+            "location4": "/faq/image5.pdf"
+          }
+        }
+      },
+      "question5": {
+        "title5": "How to create a form?",
+        "description5": "",
+        "answer5": "The dialog form that will be generated for the administrator when click on above (no. 01). After completing all the fields with the relevant details, new form can be added when click on (no. 02).",
+        "resource5": {
+          "video5": {
+            "title5":"",
+            "src5":"https://www.youtube.com/embed/SqQp8LKCUeM"
+          },
+          "link5": {
+            "text5": "More information",
+            "location5": "/faq/image6.pdf"
+          }
+        }
+      },
+      "question6": {
+        "title6": "How to create an assessment?",
+        "description": "",
+        "answer6": "The organization user can start with a new empty assessment when click on (no. 06) in figure (06) or a create a new assessment using the existing assessment template. Moreover, the administrator can edit an assessment that is already in progress, when click on (no. 08). When clicking on complete assessment (no. 07), organization user can only view the assessment. He cannot edit it. By clicking on (no. 10), user can save the assessment answers. If the user answered, all the questions in the assessment, a dialog will pop-up asking whether to complete the assessment (figure 31), when (no. 10) is clicked.",
+      "resource6": {
+        "video6": {
+          "title6":"",
+          "src6":"https://www.youtube.com/embed/SqQp8LKCUeM"
+        },
+        "link6": {
+          "text6": "More information",
+          "location6": "/faq/image6.pdf"
+        }
+      }
+      }
+      
+    }
+  
+}

@@ -1,0 +1,116 @@
+{
+  "title": "FAQs",
+  "noAnswerLink": "Can't find it here? Check out our Help Center.",
+  "questions": [
+    {
+      "question": {
+        "title": "faq:questions.question1.title1",
+        "description": ""
+      },
+      "answer": "faq:questions.question1.answer1",
+      "resource": {
+        "link": {
+          "text": "faq:questions.question1.resource1.link1.text1",
+          "location": "faq:questions.question1.resource1.link1.location1"
+        }
+      },
+      "role": [
+        "Super-Administrator",
+        "ADPC-Administrator",
+        "Country-Administrator",
+        "Organization-User"
+      ]
+    },
+    {
+      "question": {
+        "title": "faq:questions.question2.title2",
+        "description": ""
+      },
+      "answer": "faq:questions.question2.answer2",
+      "resource": {
+        "link": {
+          "text": "faq:questions.question2.resource2.link2.text2",
+          "location": "faq:questions.question2.resource2.link2.location2"
+        }
+      },
+      "role": [
+        "Super-Administrator",
+        "ADPC-Administrator",
+        "Country-Administrator"
+      ]
+    },
+    {
+      "question": {
+        "title": "faq:questions.question3.title3",
+        "description": ""
+      },
+      "answer": "faq:questions.question3.answer3",
+      "resource": {
+        "link": {
+          "text": "faq:questions.question3.resource3.link3.text3",
+          "location": "faq:questions.question3.resource3.link3.location3"
+        }
+      },
+      "role": ["Super-Administrator"]
+    },
+    {
+      "question": {
+        "title": "faq:questions.question4.title4",
+        "description": ""
+      },
+      "answer": "faq:questions.question4.answer4",
+      "resource": {
+        "link": {
+          "text": "faq:questions.question4.resource4.link4.text4",
+          "location": "faq:questions.question4.resource4.link4.location4"
+        }
+      },
+      "role": [
+        "Super-Administrator",
+        "ADPC-Administrator",
+        "Country-Administrator"
+      ]
+    },
+    {
+      "question": {
+        "title": "faq:questions.question5.title5",
+        "description": ""
+      },
+      "answer": "faq:questions.question5.answer5",
+      "resource": {
+        "video": {
+          "title":"",
+          "src":"faq:questions.question5.resource5.video5.src5"
+        },
+        "link": {
+          "text": "faq:questions.question5.resource5.link5.text5",
+          "location": "faq:questions.question5.resource5.link5.location5"
+        }
+      },
+      "role": ["Super-Administrator"]
+    },
+    {
+      "question": {
+        "title": "faq:questions.question6.title6",
+        "description": ""
+      },
+      "answer": "faq:questions.question6.answer6",
+      "resource": {
+        "video": {
+          "title":"",
+          "src":"faq:questions.question6.resource6.video6.src6"
+        },
+        "link": {
+          "text": "faq:questions.question6.resource6.link6.text6",
+          "location": "faq:questions.question6.resource6.link6.location6"
+        }
+      },
+      "role": [
+        "Super-Administrator",
+        "ADPC-Administrator",
+        "Country-Administrator",
+        "Organization-User"
+      ]
+    }
+  ]
+}

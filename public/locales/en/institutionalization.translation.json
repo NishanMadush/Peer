@@ -1,0 +1,399 @@
+{
+  "formManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this form?"
+    },
+    "nodata": {
+      "modules": "No institutionalization form modules yet"
+    },
+    "toolbar": {
+      "title": "Institutionalization"
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Form"
+      },
+      "update": {
+        "action": "Update",
+        "title": "Update Form"
+      },
+      "delete": {
+        "action":"Delete",
+        "title":"Delete Form"
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Form"
+      }
+    },
+    "notifications": {
+      "addSuccess": "form has been added!",
+      "deleteSuccess": "Assessment(s) have been deleted!",
+      "updateSuccess": "form has been updated!"
+    },
+    "formTable": {
+      "headers": {
+        "formName": "Form",
+        "number": "No.",
+        "description": "Module | Indicator",
+        "date": "Date",
+        "weight": "Weight",
+        "actions": "Actions",
+        "status": "Status"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "details": "Details",
+        "publish": "Publish",
+        "addIndicator": "Add Indicator",
+        "addSubQuestion": "Add Sub Question"
+      }
+    },
+    "formDialog":{
+      "form": {
+        "version": {
+          "label":"Version",
+          "required": "Required"
+        },
+        "title": {
+          "label":"Title",
+          "required": "Required"
+        },
+        "date": {
+          "label":"Date",
+          "required": "Required"
+        },
+        "status": {
+          "label":"Status",
+          "required": "Required"
+        }
+      },
+      "actions": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete"
+      }
+    },
+    "formModuleDialog": {
+      "confirmations": {
+        "delete": "Are you sure you want to delete this module?"
+      },
+      "form": {
+        "instruction": {
+          "label":"Instruction"
+        },
+        "moduleNo": {
+          "label":"Module No",
+          "required": "Required"
+        },
+        "condition": {
+          "label":"Condition",
+          "required": "Required"
+        }
+      },
+      "actions": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "addIndicator": "Add Indicator"
+      },
+      "dialogTitle": {
+        "add": "Add Module",
+        "edit": "Edit Module"
+      },
+      "notifications": {
+        "addSuccess": "module has been added!",
+        "deleteSuccess": "Module(s) have been deleted!",
+        "updateSuccess": "module has been updated!"
+      },
+      "pagination": {
+        "labelRowsPerPage": "Modules per page:"
+      }
+    },
+    "formModuleIndicator":{
+      "confirmations": {
+        "delete": "Are you sure you want to delete this indicator?"
+      },
+      "form":{
+        "instruction": {
+          "label":"Instruction"
+        },
+        "indicatorNo": {
+          "label":"Indicator No",
+          "required": "Required"
+        },
+        "question": {
+          "label":"Question",
+          "required": "Required"
+        },
+        "description": {
+          "label":"Description",
+          "required": "Required"
+        }
+      },
+      "actions": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "dialogTitle": {
+        "add": "Add Indicator",
+        "edit": "Edit Indicator"
+      },
+      "notifications": {
+        "addSuccess": "indicator has been added!",
+        "deleteSuccess": "Indicator(s) have been deleted!",
+        "updateSuccess": "indicator has been updated!"
+      },
+      "pagination": {
+        "labelRowsPerPage": "Modules per page:"
+      }
+    },
+    "formModuleSubQuestion":{
+      "confirmations": {
+        "delete": "Are you sure you want to delete this sub question?"
+      },
+      "form":{
+        "subQuestion": {
+          "label":"Sub Question"
+        }
+      },
+      "actions": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "addIndicator": "Add Indicator"
+      },
+      "dialogTitle": {
+        "add": "Add SubQuestion",
+        "edit": "Edit SubQuestion"
+      },
+      "notifications": {
+        "addSuccess": "sub question has been added!",
+        "deleteSuccess": "Sub Question(s) have been deleted!",
+        "updateSuccess": "sub question has been updated!"
+      },
+      "pagination": {
+        "labelRowsPerPage": "Modules per page:"
+      }
+    }
+  },
+  "countryReviewManagement":{
+    "confirmations": {
+      "delete": "Are you sure you want to delete this country review?"
+    },
+    "nodata": {
+      "assessment": "No institutionalization assessment"
+    },
+    "toolbar": {
+      "title": "Institutionalization"
+    },
+    "notifications": {
+      "addSuccess": "countryreview has been added!",
+      "deleteSuccess": "Countryreview(s) have been deleted!",
+      "updateSuccess": "Countryreview has been updated!"
+    },
+    "countryReviewTable": {
+      "headers": {
+        "title": "Title",
+        "year": "Year",
+        "start": "Start",
+        "timeZone": "Time Zone",
+        "dates": "Dates",
+        "score": "Score",
+        "weight": "Weight",
+        "actions": "Actions",
+        "status": "Status"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "details": "Details",
+        "publish": "Publish"
+      }
+    },
+    "countryReviewDialog": {
+      "form": {
+        "tab": {
+          "basic": "Basic",
+          "trainingComponents": "Training Components"
+        },
+        "countryId": {
+          "label":"Country",
+          "required": "Required"
+        },
+        "title": {
+          "label":"Title",
+          "required": "Required"
+        },
+        "year": {
+          "label":"Year",
+          "required": "Required"
+        },
+        "start": {
+          "label":"Start",
+          "required": "Required"
+        },
+        "end": {
+          "label":"End",
+          "required": "Required"
+        },
+        "timeZone": {
+          "label":"TimeZone",
+          "required": "Required"
+        },
+        "status": {
+          "label":"Status",
+          "required": "Required"
+        },
+        "score": {
+          "label":"Score",
+          "required": "Required"
+        },
+        "classification": {
+          "label":"Classification",
+          "required": "Required"
+        },
+        "code": {
+          "label":"Code",
+          "required": "Required"
+        },
+        "name": {
+          "label":"Name",
+          "required": "Required"
+        }
+        
+      },
+      "modal": {
+        "add": {
+          "action": "Add",
+          "title": "Add Country Review"
+        },
+        "update": {
+          "action": "Update",
+          "title": "Update Country Review"
+        },
+        "delete": {
+          "action":"Delete",
+          "title":"Delete Country Review"
+        },
+        "edit": {
+          "action": "Edit",
+          "title": "Edit Country Review"
+        }
+      },
+      "actions": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "addIndicator": "Add Indicator"
+      },
+      "pagination": {
+        "labelRowsPerPage": "Modules per page:"
+      },
+      "TimeZoneEnum": {
+        "Thailand": "Bangkok",
+        "SriLanka": "Colombo",
+        "Bangladesh": "Dhaka",
+        "Vietnam": "Ho-chi-Minh",
+        "Indonesia": "Jakarta",
+        "Pakistan": "Karachi",
+        "Nepal": "Kathmandu",
+        "Malaysia": "Kualalumpur",
+        "Maldives": "Maldives",
+        "Philippines": "Manila",
+        "India": "Mumbai",
+        "Cambodia": "Phnom-Penh",
+        "China1": "Shanghai",
+        "Bhutan": "Thimphu",
+        "China2": "Urumqi",
+        "Mongolia": "Ulaanbaatar",
+        "Laos": "Vientiane",
+        "Myanmar": "Yangon"
+      }
+    }
+
+  },
+  "organizationAssessmentManagement":{
+    "confirmations": {
+      "delete": "Are you sure you want to delete this assessment?",
+      "saveAnswer": "CONGRATULATIONS..!!! You have filled all the questions. Do you want to complete the assessment?"
+    },
+    "nodata": {
+      "assessment": "No institutionalization assessment"
+    },
+    "toolbar": {
+      "title": "Institutionalization"
+    },
+    "notifications": {
+      "addSuccess": "{{assessment}} has been added!",
+      "deleteSuccess": "Assessment(s) have been deleted!",
+      "updateSuccess": "{{Assessment}} has been updated!"
+    },
+    "print": {
+      "graph": {
+        "title": "Institutionalization Modules",
+        "moduleScore": "moduleScore",
+        "table": {
+          "moduleNo": "Module No",
+          "moduleName": "Module Name",
+          "score": "Score"
+        }
+      }
+    },
+    "assessmentTable": {
+      "headers": {
+        "title": "Title",
+        "year": "Year",
+        "start": "Start",
+        "timeZone": "Time Zone",
+        "date": "Date",
+        "weight": "Weight",
+        "actions": "Actions",
+        "status": "Status",
+        "description": ""
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "details": "Details",
+        "publish": "Publish"
+      },
+      "pagination": {
+        "labelRowsPerPage": "Modules per page:"
+      }
+    },
+    "assessmentHistoryTable": {
+      "headers": {
+        "title": "Title",
+        "actions": "Actions",
+        "score": "Score",
+        "status": "Status"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "graph": "Graph",
+        "print": "Print",
+        "details": "Details",
+        "publish": "Publish"
+      },
+      "pagination": {
+        "labelRowsPerPage": "Reviews per page:"
+      }
+    }
+
+  },
+  "organizationCourseManagement":{
+    "toolbar": {
+      "title": "Institutionalization"
+    }
+  },
+  "organizationHistoryManagement":{
+    "toolbar": {
+      "title": "Institutionalization"
+    }
+  }
+}

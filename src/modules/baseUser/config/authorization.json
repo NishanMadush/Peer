@@ -1,0 +1,287 @@
+{
+  "countries": {
+    "components": {
+      "CountryTable": {
+        "button": {
+          "deleteAll": {
+            "Super-Administrator": "enable"
+          }
+        },
+        "menu": {
+          "delete": {
+            "Super-Administrator": "enable"
+          },
+          "edit": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable"
+          }
+        }
+      }
+    },
+    "pages": {
+      "CountryManagement": {
+        "button": {
+          "add": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable"
+          }
+        }
+      }
+    }
+  },
+  "institutionalization": {
+    "formTemplate": {
+      "components": {
+        "FormTable": {
+          "button": {
+            "deleteAll": {
+              "Super-Administrator": "enable"
+            }
+          },
+          "menu": {
+            "delete": {
+              "Super-Administrator": "enable"
+            },
+            "edit": {
+              "Super-Administrator": "enable",
+              "ADPC-Administrator": "enable"
+            },
+            "details": {
+              "Super-Administrator": "enable",
+              "ADPC-Administrator": "enable"
+            }
+          }
+        },
+        "FormModuleTable": {
+          "button": {
+            "deleteModule": {
+              "Super-Administrator": "enable"
+            },
+            "deleteModuleIndicator": {
+              "Super-Administrator": "enable"
+            },
+            "deleteModuleIndicatorSubQuestion": {
+              "Super-Administrator": "enable"
+            }
+          }
+        }
+      },
+      "pages": {
+        "FormManagement": {
+          "button": {
+            "add": {
+              "Super-Administrator": "enable",
+              "ADPC-Administrator": "enable"
+            }
+          }
+        }
+      }
+    },
+    "countryReview": {
+      "components": {
+        "CountryReviewTable": {
+          "button": {
+            "deleteAll": {
+              "Super-Administrator": "enable"
+            }
+          },
+          "menu": {
+            "delete": {
+              "Super-Administrator": "enable"
+            },
+            "edit": {
+              "Super-Administrator": "enable",
+              "ADPC-Administrator": "enable",
+              "Country-Administrator": "enable"
+            }
+          },
+          "dropDownFilter": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable"
+          }
+        },
+        "CountryReviewDialog": {
+          "score": {
+            "Super-Administrator": "hidden",
+              "ADPC-Administrator": "hidden",
+              "Country-Administrator": "hidden"
+          },
+          "classification": {
+            "Super-Administrator": "hidden",
+              "ADPC-Administrator": "hidden",
+              "Country-Administrator": "hidden"
+          }
+        }
+      },
+      "pages": {
+        "CountryReviewManagement": {
+          "button": {
+            "add": {
+              "Super-Administrator": "enable",
+              "ADPC-Administrator": "enable",
+              "Country-Administrator": "enable"
+            }
+          }
+        }
+      }
+    },
+    "organizationAssessment": {
+      "components": {
+        "AssessmentHistoryTable": {
+          "dropDownFilter": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable"
+          }
+        }
+      },
+      "pages": {
+        "OrganizationHistoryManagement": {
+          "button": {
+            "add": {
+              "Organization-User": "enable"
+            }
+          }
+        }
+      }
+    }
+  },
+  "languages": {
+    "components": {
+      "LanguageTable": {
+        "button": {
+          "deleteAll": {
+            "Super-Administrator": "enable"
+          }
+        },
+        "menu": {
+          "delete": {
+            "Super-Administrator": "enable"
+          },
+          "edit": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable"
+          }
+        }
+      }
+    },
+    "pages": {
+      "LanguageManagement": {
+        "button": {
+          "add": {
+            "Super-Administrator": "enable"
+          }
+        }
+      }
+    }
+  },
+  "organizations": {
+    "components": {
+      "OrganizationTable": {
+        "button": {
+          "deleteAll": {
+            "Super-Administrator": "enable"
+          }
+        },
+        "menu": {
+          "delete": {
+            "Super-Administrator": "enable"
+          },
+          "edit": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable",
+            "Country-Administrator": "enable",
+            "Organization-User": "enable"
+          }
+        },
+        "dropDownFilter": {
+          "Super-Administrator": "enable",
+          "ADPC-Administrator": "enable"
+        }
+      },
+      "BranchTable": {
+        "button": {
+          "deleteAll": {
+            "Super-Administrator": "enable"
+          }
+        },
+        "menu": {
+          "delete": {
+            "Super-Administrator": "enable"
+          },
+          "edit": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable",
+            "Country-Administrator": "enable",
+            "Organization-User": "enable"
+          },
+          "action": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable",
+            "Country-Administrator": "enable"
+          }
+        }
+      }
+    },
+    "pages": {
+      "OrganizationManagement": {
+        "button": {
+          "addOrganization": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable",
+            "Country-Administrator": "enable"
+          },
+          "addBranch": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable",
+            "Country-Administrator": "enable"
+          }
+        }
+      }
+    }
+  },
+  "users": {
+    "components": {
+      "UserTable": {
+        "button": {
+          "deleteAll": {
+            "Super-Administrator": "enable"
+          }
+        },
+        "menu": {
+          "delete": {
+            "Super-Administrator": "enable"
+          },
+          "edit": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable",
+            "Country-Administrator": "enable"
+          }
+        },
+        "dropDownFilter": {
+          "Super-Administrator": "enable",
+          "ADPC-Administrator": "enable"
+        }
+      }
+    },
+    "pages": {
+      "UserManagement": {
+        "button": {
+          "add": {
+            "Super-Administrator": "enable",
+            "ADPC-Administrator": "enable",
+            "Country-Administrator": "enable"
+          }
+        }
+      }
+    }
+  },
+  "baseUser": {
+    "pages": {
+      "Profile": {
+        "background": {
+          "Country-Administrator": "enable"
+        }
+      }
+    }
+  }
+}

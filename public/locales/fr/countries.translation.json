@@ -1,0 +1,68 @@
+{
+  "countryManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس ملک کو حذف کرنا چاہتے ہیں؟"
+    },
+    "form": {
+      "status": {
+        "label": "حالت"
+      },
+      "code": {
+        "label": "ملک کا کوڈ"
+      },
+      "isAppCountry": {
+        "label": "کیا اے پی پی ملک ہے؟",
+        "options": {
+          "y": "جی ہاں",
+          "n": "نہیں"
+        }
+      },
+      "email": {
+        "label": "ای میل اڈریس"
+      },
+      "isoCode": {
+        "label": "آئی ایس او کنٹری کوڈ"
+      },
+      "appCountry": {
+        "label": "appCountry",
+        "options": {
+          "y": "جی ہاں",
+          "n": "نہیں",
+          "idk": "یقین نہیں"
+        }
+      },
+      "newCountry": {
+        "label": "نیا ملک"
+      },
+      "name": {
+        "label": "ملک کا نام"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "ملک شامل کریں۔"
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "ملک میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "ملک شامل کیا گیا ہے!",
+      "deleteSuccess": "ملک (ملکوں) کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "ملک کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "name": "ملک کا نام",
+        "isAppCountry": "اے پی پی ہے۔",
+        "status": "حالت",
+        "actions": "اعمال"
+      }
+    },
+    "toolbar": {
+      "title": "ممالک"
+    }
+  }
+}

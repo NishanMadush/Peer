@@ -1,0 +1,10 @@
+export const INSTITUTIONALIZATION_ORGANIZATIONS_HISTORY_MANAGEMENT_ROUTE =
+  'institutionalization-organization-history-management'
+
+export const INSTITUTIONALIZATION_ORGANIZATIONS_COURSES_MANAGEMENT_ROUTE =
+  'institutionalization-organization-course-management'
+
+export const INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT_MANAGEMENT_ROUTE =
+  'institutionalization-organization-assessment-management'
+
+export const INSTITUTIONALIZATION_ORGANIZATIONS_ASSESSMENTS_MANAGEMENT_ROUTE = `${INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT_MANAGEMENT_ROUTE}/*`

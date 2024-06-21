@@ -1,0 +1,43 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDdlZWVhMDVmYWZlYzBmNjNkMTgiLCJpYXQiOjE2OTYzMDkxMzYsImV4cCI6MTY5NjM5MzEzNiwidHlwZSI6ImFjY2VzcyJ9.JkuoQ_pSY8bBqMwIiMCgKE5OKccnfdJ8R1wJgfwzOIQ
+
+
+### Create country
+POST  {{host}}/api/countries HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+peer-language: si-LK
+{
+  "code": "SG",
+  "name": "Singapore",
+  "order": -1,
+  "isAppCountry": true,
+  "status": "Active",
+}
+
+### Update country
+PATCH  {{host}}/api/countries/64fcba21b35b22f44b51643e HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+{
+  "code": "SP",
+  "name": "Singapore",
+  "order": -1,
+  "isAppCountry": true,
+  "status": "Active",
+}
+
+### Get countries
+GET  {{host}}/api/countries HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Get country
+GET  {{host}}/api/countries/6493cd96157ac82107d47614 HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Delete country
+DELETE  {{host}}/api/countries/64fcba21b35b22f44b51643e HTTP/1.1
+Authorization: Bearer {{access_token}}

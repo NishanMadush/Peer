@@ -1,0 +1,146 @@
+{
+  "baseUserManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this user?"
+    },
+    "topic": {
+      "profile": {
+        "label": "Profile"
+      },
+      "employment": {
+        "label": "Employment"
+      },
+      "branch": {
+        "label": "Branch"
+      }
+    },
+    "form": {
+      "disabled": {
+        "label": "Disabled"
+      },
+      "category": {
+        "label": "Address"
+      },
+      "line1": {
+        "label": "Address Line"
+      },
+      "street": {
+        "label": "Street"
+      },
+      "city": {
+        "label": "City"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "countryId": {
+        "label": "Country"
+      },
+      "email": {
+        "label": "Email Address"
+      },
+      "firstName": {
+        "label": "First Name"
+      },
+      "gender": {
+        "label": "Gender",
+        "options": {
+          "f": "Female",
+          "m": "Male",
+          "n": "NC"
+        }
+      },
+      "lastName": {
+        "label": "Last Name"
+      },
+      "role": {
+        "label": "Role"
+      },
+      "username": {
+        "label": "Username"
+      },
+      "password": {
+        "label": "Password"
+      },
+      "isEmailVerified": {
+        "label": "Is Email Verified?"
+      },
+      "phoneNumber": {
+        "label": "Phone Number"
+      },
+      "status": {
+        "label": "Status"
+      },
+      "profile": {
+        "profilePicture": {
+          "label": "Profile Picture"
+        },
+        "address": {
+          "label": "Address"
+        },
+        "salutation": {
+          "label": "Salutation"
+        },
+        "languageId": {
+          "label": "Language"
+        },
+        "gender": {
+          "label": "Gender"
+        }
+      },
+      "employment": {
+        "organizationId": {
+          "label": "Organization"
+        },
+        "department": {
+          "label": "Department"
+        },
+        "designation": {
+          "label": "Designation"
+        },
+        "email": {
+          "label": "Email"
+        },
+        "phoneNumber": {
+          "label": "Phone Number"
+        },
+        "branch": {
+          "branchId": {
+            "label": "Branch"
+          },
+          "branchName": {
+            "label": "Branch Name"
+          }
+        }
+
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add User"
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit User"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{user}} has been added!",
+      "deleteSuccess": "User(s) have been deleted!",
+      "updateSuccess": "{{user}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "actions": "Actions",
+        "gender": "Gender",
+        "role": "Role",
+        "status": "Status",
+        "user": "User"
+      }
+    },
+    "toolbar": {
+      "title": "Users"
+    }
+  }
+}

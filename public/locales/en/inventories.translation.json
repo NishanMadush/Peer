@@ -1,0 +1,404 @@
+{
+  "itemManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this user?"
+    },
+    "topic": {
+      "newItem": {
+        "label": "New Item"
+      },
+      "metaItem": {
+        "label": "Meta Item"
+      }
+    },
+    "form": {
+      "itemCode": {
+        "label": "Item Code"
+      },
+      "itemName": {
+        "label": "Item Name"
+      },
+      "unit": {
+        "label": "Unit"
+      },
+      "unitPrice": {
+        "label": "Unit Price"
+      },
+      "dateOfExpiry": {
+        "label": "Expire Date"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "parentGroup": {
+        "label": "Parent Group"
+      },
+      "disabled": {
+        "label": "Disabled"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Item "
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Item"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{question}} has been added!",
+      "deleteSuccess": "question(s) have been deleted!",
+      "updateSuccess": "{{question}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "actions": "Actions",
+        "item": "Item",
+        "unit": "Unit",
+        "unitPrice": "Unit Price",
+        "dateOfExpiry": "Date Of Expiry",
+        "description": "Description",
+        "status": "Status",
+        "storeContent": "Store Content"
+      }
+    },
+    "toolbar": {
+      "title": "Items "
+    },
+    "menu": {
+      "organizations": {
+        "label": "Question "
+      },
+      "departments": {
+        "label": "Departments"
+      },
+      "designations": {
+        "label": "Designations"
+      }
+    }
+  },
+
+  "groupManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this user?"
+    },
+    "topic": {
+      "newQuestion": {
+        "label": "New Question"
+      },
+      "metaQuestion": {
+        "label": "Meta Question"
+      }
+    },
+    "form": {
+      "groupCode": {
+        "label": "Group Code"
+      },
+      "groupName": {
+        "label": "Group Name"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "parentGroup": {
+        "label": "Parent Group"
+      },
+      "disabled": {
+        "label": "Disabled"
+      },
+      "Item1": {
+        "label": "Item1"
+      },
+      "Item2": {
+        "label": "Item2"
+      },
+      "Item3": {
+        "label": "Item3"
+      },
+      "Item4": {
+        "label": "Item4"
+      },
+      "Item5": {
+        "label": "Item5"
+      },
+      "Item6": {
+        "label": "Item6"
+      },
+      "Item7": {
+        "label": "Item7"
+      },
+      "Item8": {
+        "label": "Item8"
+      },
+      "Item9": {
+        "label": "Item9"
+      },
+      "Item10": {
+        "label": "Item10"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Group "
+      },
+      "addItem": {
+        "action": "AddItem",
+        "title": "Add "
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Group"
+      },
+      "editItem": {
+        "action": "EditItem",
+        "title": "Edit"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{question}} has been added!",
+      "deleteSuccess": "question(s) have been deleted!",
+      "updateSuccess": "{{question}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "actions": "Actions",
+        "group": "Group",
+        "unit": "Unit",
+        "unitPrice": "Unit Price",
+        "description": "Description",
+        "status": "Status",
+        "parentGroup": "Parent Group"
+      }
+    },
+    "toolbar": {
+      "title": "Item Groups "
+    },
+    "menu": {
+      "organizations": {
+        "label": "Question "
+      },
+      "departments": {
+        "label": "Departments"
+      },
+      "designations": {
+        "label": "Designations"
+      }
+    }
+  },
+
+  "templateManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this user?"
+    },
+    "topic": {
+      "newItem": {
+        "label": "New Item"
+      },
+      "metaItem": {
+        "label": "Meta Item"
+      }
+    },
+    "form": {
+      "itemCode": {
+        "label": "Item Code"
+      },
+      "templateCode": {
+        "label": "Template Code"
+      },
+      "itemName": {
+        "label": "Item Name"
+      },
+      "templateName": {
+        "label": "Template Name"
+      },
+      "unit": {
+        "label": "Unit"
+      },
+      "unitPrice": {
+        "label": "Unit Price"
+      },
+      "dateOfExpiry": {
+        "label": "Expire Date"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "parentGroup": {
+        "label": "Parent Group"
+      },
+      "disabled": {
+        "label": "Disabled"
+      }
+    },
+    "form1": {
+      "Group1": {
+        "label": "Group1"
+      },
+      "Group2": {
+        "label": "Group2"
+      },
+      "Group3": {
+        "label": "Group3"
+      },
+      "Group4": {
+        "label": "Group4"
+      },
+      "Group5": {
+        "label": "Group5"
+      },
+      "Group6": {
+        "label": "Group6"
+      },
+      "Group7": {
+        "label": "Group7"
+      },
+      "Group8": {
+        "label": "Group8"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Group "
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Group"
+      },
+      "addItem": {
+        "action": "Add",
+        "title": "Add Item "
+      },
+      "editItem": {
+        "action": "Edit",
+        "title": "Edit Item"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{question}} has been added!",
+      "deleteSuccess": "question(s) have been deleted!",
+      "updateSuccess": "{{question}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "actions": "Actions",
+        "template": "Template",
+        "unit": "Unit",
+        "unitPrice": "Unit Price",
+        "dateOfExpiry": "Date Of Expiry",
+        "description": "Description",
+        "status": "Status",
+        "parentGroup": "Parent Group"
+      }
+    },
+    "toolbar": {
+      "title": "Templates "
+    },
+    "menu": {
+      "organizations": {
+        "label": "Question "
+      },
+      "departments": {
+        "label": "Departments"
+      },
+      "designations": {
+        "label": "Designations"
+      }
+    }
+  },
+
+  "invoiceManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this user?"
+    },
+    "topic": {
+      "newItem": {
+        "label": "New Item"
+      },
+      "metaItem": {
+        "label": "Meta Item"
+      }
+    },
+    "form": {
+      "Group1": {
+        "label": "Group1"
+      },
+      "Group2": {
+        "label": "Group2"
+      },
+      "Group3": {
+        "label": "Group3"
+      },
+      "Group4": {
+        "label": "Group4"
+      },
+      "Group5": {
+        "label": "Group5"
+      },
+      "Group6": {
+        "label": "Group6"
+      },
+      "Group7": {
+        "label": "Group7"
+      },
+      "Group8": {
+        "label": "Group8"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Template "
+      },
+      "addItem": {
+        "action": "Add",
+        "title": "Add Template "
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Item"
+      },
+      "editItem": {
+        "action": "Edit",
+        "title": "Edit Item"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{question}} has been added!",
+      "deleteSuccess": "question(s) have been deleted!",
+      "updateSuccess": "{{question}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "actions": "Actions",
+        "group": "Group",
+        "unit": "Unit",
+        "unitPrice": "Unit Price",
+        "quantity": "Quantity",
+        "dateOfExpiry": "Date Of Expiry",
+        "description": "Description",
+        "status": "Status",
+        "totalPrice": "Total Price",
+        "item": "Item",
+        "itemCount": "itemCount"
+      }
+    },
+    "toolbar": {
+      "title": "Invoices "
+    },
+    "menu": {
+      "organizations": {
+        "label": "Question "
+      },
+      "departments": {
+        "label": "Departments"
+      },
+      "designations": {
+        "label": "Designations"
+      }
+    }
+  }
+}

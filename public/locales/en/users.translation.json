@@ -1,0 +1,240 @@
+{
+  "userManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this user?"
+    },
+    "topic": {
+      "profile": {
+        "label": "Profile"
+      },
+      "employment": {
+        "label": "Employment"
+      },
+      "branch": {
+        "label": "Branch"
+      }
+    },
+    "profile": {
+      "dialog": {
+        "tab": {
+          "basic": "Basic",
+          "information": "Information",
+          "employment": "Employment",
+          "background": "Background",
+          "password": "Password"
+        } 
+      }
+    },
+    "form": {
+      "tabs": {
+        "basic": "Basic",
+        "information": "Information",
+        "employment": "Employment"
+      },
+      "disabled": {
+        "label": "Disabled"
+      },
+      "category": {
+        "label": "Address"
+      },
+      "line1": {
+        "label": "Address Line"
+      },
+      "street": {
+        "label": "Street"
+      },
+      "city": {
+        "label": "City"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "countryId": {
+        "label": "Country"
+      },
+      "email": {
+        "label": "Email Address"
+      },
+      "firstName": {
+        "label": "First Name"
+      },
+      "gender": {
+        "label": "Gender",
+        "options": {
+          "f": "Female",
+          "m": "Male",
+          "o": "Other"
+        }
+      },
+      "lastName": {
+        "label": "Last Name"
+      },
+      "role": {
+        "label": "Role"
+      },
+      "username": {
+        "label": "Username"
+      },
+      "password": {
+        "label": "Password"
+      },
+      "isEmailVerified": {
+        "label": "Is Email Verified?"
+      },
+      "phoneNumber": {
+        "label": "Phone Number"
+      },
+      "userStatus": {
+        "options": {
+          "active": "Active",
+          "deleted": "Deleted",
+          "disabled": "Disabled",
+          "incomplete": "Incomplete",
+          "pending": "Pending"
+
+        }
+      },
+      "status": {
+        "label": "Status"
+      },
+      "profile": {
+        "profilePicture": {
+          "label": "Profile Picture"
+        },
+        "address": {
+          "label": "Address"
+        },
+        "salutation": {
+          "label": "Salutation"
+        },
+        "languageId": {
+          "label": "Language"
+        },
+        "gender": {
+          "label": "Gender"
+        }
+      },
+      "employment": {
+        "organizationId": {
+          "label": "Organization"
+        },
+        "department": {
+          "label": "Department"
+        },
+        "designation": {
+          "label": "Designation"
+        },
+        "email": {
+          "label": "Email"
+        },
+        "phoneNumber": {
+          "label": "Phone Number"
+        },
+        "branch": {
+          "branchId": {
+            "label": "Branch"
+          },
+          "branchName": {
+            "label": "Branch Name"
+          }
+        }
+
+      },
+      "countryProfile": {
+        "countryName": {
+          "label": "Country Name"
+        },
+        "nodalAgency": {
+          "label": "Nodal Agency"
+        },
+        "focalPoint": {
+          "label": "Focal Point"
+        },
+        "leadImplementingInstitutions": {
+          "label": "Lead Implementing Institutions"
+        },
+        "cadre": {
+          "label": "CADRE"
+        },
+        "mfr": {
+          "label": "MFR"
+        },
+        "csrr": {
+          "label": "CSSR"
+        },
+        "hope": {
+          "label": "HOPE"
+        },
+        "programYears": {
+          "label": "Years in the Program"
+        },
+        "geographicCoverage": {
+          "label": "Geographic coverage of the program"
+        },
+        "trainedResponders": {
+          "label": "Number of trained responders using PEER training"
+        },
+        "cadreTrainedResponders": {
+          "label": "CADRE"
+        },
+        "mfrTrainedResponders": {
+          "label": "MFR"
+        },
+        "csrrTrainedResponders": {
+          "label": "CSRR"
+        },
+        "hopeTrainedResponders": {
+          "label": "HOPE"
+        },
+        "qualifiedTrainedInstructors": {
+          "label": "Number of qualified instructors trained under PEER training"
+        },
+        "cadreQualifiedTrainedInstructors": {
+          "label": "CADRE"
+        },
+        "mfrQualifiedTrainedInstructors": {
+          "label": "MFR"
+        },
+        "csrrQualifiedTrainedInstructors": {
+          "label": "CSRR"
+        },
+        "hopeQualifiedTrainedInstructors": {
+          "label": "HOPE"
+        }
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add User"
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit User"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{user}} has been added!",
+      "deleteSuccess": "User(s) have been deleted!",
+      "updateSuccess": "{{user}} has been updated!",
+      "notifySuccess": "{{user}} has been informed by email!"
+    },
+    "table": {
+      "headers": {
+        "actions": "Actions",
+        "gender": "Gender",
+        "role": "Role",
+        "status": "Status",
+        "user": "User"
+      }
+    },
+    "toolbar": {
+      "title": "Users"
+    },
+    "menu":{
+      "notifyPassword": "Notify Password",
+      "createPassword": "Create Password"
+      
+    }
+  }
+}

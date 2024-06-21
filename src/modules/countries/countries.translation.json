@@ -1,0 +1,58 @@
+{
+  "countryManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this country?"
+    },
+    "form": {
+      "disabled": {
+        "label": "Disabled"
+      },
+      "email": {
+        "label": "Email Address"
+      },
+      "isoCode": {
+        "label": "ISO Country Code"
+      },
+      "appCountry": {
+        "label": "appCountry",
+        "options": {
+          "y": "yes",
+          "n": "no",
+          "idk": "not sure"
+        }
+      },
+      "newCountry": {
+        "label": "New Country"
+      },
+      "name": {
+        "label": "name"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Country"
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Country"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{Country}} has been added!",
+      "deleteSuccess": "Country(s) have been deleted!",
+      "updateSuccess": "{{Country}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "country": " Country",
+        "isAppCountry": "Is APP",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "toolbar": {
+      "title": "Countries"
+    }
+  }
+}

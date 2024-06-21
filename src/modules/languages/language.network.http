@@ -1,0 +1,47 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDdlZWVhMDVmYWZlYzBmNjNkMTgiLCJpYXQiOjE2OTYzMDkxMzYsImV4cCI6MTY5NjM5MzEzNiwidHlwZSI6ImFjY2VzcyJ9.JkuoQ_pSY8bBqMwIiMCgKE5OKccnfdJ8R1wJgfwzOIQ
+
+
+### Create language
+POST  {{host}}/api/languages HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+peer-language: si-LK
+{
+  "code": "en-US",
+  "name": "English",
+  "description": "English",
+  "direction": "ltor",
+  "order": 1,
+  "recaptchaLanguageCode": "en-US",
+  "status": "Active",
+}
+
+### Update language
+PATCH  {{host}}/api/languages/651b73e4828eab7a9d65f196 HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+{
+  "code": "VIP",
+  "name": "fghfjnv",
+  "description": "gfhjf",
+  "direction": "ltor",
+  "order": -1,
+  "recaptchaLanguageCode": "vbcbcfh",
+  "status": "Active",
+}
+
+### Get languages
+GET  {{host}}/api/languages HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Get language
+GET  {{host}}/api/languages/64fbd3b50cb3d768e9761c7e HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Delete language
+DELETE  {{host}}/api/languages/651b73e4828eab7a9d65f196 HTTP/1.1
+Authorization: Bearer {{access_token}}

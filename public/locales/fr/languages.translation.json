@@ -1,0 +1,63 @@
+{
+    "languageManagement": {
+      "confirmations": {
+        "delete": "کیا آپ واقعی اس زبان کو حذف کرنا چاہتے ہیں؟"
+      },
+      "form": {
+        "disabled": {
+        "label": "معذور"
+      },
+      "code": {
+        "label": "زبان کا کوڈ"
+      },
+      "direction": {
+        "label": "سمت",
+        "options": {
+          "ltor": "ltor",
+          "rtol": "rtol"
+        }
+      },
+      "name": {
+        "label": "زبان کا نام"
+      },
+      "description": {
+        "label": "زبان کی تفصیل"
+      },
+      "status": {
+        "label": "حالت"
+      },
+      "recaptchaLanguageCode": {
+        "label": "Recaptcha کوڈ"
+      }
+      },
+      "modal": {
+        "add": {
+        "action": "شامل کریں۔",
+        "title": "زبان شامل کریں۔"
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "زبان میں ترمیم کریں۔"
+      }
+      },
+      "notifications": {
+       "addSuccess": "زبان شامل کر دی گئی ہے!",
+      "deleteSuccess": "زبانیں حذف کر دی گئی ہیں!",
+      "updateSuccess": "زبان کو اپ ڈیٹ کر دیا گیا ہے!"
+      },
+      "table": {
+        "headers": {
+          "name": "زبان کا نام",
+        "direction": "سمت",
+        "actions": "اعمال",
+        "recaptchaLanguageCode": " Recaptcha کوڈ",
+        "description": "تفصیل",
+        "status":"حالت"
+        }
+      },
+      "toolbar": {
+        "title": "زبانیں"
+      }
+    }
+  }
+  

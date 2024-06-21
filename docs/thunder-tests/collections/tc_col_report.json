@@ -1,0 +1,132 @@
+{
+    "_id": "15e2e501-da53-4491-83c9-73e42823ce2f",
+    "colName": "report",
+    "created": "2023-04-19T17:59:27.674Z",
+    "sortNum": 90000,
+    "folders": [
+        {
+            "_id": "630a034d-482a-47e4-a55b-8c341b7c0e20",
+            "name": "institutionalization",
+            "containerId": "",
+            "created": "2023-04-19T17:59:44.834Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "5d860eb7-9846-4608-8e35-d7a8e858965c",
+            "name": "dashboard",
+            "containerId": "",
+            "created": "2023-08-15T10:53:13.057Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "af5bf3ff-226c-4a2e-a11f-555ada31bdea",
+            "colId": "15e2e501-da53-4491-83c9-73e42823ce2f",
+            "containerId": "630a034d-482a-47e4-a55b-8c341b7c0e20",
+            "name": "get statistics",
+            "url": "{{host}}/api/report/institutionalization/statistics/assessments?level=Country&itemId=6441786f4cd82190330875a2",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2023-04-17T18:34:12.117Z",
+            "modified": "2023-04-23T17:05:16.326Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "level",
+                    "value": "Country",
+                    "isPath": false
+                },
+                {
+                    "name": "itemId",
+                    "value": "6441786f4cd82190330875a2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1ad1dd17-d239-46a9-958d-db93c9d67dd0",
+            "colId": "15e2e501-da53-4491-83c9-73e42823ce2f",
+            "containerId": "630a034d-482a-47e4-a55b-8c341b7c0e20",
+            "name": "create statistics",
+            "url": "{{host}}/api/report/institutionalization/statistics/assessments",
+            "method": "POST",
+            "sortNum": 2500,
+            "created": "2023-04-19T11:29:56.978Z",
+            "modified": "2023-04-19T18:00:22.363Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "90539f94-c37e-48ec-8077-1d2f2cdb4e0a",
+            "colId": "15e2e501-da53-4491-83c9-73e42823ce2f",
+            "containerId": "5d860eb7-9846-4608-8e35-d7a8e858965c",
+            "name": "create dashboard statistics",
+            "url": "{{host}}/api/report/dashboard/statistics/assessments",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2023-08-15T10:55:11.434Z",
+            "modified": "2023-08-15T12:06:23.335Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "level",
+                    "value": "Global",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "level",
+                    "value": "Country",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "countryId",
+                    "value": "6493cd87157ac82107d47612",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "level",
+                    "value": "Organization",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "organizationId",
+                    "value": "649d2ae01d4214878ab235a2",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"lastCountryReview\": {\n      \"trainingComponentProgress\": 0,\n      \"trainingComponentOverview\": [],\n      \"trainingComponentModules\": [],\n      \"organizationOverview\": []\n    },\n    \"level\": \"Organization\",\n    \"countryId\": \"6493cd87157ac82107d47612\",\n    \"organizationId\": \"649d2ae01d4214878ab235a2\",\n    \"trainingComponentTiles\": [\n      {\n          \"code\": \"MFR\",\n          \"score\": 4.4\n        },\n        {\n          \"code\": \"CADRE\",\n          \"score\": 2.3\n        },\n        {\n          \"code\": \"HOPE\",\n          \"score\": 3.2\n        },\n        {\n          \"code\": \"OTHER\",\n          \"score\": 2.2\n        }\n      ],\n    \"assessmentHistory\": [],\n    \"countryOverview\": [],\n    \"__v\": 0,\n    \"createdAt\": \"2023-08-15T11:02:39.674Z\",\n    \"updatedAt\": \"2023-08-15T11:02:39.674Z\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce03b472-1e0d-458a-b992-c32ac014e935",
+            "colId": "15e2e501-da53-4491-83c9-73e42823ce2f",
+            "containerId": "5d860eb7-9846-4608-8e35-d7a8e858965c",
+            "name": "get dashboard statistics",
+            "url": "{{host}}/api/report/dashboard/statistics/assessments",
+            "method": "GET",
+            "sortNum": 65000,
+            "created": "2023-08-15T11:04:42.190Z",
+            "modified": "2023-08-15T12:02:11.169Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"lastCountryReview\": {\n      \"trainingComponentProgress\": 0,\n      \"trainingComponentOverview\": [],\n      \"trainingComponentModules\": [],\n      \"organizationOverview\": []\n    },\n    \"_id\": \"64db5b4f9d7db7f4846e030b\",\n    \"level\": \"Organization\",\n    \"countryId\": \"6493cd87157ac82107d47612\",\n    \"organizationId\": \"649d2ae01d4214878ab235a2\",\n    \"trainingComponentTiles\": [\n      \n      ],\n    \"assessmentHistory\": [],\n    \"countryOverview\": [],\n    \"__v\": 0,\n    \"createdAt\": \"2023-08-15T11:02:39.674Z\",\n    \"updatedAt\": \"2023-08-15T11:02:39.674Z\"\n  }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDdlZWVhMDVmYWZlYzBmNjNkMTgiLCJpYXQiOjE2OTYzMDkxMzYsImV4cCI6MTY5NjM5MzEzNiwidHlwZSI6ImFjY2VzcyJ9.JkuoQ_pSY8bBqMwIiMCgKE5OKccnfdJ8R1wJgfwzOIQ
+
+
+### Get statistics
+GET  {{host}}/api/report/institutionalization/statistics/assessments?level=Country&itemId=6441786f4cd82190330875a2 HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Create statistics
+POST  {{host}}/api/report/institutionalization/statistics/assessments HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+peer-language: si-LK
+{}
+
+### Create dashboard statistics
+POST  {{host}}/api/report/dashboard/statistics/assessments HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+peer-language: si-LK
+{}
+
+### Get dashboard statistics
+GET  {{host}}/api/report/dashboard/statistics/assessments HTTP/1.1
+Authorization: Bearer {{access_token}}

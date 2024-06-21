@@ -1,0 +1,477 @@
+{
+    "_id": "06d46727-c87f-472f-83b2-957e3a75eda7",
+    "colName": "inventory",
+    "created": "2023-01-13T14:23:36.503Z",
+    "sortNum": 50000,
+    "folders": [
+        {
+            "_id": "7fa40247-4cd7-441d-a75d-4db4e7726dd6",
+            "name": "item",
+            "containerId": "",
+            "created": "2023-01-13T14:23:57.649Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "group",
+            "containerId": "",
+            "created": "2023-01-13T18:40:23.223Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "template",
+            "containerId": "",
+            "created": "2023-01-13T19:33:34.183Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "057380b8-b18a-4423-a7ef-2a5c602342d0",
+            "name": "invoice",
+            "containerId": "",
+            "created": "2023-01-15T19:58:40.240Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "802a6b1e-b1a9-4de9-9cd8-31b41e31401f",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "7fa40247-4cd7-441d-a75d-4db4e7726dd6",
+            "name": "create inventory item",
+            "url": "{{host}}/api/inventory/items",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-01-13T14:24:19.612Z",
+            "modified": "2023-01-19T12:24:53.537Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"itemCode\": \"FRUIT004\",\n  \"itemName\": \"Apple-red\",\n  \"description\": \"Apple red medium\",\n  \"unit\": \"item\",\n  \"unitPrice\": 100.50,\n  \"dateOfExpiry\": \"2023-01-14\",\n  \"storeContent\": 10\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d964b30f-10e0-40b8-8525-70cdcd76d75c",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "7fa40247-4cd7-441d-a75d-4db4e7726dd6",
+            "name": "get inventory items",
+            "url": "{{host}}/api/inventory/items",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-01-13T14:24:40.127Z",
+            "modified": "2023-01-27T17:43:54.522Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2ef3109a-3301-4894-b26f-cfc169fcda5b",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "7fa40247-4cd7-441d-a75d-4db4e7726dd6",
+            "name": "get inventory item",
+            "url": "{{host}}/api/inventory/items/63cde3101d7bbe50c598e290",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-01-13T14:24:56.345Z",
+            "modified": "2023-01-23T02:00:30.883Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a16507d1-a7e8-4a93-9f09-f9427d8be01b",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "7fa40247-4cd7-441d-a75d-4db4e7726dd6",
+            "name": "update inventory item",
+            "url": "{{host}}/api/inventory/items/63c927c13841139788a2be77",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-01-13T14:25:12.594Z",
+            "modified": "2023-01-19T12:27:06.109Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"itemCode\": \"FRUIT001\",\n  \"itemName\": \"Apple-red\",\n  \"description\": \"Apple red medium\",\n  \"unit\": \"item\",\n  \"unitPrice\": 100.5,\n  \"dateOfExpiry\": \"2023-01-14T00:00:00.000Z\",\n  \"storeContent\": 11\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "48cf6351-8ded-49e3-a97a-2e893b5e1a57",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "7fa40247-4cd7-441d-a75d-4db4e7726dd6",
+            "name": "delete inventory item",
+            "url": "{{host}}/api/inventory/items/63c936953cd34512dddcfe1e",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-01-13T14:25:29.023Z",
+            "modified": "2023-01-19T12:26:10.232Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "22328237-0fd3-43df-bfc0-6939d9ca7713",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "create inventory group",
+            "url": "{{host}}/api/inventory/groups",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-01-13T18:40:51.857Z",
+            "modified": "2023-01-20T06:24:27.771Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"groupCode\": \"FRT\",\n  \"groupName\": \"Fruits\",\n  \"description\": \"Fresh fruits\",\n  \"items\": []\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eead9f2e-35d7-4607-9d7b-61a98cc65aff",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "get inventory groups",
+            "url": "{{host}}/api/inventory/groups",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-01-13T18:41:06.337Z",
+            "modified": "2023-01-13T20:39:09.756Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a046dd53-f399-4cab-baf4-7151d2eb8181",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "get inventory group",
+            "url": "{{host}}/api/inventory/groups/63c927f99d2c01e2fdf3c33a",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-01-13T18:41:23.073Z",
+            "modified": "2023-01-19T11:23:04.036Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "736599fe-4aee-4807-b7e5-4a292bb21b0c",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "update inventory group",
+            "url": "{{host}}/api/inventory/groups/63c1b1e8e76ae5771eaf374a",
+            "method": "PATCH",
+            "sortNum": 90000,
+            "created": "2023-01-13T18:41:42.618Z",
+            "modified": "2023-01-20T06:24:39.601Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"groupCode\": \"FRT\",\n  \"groupName\": \"Fruits\",\n  \"description\": \"Fresh fruits\",\n  \"items\": [\n    {\n      \"itemId\": \"63c1a515518a7791aad840f8\"\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "049a6f5f-0cb2-4a27-97be-25a66ab2bf5a",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "delete inventory group",
+            "url": "{{host}}/api/inventory/groups/63c927f99d2c01e2fdf3c33a",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2023-01-13T18:42:00.712Z",
+            "modified": "2023-01-19T11:23:49.606Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5768427c-4eac-498c-bb06-b1fb86719374",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "create inventory template",
+            "url": "{{host}}/api/inventory/templates",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-01-13T19:37:31.613Z",
+            "modified": "2023-01-20T06:27:25.968Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"templateCode\": \"TEMHW4\",\n  \"templateName\": \"Hardware template\",\n  \"description\": \"Usual hardware items in a supermarket\",\n  \"groups\": []\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b0980b55-1741-465a-99f3-03295d2f279a",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "get inventory templates",
+            "url": "{{host}}/api/inventory/templates",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-01-13T19:37:45.442Z",
+            "modified": "2023-01-13T20:38:06.810Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a9eb895c-2b81-45fd-88d8-d1d5304894b0",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "get inventory template",
+            "url": "{{host}}/api/inventory/templates/63c92855931478a6521af1cb",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-01-13T19:37:56.082Z",
+            "modified": "2023-01-19T11:24:16.658Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "97a6e75c-aa90-4cef-86f4-7a6ff2314309",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "update inventory template",
+            "url": "{{host}}/api/inventory/templates/63c92855931478a6521af1cb",
+            "method": "PATCH",
+            "sortNum": 140000,
+            "created": "2023-01-13T19:38:12.136Z",
+            "modified": "2023-01-19T11:24:28.633Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"templateCode\": \"TEMHW3\",\n  \"templateName\": \"Hardware template\",\n  \"description\": \"Usual hardware items in a supermarket\",\n  \"groups\": [\n    {\n      \"groupCode\": \"FRT\",\n      \"groupName\": \"Fruits\",\n      \"description\": \"Fresh fruits\",\n      \"items\": [\n        {\n          \"itemId\": \"63c1a515518a7791aad840f8\"\n        }\n      ]\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e26e0e6c-fd28-4fc5-9e77-451d9a7d0b64",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "delete inventory template",
+            "url": "{{host}}/api/inventory/templates/63c1bfc8bbfcfc7e97c7ad1c",
+            "method": "DELETE",
+            "sortNum": 150000,
+            "created": "2023-01-13T19:38:24.742Z",
+            "modified": "2023-01-13T20:38:46.334Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "872a9140-e1c7-483f-a417-45a93652307b",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "057380b8-b18a-4423-a7ef-2a5c602342d0",
+            "name": "create invoice",
+            "url": "{{host}}/api/inventory/invoices",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2023-01-15T19:58:53.813Z",
+            "modified": "2023-01-20T06:22:39.894Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"grandItemCount\": 5,\n  \"groups\": [\n    {\n      \"groupId\": \"63c1a7bfe09846f3e7686938\",\n      \"groupCode\": \"AAA\",\n      \"groupName\": \"AAA\",\n      \"items\": [\n        {\n          \"itemId\": \"63c1a7bfe09846f3e7686938\",\n          \"itemCode\": \"I1\",\n          \"itemName\": \"Item1\",\n          \"unit\": \"Kg\",\n          \"unitPrice\": 1,\n          \"quantity\": 1,\n          \"total\": 1\n        }\n      ],\n      \"itemCount\": 1,\n      \"groupTotal\": 1\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0bca6733-3b40-4aa1-bc69-98be3f3c85d7",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "057380b8-b18a-4423-a7ef-2a5c602342d0",
+            "name": "get invoices",
+            "url": "{{host}}/api/inventory/invoices",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2023-01-15T19:59:04.237Z",
+            "modified": "2023-01-16T22:51:26.918Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8ed9c149-886a-49ed-a1d4-f371abd6612e",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "057380b8-b18a-4423-a7ef-2a5c602342d0",
+            "name": "get invoice",
+            "url": "{{host}}/api/inventory/invoices/63c931f6ce3509988a651d81",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2023-01-15T19:59:12.351Z",
+            "modified": "2023-01-19T12:11:15.848Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9256a301-b2db-415b-bf40-6df2ee31caa8",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "057380b8-b18a-4423-a7ef-2a5c602342d0",
+            "name": "update invoice",
+            "url": "{{host}}/api/inventory/invoices/63c92a284a93986beaa5abf0",
+            "method": "PATCH",
+            "sortNum": 190000,
+            "created": "2023-01-15T19:59:22.712Z",
+            "modified": "2023-01-19T11:50:55.899Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"grandItemCount\": 2,\n  \"grandTotal\": 5,\n  \"groups\": [\n    {\n      \"groupId\": \"63c1a7bfe09846f3e7686938\",\n      \"groupCode\": \"AAA\",\n      \"groupName\": \"AAA\",\n      \"items\": [\n        {\n          \"itemId\": \"63c1a7bfe09846f3e7686938\",\n          \"itemCode\": \"I1\",\n          \"itemName\": \"Item1\",\n          \"unit\": \"Kg\",\n          \"unitPrice\": 1,\n          \"quantity\": 1,\n          \"total\": 1\n        },\n        {\n          \"itemId\": \"63c1a7bfe09846f3e7686938\",\n          \"itemCode\": \"I2\",\n          \"itemName\": \"Item2\",\n          \"unit\": \"L\",\n          \"unitPrice\": 2,\n          \"quantity\": 2,\n          \"total\": 4\n        }\n      ],\n      \"itemCount\": 2,\n      \"groupTotal\": 5\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bc056793-97c0-4c8c-ac65-eb9bf8ba6005",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "057380b8-b18a-4423-a7ef-2a5c602342d0",
+            "name": "delete invoice",
+            "url": "{{host}}/api/inventory/invoices/63c931f6ce3509988a651d81",
+            "method": "DELETE",
+            "sortNum": 200000,
+            "created": "2023-01-15T19:59:32.145Z",
+            "modified": "2023-01-19T12:11:21.955Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5c66b270-2b70-4510-a141-201c9f56621f",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "add items to the inventory group",
+            "url": "{{host}}/api/inventory/groups/63c927f99d2c01e2fdf3c33a/items",
+            "method": "POST",
+            "sortNum": 210000,
+            "created": "2023-01-17T00:43:02.696Z",
+            "modified": "2023-01-19T11:23:39.294Z",
+            "headers": [
+                {
+                    "name": "Accept-Language",
+                    "value": "en-US"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"itemId\": \"63c1a515518a7791aad840f1\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f2\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f3\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f4\"\n  }\n]",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "25540420-9948-4200-ae1d-5aaa1533712e",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "0b732e76-41aa-4103-826b-82703051e10d",
+            "name": "delete items from the inventory group",
+            "url": "{{host}}/api/inventory/groups/63c927f99d2c01e2fdf3c33a/items",
+            "method": "DELETE",
+            "sortNum": 220000,
+            "created": "2023-01-17T07:31:40.733Z",
+            "modified": "2023-01-19T11:23:44.888Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"itemId\": \"63c1a515518a7791aad840f1\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f2\"\n  }\n]",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5be5278f-37d5-4da1-aa3c-1b0ff18aede0",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "add groups to the inventory template",
+            "url": "{{host}}/api/inventory/templates/63c92855931478a6521af1cb/groups",
+            "method": "POST",
+            "sortNum": 230000,
+            "created": "2023-01-17T11:34:21.844Z",
+            "modified": "2023-01-19T11:24:40.435Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"groupId\": \"63c1b1e8e76ae5771eaf374d\",\n    \"groupCode\": \"FR01\",\n    \"groupName\": \"Fruits\",\n    \"description\": \"Fresh fruits\",\n    \"items\": [\n      {\n        \"itemId\": \"63c1a515518a7791aad840f1\"\n      },\n      {\n        \"itemId\": \"63c1a515518a7791aad840f2\"\n      },\n      {\n        \"itemId\": \"63c1a515518a7791aad840f3\"\n      },\n      {\n        \"itemId\": \"63c1a515518a7791aad840f4\"\n      }\n    ]\n  }\n]",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ca4d976e-b038-4651-9f09-1df9929cc766",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "delete groups from the inventory tempalte",
+            "url": "{{host}}/api/inventory/templates/63c1c0cc580863e7c0688b75/groups",
+            "method": "DELETE",
+            "sortNum": 240000,
+            "created": "2023-01-17T11:34:56.447Z",
+            "modified": "2023-01-18T05:53:11.155Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"groupId\": \"63c1b1e8e76ae5771eaf374a\"\n  }\n]",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2d281b5-f332-4bbb-9734-0058b84f8064",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "add items to the inventory template",
+            "url": "{{host}}/api/inventory/templates/63c1c0cc580863e7c0688b75/groups/63c1b1e8e76ae5771eaf374b/items",
+            "method": "POST",
+            "sortNum": 250000,
+            "created": "2023-01-17T11:35:27.497Z",
+            "modified": "2023-01-19T07:23:57.081Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"itemId\": \"63c1a515518a7791aad840f5\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f6\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f3\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f4\"\n  }\n]",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8f796500-6fd4-4667-ba82-f74de6c74ce8",
+            "colId": "06d46727-c87f-472f-83b2-957e3a75eda7",
+            "containerId": "6339a04c-6812-47b2-a248-d1a47ee2fdad",
+            "name": "delete items from the inventory template",
+            "url": "{{host}}/api/inventory/templates/63c1c0cc580863e7c0688b75/groups/63c1b1e8e76ae5771eaf374b/items",
+            "method": "DELETE",
+            "sortNum": 260000,
+            "created": "2023-01-17T11:36:03.233Z",
+            "modified": "2023-01-20T06:30:54.909Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"itemId\": \"63c1a515518a7791aad840f5\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f0\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f0\"\n  },\n  {\n    \"itemId\": \"63c1a515518a7791aad840f0\"\n  }\n]",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

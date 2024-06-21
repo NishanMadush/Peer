@@ -1,0 +1,21 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDk2YmVhYzE1MGY2NWUzZWE4MDYiLCJpYXQiOjE2OTI5NDA2ODAsImV4cCI6MTY5MzAyNDY4MCwidHlwZSI6ImFjY2VzcyJ9.r-1ZaTERwTD963P8o8e273INlZzfBOjistd7zCnVN8U
+
+### Get profile
+GET  {{host}}/api/users/63e5fca40fdad441b4dabfeb/profile HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### login
+POST   {{host}}/api/auth/login HTTP/1.1
+content-type: application/json
+Accept-Language: si-LK
+
+{
+   "username":"super.admin@ss.lk",
+   "password":"zaq1ZAQ!"
+}
+
+

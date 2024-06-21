@@ -1,0 +1,118 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDdlZWVhMDVmYWZlYzBmNjNkMTgiLCJpYXQiOjE2OTYzMDkxMzYsImV4cCI6MTY5NjM5MzEzNiwidHlwZSI6ImFjY2VzcyJ9.JkuoQ_pSY8bBqMwIiMCgKE5OKccnfdJ8R1wJgfwzOIQ
+
+
+### Create organization
+POST  {{host}}/api/organizations HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+peer-language: si-LK
+{
+      "name": "JL Engineering",
+      "description": "Engineering",
+      "category": "Engineering",
+      "countryId": "6493cd87157ac82107d47612",
+      "registeredNo": "1",
+      "isLegalEntity": false,
+      "vision": "1",
+      "mission": "1",
+      "organizationType": "Other",
+      "geographicArea": "National",
+      "status": "Active",
+      "departments": [
+        "DP1",
+        "DP2"
+      ],
+      "designations": [
+        "DS1"
+      ],
+      "branches": [
+        {
+          "branchName": "Colombo",
+          "isHeadOffice": true,
+          "isVirtual": false,
+          "contactPerson": "person1",
+          "email": "email1@jl.lk",
+          "phoneNumber": "0710001234",
+          "address": {
+            "location": {
+              "lat": -1,
+              "lng": -1
+            },
+            "category": "Resident",
+            "line1": "1",
+            "street": "1",
+            "city": "5",
+            "postalCode": "1",
+            "countryId": "6493cd87157ac82107d47612"
+          },
+          "website": "",
+          "employees": []
+        }
+      ]
+}
+
+### Update organization
+PATCH  {{host}}/api/organizations/64ee5ac04a6585e4ef5d89d0 HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+{
+      "name": "JL Engineering",
+      "description": "Engineering",
+      "category": "Engineering",
+      "countryId": "6493cd87157ac82107d47612",
+      "registeredNo": "1",
+      "isLegalEntity": false,
+      "vision": "1",
+      "mission": "1",
+      "organizationType": "Other",
+      "geographicArea": "National",
+      "status": "Active",
+      "departments": [
+        "DP1",
+        "DP2"
+      ],
+      "designations": [
+        "DS1"
+      ],
+      "branches": [
+        {
+          "branchName": "Colombo",
+          "isHeadOffice": true,
+          "isVirtual": false,
+          "contactPerson": "person1",
+          "email": "email1@jl.lk",
+          "phoneNumber": "0710001234",
+          "address": {
+            "location": {
+              "lat": -1,
+              "lng": -1
+            },
+            "category": "Resident",
+            "line1": "1",
+            "street": "1",
+            "city": "5",
+            "postalCode": "1",
+            "countryId": "6493cd87157ac82107d47612"
+          },
+          "website": "",
+          "employees": [],
+          "_id": "64ee5ca74a6585e4ef5d8a49"
+        }
+      ]
+}
+
+### Get organizations
+GET  {{host}}/api/organizations HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Get organization
+GET  {{host}}/api/organizations/649d2ae01d4214878ab235a2 HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Delete organization
+DELETE  {{host}}/api/organizations/64fcba21b35b22f44b51643e HTTP/1.1
+Authorization: Bearer {{access_token}}

@@ -1,0 +1,486 @@
+{
+  "admin": {
+    "drawer": {
+      "menu": {
+        "calendar": "کیلنڈر",
+        "dashboard": "ڈیش بورڈ",
+        "help": "مدد",
+        "home": "گھر",
+        "projects": "پروجیکٹس",
+        "report": "رپورٹ",
+        "settings": "ترتیبات",
+        "logout": "لاگ آوٹ",
+        "userManagement": "صارفین",
+        "countryManagement": "ملک",
+        "languageManagement": "زبانیں",
+        "institutionalizationGroup": "تشخیص کے",
+        "institutionalizationFormTemplate": "فارم",
+        "institutionalizationOrganizationAssessment": "تنظیم",
+        "institutionalizationCountryReview": "ملک",
+        "reportCountry": "ملک",
+        "reportCountryInDetail": "ماڈیول ملک",
+        "reportOrganization": "تنظیم",
+        "reportAssessment": "تشخیص کے",
+        "masterData": "ماسٹر ڈیٹا"
+      }
+    },
+    "header": {
+      "notifications": {
+        "empty": {
+          "title": "آپ کی اطلاع کی فہرست خالی ہے۔"
+        },
+        "seeAll": "تمام اطلاعات دیکھیں"
+      }
+    },
+    "home": {
+      "achievement": {
+        "action": "پروفائل کا مشاھدہ کریں",
+        "description": "آپ نے اپنے پروفائل کا {{progress}}% مکمل کر لیا ہے۔ آپ کی موجودہ پیش رفت بہت اچھی ہے۔",
+        "title": "مبارک ہو {{name}}"
+      },
+      "followers": {
+        "units": {
+          "likes": "2023-Jan",
+          "love": "محبت",
+          "smiles": "مسکراہٹیں"
+        }
+      },
+      "meeting": {
+        "title": "جائزے"
+      },
+      "targets": {
+        "income": "CSSR",
+        "followers": "CADRE",
+        "title": "تازہ ترین کوشش",
+        "views": "MFR"
+      },
+      "views": {
+        "action": "ڈیش بورڈ دیکھیں",
+        "unit": "کورس کا مخصوص ادارہ جاتی سکور"
+      },
+      "welcome": {
+        "message": "PEER پروگرام کے ساتھ آپ اب تک ایسا ہی کر رہے ہیں۔ آئیے بچے کے قدموں سے ترقی کریں!",
+        "subTitle": "خوش آمدید!",
+        "title": "ہیلو {{name}}،"
+      }
+    },
+    "pagination": {
+      "labelRowsPerPage": "قطار فی صفحہ:"
+    }
+  },
+  "auth": {
+    "forgotPassword": {
+      "form": {
+        "action": "تصدیق بھیجیں۔",
+        "back": "لاگ ان پر واپس جائیں۔",
+        "email": {
+          "label": "ای میل اڈریس"
+        }
+      },
+      "notifications": {
+        "success": "ای میل بھیج دیا گیا ہے!"
+      },
+      "subTitle": "تصدیقی کوڈ حاصل کرنے کے لیے، اپنے اکاؤنٹ سے وابستہ ای میل ایڈریس درج کریں۔",
+      "title": "توثیق کوڈ حاصل کریں۔"
+    },
+    "resetPassword": {
+      "form": {
+        "action": "پاس ورڈ ری سیٹ",
+        "back": "لاگ ان پر واپس جائیں۔",
+        "code": {
+          "label": "کوڈ"
+        },
+        "confirmPassword": {
+          "label": "پاس ورڈ کی تصدیق کریں۔"
+        },
+        "newPassword": {
+          "label": "نیا پاس ورڈ"
+        }
+      },
+      "notifications": {
+        "success": "آپ کا پاس ورڈ تبدیل کر دیا گیا ہے!"
+      },
+      "subTitle": "میل کے ذریعے موصول ہونے والا کوڈ درج کریں اور نیا پاس ورڈ منتخب کریں۔",
+      "title": "اپنا پاس ورڈ تبدیل کریں۔"
+    },
+    "createPassword": {
+      "form": {
+        "action": "پاسورڈ بنائیں",
+        "back": "لاگ ان پر واپس جائیں۔"
+      },
+      "notifications": {
+        "success": "آپ کا پاس ورڈ بنا دیا گیا ہے!"
+      },
+      "subTitle": "میل کے ذریعے موصول ہونے والا کوڈ درج کریں اور پاس ورڈ بنائیں۔",
+      "title": "اپنا پاس ورڈ بنائیں"
+    },
+    "login": {
+      "forgotPasswordLink": "پاسورڈ بھول گے؟",
+      "form": {
+        "email": {
+          "label": "ای میل اڈریس"
+        },
+        "password": {
+          "label": "پاس ورڈ"
+        }
+      },
+      "newAccountLink": "اکاؤنٹ نہیں ہے؟ سائن اپ!",
+      "submit": "سائن ان",
+      "title": "سائن ان"
+    },
+    "register": {
+      "back": "لاگ ان پر واپس جائیں۔",
+      "form": {
+        "email": {
+          "label": "ای میل اڈریس"
+        },
+        "firstName": {
+          "label": "پہلا نام"
+        },
+        "gender": {
+          "label": "صنف",
+          "options": {
+            "f": "ایف",
+            "m": "ایم",
+            "n": "این سی"
+          }
+        },
+        "lastName": {
+          "label": "آخری نام"
+        }
+      },
+      "notifications": {
+        "success": "آپ کا اکاؤنٹ کامیابی کے ساتھ بن گیا ہے!"
+      },
+      "submit": "رجسٹر کریں۔",
+      "title": "رجسٹر کریں۔"
+    }
+  },
+  "calendar": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس ایونٹ کو حذف کرنا چاہتے ہیں؟"
+    },
+    "form": {
+      "color": {
+        "label": "رنگ"
+      },
+      "description": {
+        "label": "تفصیل"
+      },
+      "end": {
+        "label": "آخری تاریخ"
+      },
+      "start": {
+        "label": "شروع کرنے کی تاریخ"
+      },
+      "title": {
+        "label": "عنوان"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "ایونٹ شامل کریں۔"
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "ایونٹ میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{event}} شامل کردیا گیا ہے!",
+      "deleteSuccess": "ایونٹ کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{event}} اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "title": "کیلنڈر"
+  },
+  "common": {
+    "backHome": "واپس گھر",
+    "cancel": "منسوخ کریں۔",
+    "next": "اگلے",
+    "confirm": "منسوخ کریں۔",
+    "confirmation": "تصدیق",
+    "delete": "حذف کریں۔",
+    "edit": "ترمیم",
+    "branch": "شاخ",
+    "user": "صارفین",
+    "search": "تلاش کریں۔",
+    "country": {
+      "filter": "ملک کے لحاظ سے فلٹر کریں۔",
+      "allCountries": "تمام ممالک"
+    },
+    "errors": {
+      "forbidden": {
+        "subTitle": "آپ کو یہ صفحہ دیکھنے کی رسائی نہیں ہے۔"
+      },
+      "notFound": {
+        "subTitle": "معذرت، ہمیں وہ صفحہ نہیں مل سکا جس کی آپ تلاش کر رہے ہیں۔ شاید آپ نے URL کو غلط ٹائپ کیا ہے؟ اپنے املا کو ضرور چیک کریں۔",
+        "title": "افوہ!"
+      },
+      "unexpected": {
+        "subTitle": "کچھ غلط ہو گیا! اگر مسئلہ برقرار رہتا ہے تو ہم سے رابطہ کریں!",
+        "title": "افوہ!"
+      },
+      "underConstructions": {
+        "subTitle": "ہم اس صفحہ پر سرگرمی سے کام کر رہے ہیں۔",
+        "title": "زیر تعمیر!"
+      }
+    },
+    "reset": "دوبارہ ترتیب دیں۔",
+    "retry": "دوبارہ کوشش کریں",
+    "selected": "منتخب شدہ",
+    "snackbar": {
+      "error": "خرابی",
+      "success": "کامیابی",
+      "info": "معلومات"
+    },
+    "today": "آج",
+    "update": "اپ ڈیٹ",
+    "validations": {
+      "email": "غلط ای میل ایڈریس",
+      "max": "{{size}} حروف یا اس سے کم ہونے چاہئیں",
+      "min": "{{size}} حروف یا اس سے زیادہ ہونے چاہئیں",
+      "passwordMatch": "پاس ورڈ میچ نہیں کرتا",
+      "required": "درکار ہے۔"
+    },
+    "yes": "جی ہاں",
+    "no": "نہیں"
+  },
+  "dashboard": {
+    "activity": {
+      "title": "تشخیص کی تاریخ"
+    },
+    "budget": {
+      "legend": {
+        "unit": "ماڈیول سکور"
+      },
+      "title": "تازہ ترین ادارہ سازی"
+    },
+    "orderProgress": {
+      "title": "MFR"
+    },
+    "overview": {
+      "orders": "CSSR",
+      "sales": "MFR",
+      "users": "HOPE",
+      "visits": "CADRE"
+    },
+    "progress": {
+      "title": "تازہ ترین پیشرفت"
+    },
+    "salesByAge": {
+      "title": "عمر کے لحاظ سے فروخت"
+    },
+    "salesByCategory": {
+      "legend": {
+        "books": "کتابیں",
+        "movies": "موویز اور ٹی وی",
+        "software": "سافٹ ویئر"
+      },
+      "title": "زمرہ کے لحاظ سے فروخت"
+    },
+    "salesHistory": {
+      "title": "تازہ ترین نتیجہ",
+      "unit": "جائزہ"
+    },
+    "salesProgress": {
+      "title": "سیلز"
+    },
+    "teams": {
+      "columns": {
+        "progress": "اوسط اسکور",
+        "team": "تنظیم",
+        "value": " "
+      },
+      "title": "تازہ ترین تنظیم کا جائزہ"
+    },
+    "users": {
+      "title": "تازہ ترین ملک کا جائزہ"
+    },
+    "visitProgress": {
+      "title": "CADRE"
+    },
+    "title": "ڈیش بورڈ"
+  },
+  "help": {
+    "menu": {
+      "contact": "رابطہ کریں۔",
+      "faq": "عمومی سوالات",
+      "guide": "رہنما",
+      "support": "حمایت"
+    },
+    "title": "مدداور تعاون کا مرکز"
+  },
+  "landing": {
+    "cta": {
+      "main": "سائن ان",
+      "mainAuth": "{{name}} کے بطور جاری رکھیں",
+      "secondary": "سورس کوڈ"
+    },
+    "features": {
+      "more": "Github پر مزید",
+      "title": "اہم خصوصیات"
+    },
+    "title": "ادارہ جاتی تشخیص کا آلہ"
+  },
+  "notifications": {
+    "newComment": "<bold>{{user}}</bold> نے آپ کے پروفائل پر ایک نیا تبصرہ لکھا ہے۔",
+    "unreadMessages": "آپ کے پاس <bold>{{quantity}}</bold> بغیر پڑھے ہوئے پیغامات ہیں۔"
+  },
+  "profile": {
+    "activity": {
+      "empty": "آپ کی سرگرمی کے لاگز یہاں ظاہر ہوں گے!",
+      "logs": {
+        "eventAdded": "<bold>آپ</bold> نے ایک نیا ایونٹ شامل کیا: <bold>{{resource}}</bold>",
+        "eventUpdated": "<bold>آپ نے</bold> ایونٹ کو اپ ڈیٹ کیا: <bold>{{resource}}</bold>",
+        "userAdded": "<bold>آپ</bold> نے ایک نیا صارف شامل کیا: <bold>{{resource}}</bold>",
+        "userDeleted": "<bold>آپ نے</bold> صارف کو حذف کیا: <bold>{{resource}}</bold>",
+        "userUpdated": "<bold>آپ</bold> اپ ڈیٹ کردہ صارف: <bold>{{resource}}</bold>"
+      }
+    },
+    "completion": {
+      "title": "پروفائل کی معلومات کی حیثیت"
+    },
+    "info": {
+      "form": {
+        "email": {
+          "label": "ای میل اڈریس"
+        },
+        "firstName": {
+          "label": "پہلا نام"
+        },
+        "gender": {
+          "label": "صنف",
+          "options": {
+            "f": "عورت",
+            "m": "مرد",
+            "n": "این سی"
+          }
+        },
+        "lastName": {
+          "label": "آخری نام"
+        }
+      },
+      "title": "پروفائل کو اپ ڈیٹ کریں۔"
+    },
+    "menu": {
+      "activity": "سرگرمی",
+      "info": "معلومات",
+      "password": "پاس ورڈ"
+    },
+    "notifications": {
+      "informationUpdated": "معلومات اپ ڈیٹ!",
+      "passwordChanged": "پاس ورڈ بدل گیا!"
+    },
+    "password": {
+      "form": {
+        "current": {
+          "label": "موجودہ خفیہ لفظ"
+        },
+        "confirm": {
+          "label": "پاس ورڈ کی تصدیق کریں۔"
+        },
+        "new": {
+          "label": "نیا پاس ورڈ"
+        }
+      },
+      "title": "اپنا پاس ورڈ تبدیل کریں۔"
+    }
+  },
+  "settings": {
+    "drawer": {
+      "direction": {
+        "label": "سمت",
+        "options": {
+          "ltr": "LTR",
+          "rtl": "RTL"
+        }
+      },
+      "language": {
+        "label": "زبان",
+        "options": {
+          "en": "English",
+          "fr": "اردو",
+          "si": "සිංහල"
+        }
+      },
+      "mode": {
+        "label": "موڈ",
+        "options": {
+          "dark": "اندھیرا",
+          "light": "روشنی"
+        }
+      },
+      "sidebar": {
+        "label": "سائڈبار",
+        "options": {
+          "collapsed": "سمٹ گیا۔",
+          "full": "مکمل"
+        }
+      },
+      "title": "ترتیبات"
+    }
+  },
+  "userManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس صارف کو حذف کرنا چاہتے ہیں؟"
+    },
+    "form": {
+      "disabled": {
+        "label": "معذور"
+      },
+      "email": {
+        "label": "ای میل اڈریس"
+      },
+      "firstName": {
+        "label": "پہلا نام"
+      },
+      "gender": {
+        "label": "صنف",
+        "options": {
+          "f": "عورت",
+          "m": "مرد",
+          "n": "این سی"
+        }
+      },
+      "lastName": {
+        "label": "آخری نام"
+      },
+      "role": {
+        "label": "کردار"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "صارف شامل کریں۔"
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "صارف میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{user}} کو شامل کر دیا گیا ہے!",
+      "deleteSuccess": "استعمال کنندگان کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{user}} کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "actions": "اعمال",
+        "gender": "صنف",
+        "role": "کردار",
+        "status": "حالت",
+        "user": "صارف"
+      }
+    },
+    "toolbar": {
+      "title": "صارفین"
+    }
+  },
+  "formik":{
+    "validation":{
+      "failed": "براہ کرم اپنے ان پٹ فیلڈز پر نظر ثانی کریں۔"
+    }
+  }
+}

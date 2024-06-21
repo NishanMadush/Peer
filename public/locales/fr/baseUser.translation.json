@@ -1,0 +1,155 @@
+{
+  "baseUserManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس صارف کو حذف کرنا چاہتے ہیں؟"
+    },
+    "topic": {
+      "profile": {
+        "label": "پروفائل"
+      },
+      "employment": {
+        "label": "روزگار"
+      },
+      "branch": {
+        "label": "شاخ"
+      }
+    },
+    "form": {
+      "disabled": {
+        "label": "معذور"
+      },
+      "category": {
+        "label": "پتہ"
+      },
+      "line1": {
+        "label": "پتہ کی ستر"
+      },
+      "street": {
+        "label": "گلی"
+      },
+      "city": {
+        "label": "شہر"
+      },
+      "postalCode": {
+        "label": "ڈاک کامخصوص نمبر"
+      },
+      "countryId": {
+        "label": "ملک"
+      },
+      "email": {
+        "label": "ای میل اڈریس"
+      },
+      "firstName": {
+        "label": "پہلا نام"
+      },
+      "gender": {
+        "label": "صنف",
+        "options": {
+          "f": "عورت",
+          "m": "مرد",
+          "n": "این سی"
+        }
+      },
+      "lastName": {
+        "label": "آخری نام"
+      },
+      "role": {
+        "label": "کردار"
+      },
+      "username": {
+        "label": "صارف نام"
+      },
+      "password": {
+        "label": "پاس ورڈ"
+      },
+      "isEmailVerified": {
+        "label": "کیا ای میل تصدیق شدہ ہے؟"
+      },
+      "phoneNumber": {
+        "label": "فون نمبر"
+      },
+      "status": {
+        "label": "حالت"
+      },
+      "profile": {
+        "dialog": {
+          "tab": {
+            "basic": "بنیادی",
+            "information": "معلومات",
+            "employment": "روزگار",
+            "background": "پس منظر",
+            "password": "پاس ورڈ"
+          } 
+        },
+        "profilePicture": {
+          "label": "پروفائل تصویر"
+        },
+        "address": {
+          "label": "پتہ"
+        },
+        "salutation": {
+          "label": "سلام"
+        },
+        "languageId": {
+          "label": "زبان"
+        },
+        "gender": {
+          "label": "صنف"
+        }
+      },
+      "employment": {
+        "organizationId": {
+          "label": "تنظیم"
+        },
+        "department": {
+          "label": "شعبہ"
+        },
+        "designation": {
+          "label": "عہدہ"
+        },
+        "email": {
+          "label": "ای میل"
+        },
+        "phoneNumber": {
+          "label": "فون نمبر"
+        },
+        "branch": {
+          "branchId": {
+            "label": "شاخ"
+          },
+          "branchName": {
+            "label": "برانچ کا نام"
+          }
+        }
+
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "صارف شامل کریں۔"
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "صارف میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{user}} کو شامل کر دیا گیا ہے!",
+      "deleteSuccess": "استعمال کنندگان کو حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{user}} کو اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "actions": "اعمال",
+        "gender": "صنف",
+        "role": "کردار",
+        "status": "حالت",
+        "user": "صارف"
+      }
+    },
+    "toolbar": {
+      "title": "صارفین"
+    }
+  }
+}

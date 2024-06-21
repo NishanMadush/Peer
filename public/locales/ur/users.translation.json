@@ -1,0 +1,257 @@
+{
+  "userManagement": {
+    "confirmations": {
+      "delete": "کیا آپ واقعی اس صارف کو حذف کرنا چاہتے ہیں؟"
+    },
+    "topic": {
+      "profile": {
+        "label": "پروفائل"
+      },
+      "employment": {
+        "label": "روزگار"
+      },
+      "branch": {
+        "label": "شاخ"
+      }
+    },
+    "form": {
+      "disabled": {
+        "label": "معذور"
+      },
+      "category": {
+        "label": "قسم"
+      },
+      "line1": {
+        "label": "لائن 1"
+      },
+      "street": {
+        "label": "گلی"
+      },
+      "city": {
+        "label": "شہر"
+      },
+      "postalCode": {
+        "label": "ڈاک کامخصوص نمبر"
+      },
+      "countryId": {
+        "label": "کنٹری آئی ڈی"
+      },
+      "lat": {
+        "label": "LAT"
+      },
+      "lng": {
+        "label": "LNG"
+      },
+      "email": {
+        "label": "ای میل اڈریس"
+      },
+      "firstName": {
+        "label": "پہلا نام"
+      },
+      "gender": {
+        "label": "صنف",
+        "options": {
+          "f": "عورت",
+          "m": "مرد",
+          "n": "NC"
+        }
+      },
+      "lastName": {
+        "label": "آخری نام"
+      },
+      "role": {
+        "label": "کردار"
+      },
+      "username": {
+        "label": "صارف نام"
+      },
+      "password": {
+        "label": "پاس ورڈ"
+      },
+      "isEmailVerified": {
+        "label": "کیا ای میل تصدیق شدہ ہے؟"
+      },
+      "phoneNumber": {
+        "label": "فون نمبر"
+      },
+      "profile": {
+        "profilePicture": {
+          "label": "پروفائل تصویر"
+        },
+        "address": {
+          "label": "پتہ"
+        },
+        "salutation": {
+          "label": "سلام"
+        },
+        "languageId": {
+          "label": "زبان کی شناخت"
+        },
+        "gender": {
+          "label": "صنف"
+        }
+      },
+      "employment": {
+        "organizationId": {
+          "label": "تنظیم کی شناخت"
+        },
+        "organizationName": {
+          "label": "تنظیم کا نام"
+        },
+        "department": {
+          "label": "شعبہ"
+        },
+        "designation": {
+          "label": "عہدہ"
+        },
+        "email": {
+          "label": "ای میل"
+        },
+        "phoneNumber": {
+          "label": "فون نمبر"
+        },
+        "branch": {
+          "branchId": {
+            "label": "برانچ آئی ڈی"
+          },
+          "branchName": {
+            "label": "برانچ کا نام"
+          }
+        }
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "شامل کریں۔",
+        "title": "صارف شامل کریں۔"
+      },
+      "edit": {
+        "action": "ترمیم",
+        "title": "صارف میں ترمیم کریں۔"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{user}} شامل کردیا گیا ہے!",
+      "deleteSuccess": "User(s) حذف کر دیا گیا ہے!",
+      "updateSuccess": "{{user}} اپ ڈیٹ کر دیا گیا ہے!"
+    },
+    "table": {
+      "headers": {
+        "actions": "اعمال",
+        "gender": "صنف",
+        "role": "کردار",
+        "status": "حالت",
+        "user": "صارف"
+      }
+    },
+    "toolbar": {
+      "title": "صارفین"
+    },
+    "profile": {
+      "activity": {
+        "empty": "آپ کی سرگرمی کے لاگز یہاں ظاہر ہوں گے!",
+        "logs": {
+          "eventAdded": "<bold>You</bold> ایک نیا ایونٹ شامل کیا: <bold>{{resource}}</bold>",
+          "eventUpdated": "<bold>You</bold> تازہ ترین واقعہ: <bold>{{resource}}</bold>",
+          "userAdded": "<bold>You</bold> ایک نیا صارف شامل کیا: <bold>{{resource}}</bold>",
+          "userDeleted": "<bold>You</bold> حذف شدہ صارف: <bold>{{resource}}</bold>",
+          "userUpdated": "<bold>You</bold> اپ ڈیٹ صارف: <bold>{{resource}}</bold>"
+        }
+      },
+      "completion": {
+        "title": "پروفائل کی تکمیل"
+      },
+      "info": {
+        "form": {
+          "email": {
+            "label": "ای میل اڈریس"
+          },
+          "firstName": {
+            "label": "پہلا نام"
+          },
+          "gender": {
+            "label": "صنف",
+            "options": {
+              "f": "عورت",
+              "m": "مرد",
+              "n": "NC"
+            }
+          },
+          "lastName": {
+            "label": "آخری نام"
+          },
+          "organizationName": {
+            "label": "تنظیم کا نام"
+          },
+          "branchId": {
+            "label": "برانچ آئی ڈی"
+          },
+          "department": {
+            "label": "شعبہ"
+          },
+          "designation": {
+            "label": "عہدہ"
+          },
+          "phoneNumber": {
+            "label": "فون نمبر"
+          },
+          "category": {
+            "label": "قسم"
+          },
+          "line1": {
+            "label": "لائن 1"
+          },
+          "street": {
+            "label": "گلی"
+          },
+          "city": {
+            "label": "شہر"
+          },
+          "postalCode": {
+            "label": "ڈاک کامخصوص نمبر"
+          },
+          "countryId": {
+            "label": "کنٹری آئی ڈی"
+          },
+          "lat": {
+            "label": "LAT"
+          },
+          "lng": {
+            "label": "LNG"
+          },
+          "status": {
+            "label": "حالت"
+          }
+        },
+        "title": "پروفائل کو اپ ڈیٹ کریں۔",
+        "titleForEmployment": "Organization : ملک کے لیے ماسٹر ٹیبل آرگنائزیشن",
+        "titleForEmployment1": "Department : ماسٹر ٹیبل تنظیم - محکمہ",
+        "titleForEmployment2": "Designation : ماسٹر ٹیبل تنظیم - عہدہ"
+      },
+      "menu": {
+        "activity": "سرگرمی",
+        "info": "معلومات",
+        "employment": "روزگار",
+        "password": "پاس ورڈ"
+      },
+      "notifications": {
+        "informationUpdated": "معلومات اپ ڈیٹ!",
+        "passwordChanged": "پاس ورڈ بدل گیا!"
+      },
+      "password": {
+        "form": {
+          "current": {
+            "label": "موجودہ خفیہ لفظ"
+          },
+          "confirm": {
+            "label": "پاس ورڈ کی تصدیق کریں۔"
+          },
+          "new": {
+            "label": "نیا پاس ورڈ"
+          }
+        },
+        "title": "اپنا پاس ورڈ تبدیل کریں۔"
+      }
+    }
+  }
+}

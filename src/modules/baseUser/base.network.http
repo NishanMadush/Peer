@@ -1,0 +1,14 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDdlZWVhMDVmYWZlYzBmNjNkMTgiLCJpYXQiOjE2OTYzMDkxMzYsImV4cCI6MTY5NjM5MzEzNiwidHlwZSI6ImFjY2VzcyJ9.JkuoQ_pSY8bBqMwIiMCgKE5OKccnfdJ8R1wJgfwzOIQ
+
+
+### Get activity logs
+GET  {{host}}/api/base/activityLogs HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Get user settings
+GET  {{host}}/api/base/settings/user HTTP/1.1
+Authorization: Bearer {{access_token}}

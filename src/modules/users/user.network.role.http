@@ -1,0 +1,626 @@
+# With "REST Client"
+@endpointLocal=http://localhost:5000
+@endpointPeerServer=http://15.206.75.64:5000
+@host={{endpointLocal}}
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDk4ZDdlZWVhMDVmYWZlYzBmNjNkMTgiLCJpYXQiOjE2OTQyODQyNTksImV4cCI6MTY5NDM2ODI1OSwidHlwZSI6ImFjY2VzcyJ9.z_JHAvqsJR6btDqhlYx4Wp85swXJ0no_bJtpwnD-YIw
+
+### Create role
+POST  {{host}}/api/users/auth/roles HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "role": "wed5",
+  "permissions": [
+    {
+      "permission": "g1",
+      "type": "BackEnd"
+    },
+    {
+      "permission": "g1",
+      "type": "FrontEnd"
+    }
+  ]
+}
+
+### Get roles
+GET {{host}}/api/users/auth/roles HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Get role
+GET {{host}}/api/users/auth/roles/admin HTTP/1.1
+Authorization: Bearer {{access_token}}
+
+### Update role: Super-Administrator
+PATCH  {{host}}/api/users/auth/roles/Super-Administrator HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "permissions": [
+        {
+          "permission": "GET_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_ROLES",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_PROFILE",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_COUNTRY",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_COUNTRY",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "MANAGE_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "GET_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+        ////////////////////////////////////
+        {
+          "permission": "ROOT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HOME",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "DASHBOARD",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "PROFILE",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "SETTINGS",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "FAQ",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HELP",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "REPORT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "USER_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "COUNTRY_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "LANGUAGE_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "FORM_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "COUNTRY_REVIEW_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_ASSESSMENT_MANAGEMENT",
+          "type": "FrontEnd"
+        }
+      ]
+}
+
+### Update role: ADPC-Administrator
+PATCH  {{host}}/api/users/auth/roles/ADPC-Administrator HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "permissions": [
+         {
+          "permission": "GET_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_ROLES",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_PROFILE",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_COUNTRY",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_COUNTRY",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "MANAGE_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "GET_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+        //////////////////////////
+        {
+          "permission": "ROOT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HOME",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "DASHBOARD",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "PROFILE",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "FAQ",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HELP",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "REPORT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "USER_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "COUNTRY_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "FORM_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "COUNTRY_REVIEW_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_ASSESSMENT_MANAGEMENT",
+          "type": "FrontEnd"
+        }
+      ]
+}
+
+### Update role: Country-Administrator
+PATCH  {{host}}/api/users/auth/roles/Country-Administrator HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "permissions": [
+ {
+          "permission": "GET_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_ROLES",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_PROFILE",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_COUNTRY",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_COUNTRY",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "MANAGE_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "GET_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+        ///////////////////////
+        {
+          "permission": "ROOT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HOME",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "DASHBOARD",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "PROFILE",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "FAQ",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HELP",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "USER_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "COUNTRY_REVIEW_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_ASSESSMENT_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "REPORT",
+          "type": "FrontEnd"
+        }
+      ]
+}
+
+
+### Update role: Organization-User
+PATCH  {{host}}/api/users/auth/roles/Organization-User HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "permissions": [
+         {
+          "permission": "GET_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_USERS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_ROLES",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_PROFILE",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_FORM",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_COUNTRY_REVIEW",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_INSTITUTIONALIZATION_ORGANIZATION_ASSESSMENT",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_LANGUAGE",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_ORGANIZATIONS",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_COUNTRY",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "MANAGE_COUNTRY",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+                {
+          "permission": "GET_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "MANAGE_REPORT_DASHBOARD",
+          "type": "BackEnd"
+        },        
+        {
+          "permission": "GET_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "MANAGE_REPORT_INSTITUTIONALIZATION",
+          "type": "BackEnd"
+        },
+        {
+          "permission": "GET_BASE_SETTINGS",
+          "type": "BackEnd"
+        },
+        ////////////////////////////
+        {
+          "permission": "ROOT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HOME",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "DASHBOARD",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "PROFILE",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "FAQ",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "HELP",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "COUNTRY_REVIEW_MANAGEMENT",
+          "type": "FrontEnd"
+        },
+        {
+          "permission": "ORGANIZATION_ASSESSMENT_MANAGEMENT",
+          "type": "FrontEnd"
+        }
+      ]
+}
+
+### Delete role
+DELETE  {{host}}/api/users/auth/roles/6401d2103f1440fdfc9c5422 HTTP/1.1
+Authorization: Bearer {{access_token}}
+

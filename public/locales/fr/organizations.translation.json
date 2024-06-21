@@ -1,0 +1,300 @@
+{
+  "organizationManagement": {
+      "confirmations": {
+        "delete": "کیا آپ واقعی اس تنظیم کو حذف کرنا چاہتے ہیں؟"
+      },
+      "topic": {
+        "headOffice": {
+          "label": "ہیڈ آفس"
+        },
+        "branch": {
+          "label": "شاخ"
+        },
+        "profile": {
+          "label": "پروفائل"
+        }
+      },
+      "form": {
+        "tab1": {
+          "organizations": "تنظیمیں"
+        },
+        "tab2": {
+          "departments": "شعبه جات",
+          "buttonTitle": "ایک محکمہ شامل کریں۔"
+        },
+        "tab3": {
+          "designations": "عہدہ",
+          "buttonTitle": "عہدہ شامل کریں۔"
+        },
+        "disabled": {
+          "label": "معذور"
+        },
+        "email": {
+          "label": "ای میل اڈریس"
+        },
+        "isHeadOffice": {
+          "label": "ہیڈ آفس ہے؟"
+        },
+        "isVirtual": {
+          "label": "مجازی ہے؟"
+        },
+        "name": {
+          "label": "تنظیم کا نام",
+          "required": "درکار ہے۔"
+        },
+        "countryId": {
+          "label": "ملک"
+          },
+        "registeredNo": {
+          "label": "رجسٹرڈ نمبر",
+          "required": "درکار ہے۔"
+        },
+        "description": {
+          "label": "تفصیل",
+          "required": "درکار ہے۔"
+        },
+        "isLegalEntity": {
+          "label": "  کیا قانونی ادارہ ہے؟"
+        },
+        "headOffice": {
+          "label": "  ہیڈ آفس"
+        },
+        "departments": {
+          "label": "  شعبہ"
+        },
+        "designations": {
+          "label": "  عہدہ"
+        },
+        "vision": {
+        "label": "  اولین مقصد",
+        "required": "درکار ہے۔"
+        },
+        "mission": {
+          "label": "مشن ",
+          "required": "درکار ہے۔"
+          },
+        "category": {
+            "label": "قسم",
+            "required": "درکار ہے۔"
+            },
+        "website": {
+          "label": "ویب سائٹ"
+        },
+        "address": {
+          "label": "پتہ"
+        },
+        "countryName": {
+          "label": "ملک کا نام"
+        },
+        "organizationType": {
+          "label": "تنظیم کی قسم"
+        },
+        "geographicArea": {
+          "label": "جغرافیائی علاقہ"
+        },
+        "departmentName": {
+          "label": "محکمہ نام"
+        },
+        "designation": {
+          "label": "عہدہ"
+        },
+        "phoneNumber": {
+          "label": "رابطہ نمبر"
+        },
+        "ListOfBranch": {
+          "label": "شاخوں کی فہرست"
+        },
+        "addressLine": {
+          "label": "پتہ کی ستر"
+        },
+        "street": {
+          "label": "گلی کا نام"
+        },
+        "city": {
+          "label": "شہر"
+        },
+        "postalCode": {
+          "label": "ڈاک کامخصوص نمبر"
+        },
+        "gpsCode": {
+          "label": "GPS کوڈ"
+        },
+        "country": {
+          "label": "ملک"
+        }
+      },
+      "modal": {
+        "add": {
+          "action": "شامل کریں۔",
+          "title": "تنظیم شامل کریں۔"
+        },
+        "update": {
+          "action": "اپ ڈیٹ",
+          "title": "تنظیم کو اپ ڈیٹ کریں۔"
+        },
+        "delete": {
+          "action":"حذف کریں۔",
+          "title":"برانچ کو حذف کریں۔"
+        },
+        "edit": {
+          "action": "ترمیم",
+          "title": "تنظیم میں ترمیم کریں۔"
+        }
+      },
+      "notifications": {
+        "addSuccess": "تنظیم کو شامل کیا گیا ہے! براہ کرم اپنی تنظیم کے لیے ایک برانچ بنائیں",
+        "deleteSuccess": "تنظیم (تنظیموں) کو حذف کر دیا گیا ہے!",
+        "updateSuccess": "تنظیم کو اپ ڈیٹ کر دیا گیا ہے!"
+      },
+      "table": {
+        "headers": {
+          "actions": "اعمال",
+          "gender": "صنف",
+          "organizationType": "تنظیم کی قسم",
+          "status": "حالت",
+          "organization": "تنظیم"
+        }
+      },
+      "toolbar": {
+        "title": "تنظیمیں"
+      },
+      "menu": {
+        "organizations": {
+          "label": "تنظیمیں"
+        },
+        "departments": {
+          "label": "شعبه جات"
+        },
+        "designations": {
+          "label": "عہدہ"
+        },
+        "locations": {
+          "label": "مقامات"
+        },
+        "branch": {
+          "label": "شاخوں کی فہرست"
+        },        
+        "branches": {
+          "label": "شاخیں"
+        }
+      },
+      "branch": {
+        "add": {
+          "title": "برانچیئر کی فہرست",
+          "title2": "برانچیئر میں ترمیم کریں۔"
+        },
+        "branchType": {
+          "label": "برانچ کی قسم"
+        },
+        "branchName": {
+          "label": "برانچ کا نام"
+        },
+        "contactPerson": {
+          "label": "رابطے کا بندہ"
+        },
+        "countryName": {
+          "label": "ملک کا نام"
+        },
+        "addressLine": {
+          "label": "پتہ کی ستر"
+        },
+        "phoneNumber": {
+          "label": "رابطہ نمبر"
+        },
+        "employees": {
+          "label": "ملازمین"
+        },
+        "street": {
+          "label": "گلی"
+        },
+        "city": {
+          "label": "شہر"
+        },
+        "postalCode": {
+          "label": "ڈاک کامخصوص نمبر"
+        },
+        "email": {
+          "label": "ای میل"
+        },
+        "website": {
+          "label": "ویب سائٹ"
+        }
+      }
+    },
+    "branchManagement": {
+      "confirmations": {
+        "delete": "کیا آپ واقعی اس شاخ کو حذف کرنا چاہتے ہیں؟"
+      },
+      "form": {
+        "title": {
+          "address": "پتہ"
+        },   
+        "disabled": {
+          "label": "معذور"
+        },
+        
+        "branchName": {
+          "label": "برانچ کا نام"
+        },
+        "contactPerson": {
+          "label": "رابطے کا بندہ"
+        },
+        "email": {
+          "label": "ای میل"
+        },
+        "countryId": {
+          "label": "ملک"
+        },
+        "phoneNumber": {
+          "label": "فون نمبر"
+        },
+        "line1": {
+          "label": "پتہ کی ستر"
+        },
+        "street": {
+          "label": "گلی کا نام"
+        },
+        "city": {
+          "label": "شہر"
+        },
+        "postalCode": {
+          "label": "ڈاک کامخصوص نمبر"
+        },
+        "gpsCode": {
+          "label": "GPS کوڈ"
+        },
+        "country": {
+          "label": "ملک"
+        }
+      },
+      "modal": {
+        "add": {
+          "action": "شامل کریں۔",
+          "title": "برانچ شامل کریں۔"
+        },
+        "edit": {
+          "action": "ترمیم",
+          "title": "برانچ میں ترمیم کریں۔"
+        }
+      },
+      "notifications": {
+        "addSuccess": "برانچ شامل کر دی گئی ہے!",
+        "deleteSuccess": "برانچ (برانچز) کو حذف کر دیا گیا ہے!",
+        "updateSuccess": "برانچ کو اپ ڈیٹ کر دیا گیا ہے!"
+      },
+      "table": {
+        "headers": {
+          "branchName": "برانچ کا نام",
+          "contactPerson": "برانچ کا نام",
+          "address": "پتہ",
+          "actions": "اعمال",
+          "isVirtual": " مجازی ہے؟",
+          "status": "حالت",
+          "city": "شہر"
+        }
+      },
+      "toolbar": {
+        "title": "شاخیں"
+      }
+    }
+}

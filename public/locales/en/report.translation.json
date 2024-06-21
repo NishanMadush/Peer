@@ -1,0 +1,19 @@
+{
+  "institutionalization": {
+    "reportCountry": {
+      "title": "Country",
+      "filter": "Country",
+      "nodata": "No countries"
+    },
+    "reportOrganization": {
+      "title": "Organization",
+      "filter": "Organization",
+      "nodata": "No organizations"
+    },
+    "reportAssessment": {
+      "title": "Assessment",
+      "filter": "Assessment",
+      "nodata": "No assessments"
+    }
+  }
+}

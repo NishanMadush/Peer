@@ -1,0 +1,55 @@
+{
+  "languageManagement": {
+    "confirmations": {
+      "delete": "Are you sure you want to delete this language?"
+    },
+    "form": {
+      "disabled": {
+        "label": "Disabled"
+      },
+      "code": {
+        "label": "Language Code"
+      },
+      "direction": {
+        "label": "Direction"
+      },
+      "name": {
+        "label": "Language Name"
+      },
+      "description": {
+        "label": "Language Description"
+      },
+      "recaptchaLanguageCode": {
+        "label": "Recaptcha Code"
+      }
+    },
+    "modal": {
+      "add": {
+        "action": "Add",
+        "title": "Add Language"
+      },
+      "edit": {
+        "action": "Edit",
+        "title": "Edit Language"
+      }
+    },
+    "notifications": {
+      "addSuccess": "{{Language}} has been added!",
+      "deleteSuccess": "Language(s) have been deleted!",
+      "updateSuccess": "{{Language}} has been updated!"
+    },
+    "table": {
+      "headers": {
+        "name": "Language Name",
+        "direction": "Direction",
+        "actions": "Actions",
+        "recaptchaLanguageCode": " Recaptcha Code",
+        "description": "Description",
+        "status": "Status"
+      }
+    },
+    "toolbar": {
+      "title": "Languages"
+    }
+  }
+}
